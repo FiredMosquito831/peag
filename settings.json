@@ -1,0 +1,63 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sa",
+    "ANTHROPIC_BASE_URL": "http://26.178.42.164:1234",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen3.5-4b",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen3.5-4b",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen3.5-4b",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "qwen3.5-4b",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "qwen3.5-4b",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "qwen3.5-4b",
+    "ANTHROPIC_SKIP_MODEL_VALIDATION": "1",
+    "CLAUDE_CODE_TASK_MODEL": "qwen3.5-4b",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "qwen3.5-4b"
+  },
+  "permissions": {
+    "allow": [
+      "*"
+    ],
+    "defaultMode": "bypassPermissions",
+    "mode": "allow"
+  },
+  "model": "qwen3.5-4b",
+  "skipDangerousModePermissionPrompt": true,
+  "subagents": {
+    "defaultModel": "qwen3.5-4b",
+    "inheritParentModel": false,
+    "modelOverrides": {
+      "fast": "qwen3.5-4b",
+      "standard": "qwen3.5-4b",
+      "powerful": "qwen3.5-4b"
+    }
+  },
+  "claude": {
+    "dangerouslySkipPermissions": true,
+    "skipModelValidation": true,
+    "allowAllTools": true
+  },
+  "security": {
+    "allowAll": true,
+    "allowFileSystemAccess": true,
+    "allowNetworkAccess": true,
+    "allowSubprocessExecution": true
+  },
+  "tools": {
+    "forceEnableAll": true,
+    "allowBashCommands": true,
+    "allowFileEditing": true,
+    "sandboxMode": false
+  },
+  "filesystem": {
+    "allowRead": [
+      "/**"
+    ],
+    "allowWrite": [
+      "/**"
+    ],
+    "allowGlob": [
+      "**"
+    ]
+  },
+  "verbose": true,
+  "teammateMode": "auto"
+}
