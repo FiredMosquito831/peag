@@ -1,0 +1,973 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <malloc.h>
+
+struct Node;
+typedef struct Node Node;
+
+struct BSTNode;
+typedef struct BSTNode BSTNode;
+
+BSTNode* insertEmployeeBST(BSTNode* node, Employee emp, unsigned char *flag_insert);
+void BSTParse(BSTNode* node);
+Employee* searchEmployeeBST(BSTNode* node, unsigned short int search_key);
+BSTNode* deallocateBST(BSTNode *node);
+BSTNode* deleteNodeBST(BSTNode * node, unsigned short int search_key, Employee* empl);
+int countMatchingBST(BSTNode* node, float threshold);
+int saveMatchingBSTToArray(BSTNode* node, float threshold, Employee* array, int index);
+Node* saveMatchingBSTToList(BSTNode* node, float threshold, Node* list);
+int countMatchingHeap(Employee* heap, int heapSize, float threshold);
+void saveMatchingHeapToArray(Employee* heap, int heapSize, float threshold, Employee* array, int* arraySize);
+Node* saveMatchingHeapToList(Employee* heap, int heapSize, float threshold);
+
+void insertEmployeeHeap(Employee* strHeap, int* strSize, Employee emp);
+Employee deleteEmployeeHeap(Employee* strHeap, int* strSize);
+
+// PART 1: INTRODUCTORY CONCEPTS - Data types, pointers, dynamic memory, structs
+
+void demo_dataTypes_and_addresses()
+{
+    char a = 11;
+    char b = -11;
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("Adress(a) = 0x%p\n", &a);
+    printf("Adress(b) = 0x%p\n", &b);
+}
+
+void demo_pointers()
+{
+    char a = 11;
+    char* p = NULL;
+    printf("p = 0x%p\n", p);
+    printf("Adress(p) = 0x%p\n", &p);
+    p = &a;
+    printf("p = 0x%p\n", p);
+    printf("&a = 0x%p\n", &a);
+    printf("Adress(p) = 0x%p\n", &p);
+    *p = a - 14;
+    printf("a = %d\n", a);
+}
+
+void demo_arrays_and_dynamic()
+{
+    char v[] = {9, 8, 7, 9, 9, 5, 3, 6};
+    printf("Size of v = %d bytes\n", sizeof(v));
+    printf("Adress(v) = 0x%p\n", &v);
+    char* p = NULL;
+    p = v;
+    printf("Size of v = %d bytes\n", sizeof(v));
+    printf("Size of p = %d bytes\n", sizeof(p));
+    p = malloc(sizeof(v));
+    for (unsigned char i = 0; i < sizeof(v); i++)
+        p[i] = v[i] - 1;
+    free(p);
+    p = NULL;
+}
+
+void demo_dynamic_matrix()
+{
+    char** pm = NULL;
+    pm = malloc(2 * sizeof(char*));
+    for (unsigned char i = 0; i < 2; i++)
+        pm[i] = malloc((3 + 1) * sizeof(char));
+    for (unsigned char i = 0; i < 2; i++)
+    {
+        for (unsigned char j = 0; j < 3; j++)
+            pm[i][j] = 'G' - j;
+        pm[i][3] = 0;
+    }
+    for (unsigned char i = 0; i < 2; i++)
+    {
+        for (unsigned char j = 0; j < 3; j++)
+            printf(" %d->%c ", pm[i][j], pm[i][j]);
+        printf("\n");
+    }
+    for (unsigned char i = 0; i < 2; i++)
+        printf("%s\n", pm[i]);
+    for (unsigned char i = 0; i < 2; i++)
+        free(pm[i]);
+    free(pm);
+    pm = NULL;
+}
+
+void demo_main_args(int argc, char* argv[])
+{
+    for (int i = 0; i < argc; i++)
+        printf("%s\n", argv[i]);
+    printf("\n\n");
+    int sum = 0;
+    for (int i = 0; i < argc; i++)
+        sum += atoi(argv[i]);
+    printf("Sum  = %d\n", sum);
+}
+
+void demo_structs()
+{
+    struct Employee
+    {
+        unsigned short int id;
+        char* name;
+        float salary;
+        unsigned char age;
+        char hire_date[11];
+    };
+    typedef struct Employee Employee;
+    Employee emp_1;
+    printf("Size of structure Employee is: %d bytes\n", sizeof(Employee));
+    emp_1.id = 1001;
+    emp_1.name = "Jack Smith";
+    emp_1.age = 29;
+    emp_1.salary = (float)7450.99;
+    strcpy(emp_1.hire_date, "11/07.2023");
+    Employee* pEmp = &emp_1;
+    printf(" Name  = %s, Age = %d\n", pEmp->name, pEmp->age);
+}
+
+struct Employee
+{
+    unsigned short int id;
+    char* name;
+    float salary;
+    unsigned char age;
+    char hire_date[11];
+};
+
+typedef struct Employee Employee;
+
+// PART 2: SIMPLE (SINGLY) LINKED LISTS
+
+struct Node
+{
+    Employee emp;
+    struct Node* next;
+};
+
+typedef struct Node Node;
+
+Node* insertNodeEnd(Node* list, Employee data)
+{
+    Node* new_node = malloc(sizeof(Node));
+    new_node->emp = data;
+    new_node->next = NULL;
+    if (list == NULL)
+    {
+        return new_node;
+    }
+    else
+    {
+        Node* t = list;
+        while (t->next != NULL)
+            t = t->next;
+        t->next = new_node;
+        return list;
+    }
+}
+
+void parseList(Node* list)
+{
+    Node* t = list;
+    while (t != NULL)
+    {
+        printf("%s %d\n", t->emp.name, t->emp.id);
+        t = t->next;
+    }
+}
+
+Node* deleteNodeEnd(Node* list)
+{
+    if (list != NULL)
+    {
+        Node* t = list;
+        if (t->next == NULL)
+        {
+            free(t->emp.name);
+            free(t);
+            list = NULL;
+        }
+        else
+        {
+            while ((t->next)->next != NULL)
+                t = t->next;
+            Node* q = t->next;
+            free(q->emp.name);
+            free(q);
+            t->next = NULL;
+        }
+    }
+    return list;
+}
+
+Node* deleteNodesBelowAverageSalary(Node* list) {
+    if (list == NULL) {
+        return NULL;
+    }
+    Node* temp = list;
+    double sum = 0;
+    unsigned int count = 0;
+    while (temp != NULL)
+    {
+        sum += (double)temp->emp.salary;
+        count++;
+        temp = temp->next;
+    }
+    double avg = (double)sum / count;
+    temp = list;
+    while (temp != NULL && temp->emp.salary <= avg)
+    {
+        list = temp->next;
+        free(temp->emp.name);
+        free(temp);
+        temp = list;
+    }
+    if (list == NULL) {
+        return NULL;
+    }
+    while (temp->next != NULL)
+    {
+        if (temp->next->emp.salary <= avg)
+        {
+            Node* temp2 = temp->next->next;
+            free(temp->next->emp.name);
+            free(temp->next);
+            temp->next = temp2;
+        }
+        else
+        {
+            temp = temp->next;
+        }
+    }
+    return list;
+}
+
+// PART 3: DOUBLY LINKED LISTS
+
+struct DNode
+{
+    Employee emp;
+    struct DNode* next;
+    struct DNode* prev;
+};
+
+typedef struct DNode DNode;
+
+struct DoubleList
+{
+    DNode* first;
+    DNode* last;
+};
+
+typedef struct DoubleList DoubleList;
+
+DoubleList insertDNodeEnd(DoubleList list, Employee empl)
+{
+    DNode* new_node = malloc(sizeof(DNode));
+    new_node->emp = empl;
+    new_node->next = NULL;
+    new_node->prev = list.last;
+    if (list.first == NULL)
+    {
+        list.first = list.last = new_node;
+    }
+    else
+    {
+        list.last->next = new_node;
+        list.last = new_node;
+    }
+    return list;
+}
+
+void parseDList(DoubleList list)
+{
+    printf("Double List first->last:\n");
+    DNode* t = list.first;
+    while (t != NULL)
+    {
+        printf("%d %s\n", t->emp.id, t->emp.name);
+        t = t->next;
+    }
+    printf("\nDouble List last->first:\n");
+    t = list.last;
+    while (t)
+    {
+        printf("%d %s\n", t->emp.id, t->emp.name);
+        t = t->prev;
+    }
+}
+
+DoubleList deleteDNodeEnd(DoubleList list)
+{
+    if (list.first)
+    {
+        DNode* t = list.last;
+        if (t == list.first)
+        {
+            free(t->emp.name);
+            free(t);
+            list.first = list.last = NULL;
+        }
+        else
+        {
+            list.last = t->prev;
+            list.last->next = NULL;
+            free(t->emp.name);
+            free(t);
+        }
+    }
+    return list;
+}
+
+Employee* getEmployeesUnderAverage(DoubleList* list, unsigned short int* size_array)
+{
+}
+
+// PART 4: HASH TABLES WITH CHAINING
+
+unsigned short int hash_function(unsigned short int key, unsigned short int size_ht)
+{
+    return (key % size_ht);
+}
+
+void insertEmployeeHashTable(Node** HT, unsigned short int size_ht, Employee data)
+{
+    unsigned short int pos = hash_function(data.id, size_ht);
+    HT[pos] = insertNodeEnd(HT[pos], data);
+}
+
+Employee* searchEmployee(Node** HT, unsigned short int size_ht, unsigned short int search_key)
+{
+    unsigned short int pos = hash_function(search_key, size_ht);
+    if (HT[pos])
+    {
+        Node* t = HT[pos];
+        while (t)
+        {
+            if (t->emp.id == search_key)
+            {
+                return &t->emp;
+            }
+            t = t->next;
+        }
+    }
+    return NULL;
+}
+
+// PART 5: BINARY SEARCH TREES
+
+struct BSTNode
+{
+    Employee emp;
+    struct BSTNode* left;
+    struct BSTNode* right;
+};
+
+typedef struct BSTNode BSTNode;
+
+BSTNode* insertEmployeeBST(BSTNode* node, Employee emp, unsigned char* flag_insert)
+{
+    if (node != NULL)
+    {
+        if (emp.id < node->emp.id)
+        {
+            node->left = insertEmployeeBST(node->left, emp, flag_insert);
+        }
+        else
+        {
+            if (emp.id > node->emp.id)
+            {
+                node->right = insertEmployeeBST(node->right, emp, flag_insert);
+            }
+            else
+            {
+                *flag_insert = 0;
+                return node;
+            }
+        }
+    }
+    else
+    {
+        *flag_insert = 1;
+        node = malloc(sizeof(BSTNode));
+        node->emp = emp;
+        node->left = NULL;
+        node->right = NULL;
+    }
+    return node;
+}
+
+void BSTParse(BSTNode* node)
+{
+    if (node != NULL)
+    {
+        BSTParse(node->left);
+        printf("%d %s\n", node->emp.id, node->emp.name);
+        BSTParse(node->right);
+    }
+}
+
+Employee* searchEmployeeBST(BSTNode* node, unsigned short int search_key)
+{
+    Employee* emp_result = NULL;
+    if (node != NULL)
+    {
+        if (search_key < node->emp.id)
+        {
+            emp_result = searchEmployeeBST(node->left, search_key);
+        }
+        else
+        {
+            if (search_key > node->emp.id)
+            {
+                emp_result = searchEmployeeBST(node->right, search_key);
+            }
+            else
+            {
+                return &node->emp;
+            }
+        }
+    }
+    return emp_result;
+}
+
+BSTNode* deallocateBST(BSTNode* node)
+{
+    if (node != NULL)
+    {
+        node->left = deallocateBST(node->left);
+        node->right = deallocateBST(node->right);
+        free(node->emp.name);
+        free(node);
+        node = NULL;
+    }
+    return node;
+}
+
+BSTNode* deleteNodeBST(BSTNode* node, unsigned short int search_key, Employee* empl)
+{
+    if (node != NULL)
+    {
+        if (node->emp.id == search_key)
+        {
+            *empl = node->emp;
+            BSTNode* left_subtree = node->left;
+            BSTNode* right_subtree = node->right;
+            BSTNode* temp = right_subtree;
+            while (temp->left != NULL)
+                temp = temp->left;
+            temp->left = left_subtree;
+            free(node);
+            node = right_subtree;
+        }
+        else
+        {
+            if (node->emp.id > search_key)
+            {
+                node->left = deleteNodeBST(node->left, search_key, empl);
+            }
+            else
+            {
+                node->right = deleteNodeBST(node->right, search_key, empl);
+            }
+        }
+    }
+    return node;
+}
+
+static int condition_salary_above(Employee emp, float threshold)
+{
+    return emp.salary > threshold;
+}
+
+int countMatchingBST(BSTNode* node, float threshold)
+{
+    if (node == NULL)
+        return 0;
+    int count = countMatchingBST(node->left, threshold);
+    if (condition_salary_above(node->emp, threshold))
+        count++;
+    count += countMatchingBST(node->right, threshold);
+    return count;
+}
+
+int saveMatchingBSTToArray(BSTNode* node, float threshold, Employee* array, int index)
+{
+    if (node != NULL)
+    {
+        index = saveMatchingBSTToArray(node->left, threshold, array, index);
+        if (condition_salary_above(node->emp, threshold))
+        {
+            array[index] = node->emp;
+            index++;
+        }
+        index = saveMatchingBSTToArray(node->right, threshold, array, index);
+    }
+    return index;
+}
+
+Node* saveMatchingBSTToList(BSTNode* node, float threshold, Node* list)
+{
+    if (node != NULL)
+    {
+        list = saveMatchingBSTToList(node->left, threshold, list);
+        if (condition_salary_above(node->emp, threshold))
+            list = insertNodeEnd(list, node->emp);
+        list = saveMatchingBSTToList(node->right, threshold, list);
+    }
+    return list;
+}
+
+// PART 6: HEAP STRUCTURE
+
+void insertEmployeeHeap(Employee* strHeap, int* strSize, Employee emp)
+{
+    *strSize += 1;
+    int offs_key = *strSize - 1;
+    strHeap[offs_key] = emp;
+    int offs_parinte = (offs_key - 1) / 2;
+    while (strHeap[offs_key].salary > strHeap[offs_parinte].salary)
+    {
+        Employee aux = strHeap[offs_key];
+        strHeap[offs_key] = strHeap[offs_parinte];
+        strHeap[offs_parinte] = aux;
+        offs_key = offs_parinte;
+        offs_parinte = (offs_key - 1) / 2;
+    }
+}
+
+Employee deleteEmployeeHeap(Employee* strHeap, int* strSize)
+{
+    Employee key;
+    int offs_key = 0;
+    int max = 0;
+    Employee lastElement = strHeap[*strSize - 1];
+    key = strHeap[0];
+    strHeap[0] = lastElement;
+    *strSize -= 1;
+    int Left = 2 * offs_key + 1;
+    int Right = 2 * offs_key + 2;
+    if ((Left < *strSize) && (Right < *strSize))
+    {
+        if (strHeap[Left].salary > strHeap[Right].salary)
+            max = Left;
+        else
+            max = Right;
+    }
+    else
+    {
+        if (Left < *strSize)
+            max = Left;
+    }
+    while ((*strSize > 0) && (strHeap[max].salary > lastElement.salary))
+    {
+        Employee aux = strHeap[offs_key];
+        strHeap[offs_key] = strHeap[max];
+        strHeap[max] = aux;
+        offs_key = max;
+        Left = 2 * offs_key + 1;
+        Right = 2 * offs_key + 2;
+        if ((Left < *strSize) && (Right < *strSize))
+        {
+            if (strHeap[Left].salary > strHeap[Right].salary)
+                max = Left;
+            else
+                max = Right;
+        }
+        else
+        {
+            if (Left < *strSize)
+                max = Left;
+        }
+    }
+    return key;
+}
+
+int countMatchingHeap(Employee* heap, int heapSize, float threshold)
+{
+    int count = 0;
+    for (int i = 0; i < heapSize; i++)
+        if (condition_salary_above(heap[i], threshold))
+            count++;
+    return count;
+}
+
+void saveMatchingHeapToArray(Employee* heap, int heapSize, float threshold, Employee* array, int* arraySize)
+{
+    int index = 0;
+    for (int i = 0; i < heapSize; i++)
+    {
+        if (condition_salary_above(heap[i], threshold))
+        {
+            array[index] = heap[i];
+            index++;
+        }
+    }
+    *arraySize = index;
+}
+
+Node* saveMatchingHeapToList(Employee* heap, int heapSize, float threshold)
+{
+    Node* list = NULL;
+    for (int i = 0; i < heapSize; i++)
+    {
+        if (condition_salary_above(heap[i], threshold))
+            list = insertNodeEnd(list, heap[i]);
+    }
+    return list;
+}
+
+int main()
+{
+    printf("=== SEMINAR 1: DATA TYPES & POINTERS ===\n\n");
+
+    char a = 11;
+    char b = -11;
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("Adress(a) = 0x%p\n", &a);
+    printf("Adress(b) = 0x%p\n", &b);
+
+    char* p = NULL;
+    printf("p = 0x%p\n", p);
+    p = &a;
+    printf("p = 0x%p\n", p);
+    *p = a - 14;
+    printf("a after *p = a-14: %d\n", a);
+
+    char v[] = {9, 8, 7, 9, 9, 5, 3, 6};
+    p = malloc(sizeof(v));
+    for (unsigned char i = 0; i < sizeof(v); i++)
+        p[i] = v[i] - 1;
+
+    char** pm = malloc(2 * sizeof(char*));
+    for (unsigned char i = 0; i < 2; i++)
+        pm[i] = malloc((3 + 1) * sizeof(char));
+    for (unsigned char i = 0; i < 2; i++) {
+        for (unsigned char j = 0; j < 3; j++)
+            pm[i][j] = 'G' - j;
+        pm[i][3] = 0;
+        printf("%s\n", pm[i]);
+    }
+
+    free(p);
+    p = NULL;
+    for (unsigned char i = 0; i < 2; i++)
+        free(pm[i]);
+    free(pm);
+    pm = NULL;
+
+    printf("\n=== SEMINAR 3: STRUCTS ===\n\n");
+
+    Employee emp_1;
+    emp_1.id = 1001;
+    emp_1.name = "Jack Smith";
+    emp_1.age = 29;
+    emp_1.salary = (float)7450.99;
+    strcpy(emp_1.hire_date, "11/07.2023");
+
+    printf("Size of Employee: %d bytes\n", sizeof(Employee));
+
+    Employee* pEmp = &emp_1;
+    printf("Name = %s, Age = %d\n", pEmp->name, pEmp->age);
+
+    printf("\n=== SEMINAR 4: SIMPLE LINKED LIST ===\n\n");
+
+    Node* first = NULL;
+
+    FILE* f = fopen("Employees.txt", "r");
+    char buffer[256];
+    char seps[] = ",\n";
+
+    while (fgets(buffer, sizeof(buffer), f))
+    {
+        Employee empl;
+        char* token = strtok(buffer, seps);
+        empl.id = atoi(token);
+
+        token = strtok(NULL, seps);
+        empl.name = malloc(strlen(token) + 1);
+        strcpy(empl.name, token);
+
+        token = strtok(NULL, seps);
+        empl.salary = (float)atof(token);
+
+        token = strtok(NULL, seps);
+        empl.age = atoi(token);
+
+        token = strtok(NULL, seps);
+        strcpy(empl.hire_date, token);
+
+        first = insertNodeEnd(first, empl);
+    }
+    fclose(f);
+
+    printf("Simple list after creation:\n");
+    parseList(first);
+
+    printf("\nAfter deleting below-average salary nodes:\n");
+    first = deleteNodesBelowAverageSalary(first);
+    parseList(first);
+
+    printf("\nAfter deleting one node from end:\n");
+    first = deleteNodeEnd(first);
+    parseList(first);
+
+    while (first != NULL)
+        first = deleteNodeEnd(first);
+    printf("\nList after full deallocation:\n");
+    parseList(first);
+
+    printf("\n=== SEMINAR 5: DOUBLY LINKED LIST ===\n\n");
+
+    DoubleList DList;
+    DList.first = DList.last = NULL;
+
+    f = fopen("Employees.txt", "r");
+
+    while (fgets(buffer, sizeof(buffer), f))
+    {
+        Employee empl;
+        char* token = strtok(buffer, seps);
+        empl.id = atoi(token);
+
+        token = strtok(NULL, seps);
+        empl.name = malloc(strlen(token) + 1);
+        strcpy(empl.name, token);
+
+        token = strtok(NULL, seps);
+        empl.salary = (float)atof(token);
+
+        token = strtok(NULL, seps);
+        empl.age = atoi(token);
+
+        token = strtok(NULL, seps);
+        strcpy(empl.hire_date, token);
+
+        DList = insertDNodeEnd(DList, empl);
+    }
+    fclose(f);
+
+    printf("Double list after creation:\n");
+    parseDList(DList);
+
+    DList = deleteDNodeEnd(DList);
+    printf("\nAfter deleting last node:\n");
+    parseDList(DList);
+
+    while (DList.last != NULL)
+        DList = deleteDNodeEnd(DList);
+    printf("\nList after full deallocation:\n");
+    parseDList(DList);
+
+    printf("\n=== SEMINAR 6: HASH TABLE WITH CHAINING ===\n\n");
+
+    Node** HashTable = NULL;
+    unsigned short int size_hashTable = 50;
+
+    HashTable = malloc(size_hashTable * sizeof(Node*));
+
+    for (unsigned short int i = 0; i < size_hashTable; i++)
+        HashTable[i] = NULL;
+
+    f = fopen("Employees.txt", "r");
+
+    while (fgets(buffer, sizeof(buffer), f))
+    {
+        Employee empl;
+        char* token = strtok(buffer, seps);
+        empl.id = atoi(token);
+
+        token = strtok(NULL, seps);
+        empl.name = malloc(strlen(token) + 1);
+        strcpy(empl.name, token);
+
+        token = strtok(NULL, seps);
+        empl.salary = (float)atof(token);
+
+        token = strtok(NULL, seps);
+        empl.age = atoi(token);
+
+        token = strtok(NULL, seps);
+        strcpy(empl.hire_date, token);
+
+        insertEmployeeHashTable(HashTable, size_hashTable, empl);
+    }
+    fclose(f);
+
+    printf("Content of entire Hash Table:\n");
+    for (unsigned short int i = 0; i < size_hashTable; i++)
+    {
+        if (HashTable[i] != NULL)
+        {
+            printf("Employees in bucket %d:\n", i);
+            Node* t = HashTable[i];
+            while (t)
+            {
+                printf("  %d %s\n", t->emp.id, t->emp.name);
+                t = t->next;
+            }
+        }
+    }
+
+    Employee* found = searchEmployee(HashTable, size_hashTable, 2012);
+    printf("\nSearch for id=2012: ");
+    if (found != NULL)
+        printf("Found: %d %s\n", found->id, found->name);
+    else
+        printf("Not found\n");
+
+    printf("\n=== SEMINAR 7: BINARY SEARCH TREE ===\n\n");
+
+    BSTNode* root = NULL;
+
+    f = fopen("Employees.txt", "r");
+
+    while (fgets(buffer, sizeof(buffer), f))
+    {
+        Employee empl;
+        char* token = strtok(buffer, seps);
+        empl.id = atoi(token);
+
+        token = strtok(NULL, seps);
+        empl.name = malloc(strlen(token) + 1);
+        strcpy(empl.name, token);
+
+        token = strtok(NULL, seps);
+        empl.salary = (float)atof(token);
+
+        token = strtok(NULL, seps);
+        empl.age = atoi(token);
+
+        token = strtok(NULL, seps);
+        strcpy(empl.hire_date, token);
+
+        unsigned char insert;
+        root = insertEmployeeBST(root, empl, &insert);
+
+        if (insert != 0)
+        {
+            printf("Successful insertion of employee: %d\n", empl.id);
+        }
+        else
+        {
+            printf("Employee with id %d already exists - skipping\n", empl.id);
+            free(empl.name);
+        }
+    }
+    fclose(f);
+
+    printf("\nContent of the BST:\n");
+    BSTParse(root);
+
+    Employee* pEmp = searchEmployeeBST(root, 849);
+    printf("\n/// SEARCH operation ///\n");
+    if (pEmp != NULL)
+    {
+        printf("Employee data: %d %s\n", pEmp->id, pEmp->name);
+    }
+    else
+    {
+        printf("There is no employee having the specified id in search operation\n");
+    }
+
+    Employee delete_empl;
+    delete_empl.name = NULL;
+    root = deleteNodeBST(root, 1012, &delete_empl);
+
+    if (delete_empl.name != NULL)
+    {
+        printf("\nExtracted employee data: %d %s\n", delete_empl.id, delete_empl.name);
+        free(delete_empl.name);
+    }
+    else
+    {
+        printf("\nThere is no employee having the specified search key.\n");
+    }
+
+    printf("\nContent of BST after deletion:\n");
+    BSTParse(root);
+
+    root = deallocateBST(root);
+    printf("\nContent of BST after deallocation:\n");
+    BSTParse(root);
+
+    printf("\n=== SEMINAR 8: MAX HEAP STRUCTURE (Employee by salary) ===\n\n");
+
+#define DIM 20
+
+    Employee* heapEmployees = NULL;
+    int capacitate_stocare = DIM;
+    int nKeys = 0;
+
+    heapEmployees = (Employee*)malloc(DIM * sizeof(Employee));
+
+    f = fopen("Employees.txt", "r");
+    while (fgets(buffer, sizeof(buffer), f))
+    {
+        Employee empl;
+        char* token = strtok(buffer, seps);
+        empl.id = atoi(token);
+
+        token = strtok(NULL, seps);
+        empl.name = malloc(strlen(token) + 1);
+        strcpy(empl.name, token);
+
+        token = strtok(NULL, seps);
+        empl.salary = (float)atof(token);
+
+        token = strtok(NULL, seps);
+        empl.age = atoi(token);
+
+        token = strtok(NULL, seps);
+        strcpy(empl.hire_date, token);
+
+        if (nKeys == capacitate_stocare)
+        {
+            capacitate_stocare += DIM;
+            Employee* new_heap = (Employee*)malloc(capacitate_stocare * sizeof(Employee));
+            for (int i = 0; i < nKeys; i++)
+                new_heap[i] = heapEmployees[i];
+            free(heapEmployees);
+            heapEmployees = new_heap;
+        }
+
+        insertEmployeeHeap(heapEmployees, &nKeys, empl);
+    }
+    fclose(f);
+
+    printf("Initial Heap (ordered by salary - max at root):\n");
+    for (int i = 0; i < nKeys; i++)
+        printf("  [%d] %s - $%.2f\n", heapEmployees[i].id, heapEmployees[i].name, heapEmployees[i].salary);
+
+    Employee newEmp;
+    newEmp.id = 3001;
+    newEmp.name = malloc(strlen("Test Employee") + 1);
+    strcpy(newEmp.name, "Test Employee");
+    newEmp.salary = 5000.00;
+    newEmp.age = 35;
+    strcpy(newEmp.hire_date, "15/05/2025");
+    insertEmployeeHeap(heapEmployees, &nKeys, newEmp);
+    printf("\nAfter inserting Test Employee ($5000.00):\n");
+    for (int i = 0; i < nKeys; i++)
+        printf("  [%d] %s - $%.2f\n", heapEmployees[i].id, heapEmployees[i].name, heapEmployees[i].salary);
+
+    Employee deleted = deleteEmployeeHeap(heapEmployees, &nKeys);
+    printf("\nDeleted highest salary employee: [%d] %s - $%.2f\n", deleted.id, deleted.name, deleted.salary);
+    free(deleted.name);
+
+    printf("\nHeap after deletion:\n");
+    for (int i = 0; i < nKeys; i++)
+        printf("  [%d] %s - $%.2f\n", heapEmployees[i].id, heapEmployees[i].name, heapEmployees[i].salary);
+
+    printf("\nAll employees extracted by salary (highest to lowest):\n");
+    while (nKeys > 0)
+    {
+        deleted = deleteEmployeeHeap(heapEmployees, &nKeys);
+        printf("  [%d] %s - $%.2f\n", deleted.id, deleted.name, deleted.salary);
+        free(deleted.name);
+    }
+
+    free(heapEmployees);
+
+    return 0;
+}
