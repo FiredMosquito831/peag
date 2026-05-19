@@ -1,0 +1,522 @@
+{
+  "id": "peag_grile",
+  "name": "PEAG GRILE",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Pentru pastrarea relatiilor comune din cromozomii parinti se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) PMX (Partially Mapped crossover)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu exista un operator pebntru acest scop",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX (Edge crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) incrusisare de tip turneu",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare binara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie de tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta asimptomatica",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta lenta",
+          "isCorrect": false
+        },
+        {
+          "text": "c) convergenta prematura",
+          "isCorrect": false
+        },
+        {
+          "text": "d) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Pentru problemele in care reprezentarea prin permutari semnifica ordiea de aparitie a unor evenimente, operatorul de recombinare folosit este:",
+      "answers": [
+        {
+          "text": "a) incrucisarea aritmetica singulara",
+          "isCorrect": true
+        },
+        {
+          "text": "b) incrucisarea unipunct",
+          "isCorrect": false
+        },
+        {
+          "text": "c) IPX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX (Order crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare uniforma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Mecanismul de selectie turnir:",
+      "answers": [
+        {
+          "text": "a) este intotdeauna de tip determinist",
+          "isCorrect": true
+        },
+        {
+          "text": "b) acorda o sansa si celui mai slab inidvid",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista un astfel de mecanism. Turniul este o competitie medievala",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu respecta distributia de probabilitate de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este cel mai des folosit mecanism de selectie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Pentru problemele cu dependenta de adiacente se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) OCX",
+          "isCorrect": true
+        },
+        {
+          "text": "b) niciunul din celelalte raspunsuri",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) PMX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare aritmetica singulara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Care din urmatoarele nu este un mecanism de selectie?",
+      "answers": [
+        {
+          "text": "a) Ruleta complicata",
+          "isCorrect": true
+        },
+        {
+          "text": "b) genitor",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ruleta simpla",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta multi-brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai bun optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "In cazul reprezentarii cu siruri de numere intregi, recombinarile aritmetice:",
+      "answers": [
+        {
+          "text": "a) se pot aplica daca se face rotunjirea rezultatelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) produc intotdeauna rezultate aberante",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista notiunea de recombinare aritmetica",
+          "isCorrect": false
+        },
+        {
+          "text": "d) sunt interzise",
+          "isCorrect": false
+        },
+        {
+          "text": "e) se pot aplica numai daca toate perechile de alele de pe pozitii identice sunt fie pare, fie impare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta prematura",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta asimptotica",
+          "isCorrect": false
+        },
+        {
+          "text": "c) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "d) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) convergenta lenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Schema generala de recombinare depinde de:",
+      "answers": [
+        {
+          "text": "a) numarul de indivizi din populatia initiala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) ooperatorul de recombinare folosit",
+          "isCorrect": false
+        },
+        {
+          "text": "c) existenta constrangerilor in problema de rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "d) reprezentarea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e) alegerea utilizatorului",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai buna optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In cadrul algoritmilor genetici, generatia urmatoare este selectata dintre:",
+      "answers": [
+        {
+          "text": "a) parintii selectati",
+          "isCorrect": true
+        },
+        {
+          "text": "b) indivizii generatiei curente si descndentii obtinuti dupa etape de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) decendentii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "d) indivizii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "e) descendentii obtinuti din etapa de recombinare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Care din urmatoarele este un model de populatie?",
+      "answers": [
+        {
+          "text": "a) cu dimensiune fixa",
+          "isCorrect": true
+        },
+        {
+          "text": "b) cu dimensiune variabila",
+          "isCorrect": false
+        },
+        {
+          "text": "c) cu generatii",
+          "isCorrect": false
+        },
+        {
+          "text": "d) cu stari instabile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) cu stari stabile",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Care din urmatoarele nu este un model de distributie de probabilitate folosit pentru etapa de selectie:",
+      "answers": [
+        {
+          "text": "a) FPS cu ferestre",
+          "isCorrect": true
+        },
+        {
+          "text": "b) FPS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) FPS cu alfla scalare",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "e) FPS cu sigma scalare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Care mecanism de selectie prroduce rezultate mai apropiate de distributia de probabilitate de selectie calculata?",
+      "answers": [
+        {
+          "text": "a) toate produc rezultate la fel de apropiate",
+          "isCorrect": true
+        },
+        {
+          "text": "b) SUS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) niciunul",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta cu un brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnirul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Daca aplicarea unui operator de recombinare produce indivizi aberanti atunci:",
+      "answers": [
+        {
+          "text": "a) se folosesc parintii ca descendenti",
+          "isCorrect": true
+        },
+        {
+          "text": "b) se produce eroare la executie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) algoritmul produce totusi rezultate corecte, ca urmare a autoreglarii prin selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "d) rezultatele sunt imprevizibile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) problema nu se poate rezolva prin algoritm genetic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "De cate ori trebuie rotit bratul ruletei multi-brat pentru a executa intregul proces de selectie a parintilor, pentru o populatie cu k indivizi?",
+      "answers": [
+        {
+          "text": "a) de 2k ori",
+          "isCorrect": true
+        },
+        {
+          "text": "b) de k ori",
+          "isCorrect": false
+        },
+        {
+          "text": "c) o data",
+          "isCorrect": false
+        },
+        {
+          "text": "d) de k/2 ori",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu este ruleta multi-brat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Ce aritate are operatorul de recombinare in algorimtii genetici (cati operazi utilizeaza)",
+      "answers": [
+        {
+          "text": "a) unar (un operand)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) depinde de problema dee rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ternar (trei operanzi)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu exista operatori de recombinare in algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) binar (doi operanzi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Pentru a pastra cat mai bine informatia referioare la pozitiile absolute ale alelelor in cromozomi parinti se foloseste operatul:\na) incrucisare multipunct",
+      "answers": [
+        {
+          "text": "b) CX",
+          "isCorrect": true
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) PMX",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Care din urmatoarele afirmatii nu e adevarata petru modelul generational?",
+      "answers": [
+        {
+          "text": "a) poate inlocui un singur cromozom din populatia curenta",
+          "isCorrect": true
+        },
+        {
+          "text": "b) necesita urmarirea mai multor generatii consecutive",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu tine cont de calitatea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "d) poate inlocui parial generatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "e) poate inlocui complet generatia curenta",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

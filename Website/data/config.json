@@ -1,0 +1,160 @@
+{
+  "displayOrder": [
+    "uscatu",
+    "profa_ocr",
+    "peag_grile",
+    "raspunsuri",
+    "ultimate",
+    "quzzies",
+    "grile",
+    "exemple",
+    "peag_exam"
+  ],
+  "defaultSet": "uscatu",
+  "sets": {
+    "uscatu": {
+      "id": "uscatu",
+      "displayName": "GRILE PEAG USCATU",
+      "shortName": "GRILE",
+      "icon": "ph-brain",
+      "colorClass": "blue",
+      "dataFile": "sets/uscatu.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
+        100,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "profa_ocr": {
+      "id": "profa_ocr",
+      "displayName": "Grile Profa OCR Reader",
+      "shortName": "Grile",
+      "icon": "ph-robot",
+      "colorClass": "emerald",
+      "dataFile": "sets/profa_ocr.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "peag_grile": {
+      "id": "peag_grile",
+      "displayName": "PEAG GRILE",
+      "shortName": "PEAG",
+      "icon": "ph-scroll",
+      "colorClass": "violet",
+      "dataFile": "sets/peag_grile.json",
+      "chapters": null,
+      "presets": [
+        10,
+        30,
+        50,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "raspunsuri": {
+      "id": "raspunsuri",
+      "displayName": "Raspunsuri PEAG",
+      "shortName": "Raspunsuri",
+      "icon": "ph-check-circle",
+      "colorClass": "green",
+      "dataFile": "sets/raspunsuri.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "ultimate": {
+      "id": "ultimate",
+      "displayName": "THE ULTIMATE GRILE",
+      "shortName": "THE",
+      "icon": "ph-star",
+      "colorClass": "orange",
+      "dataFile": "sets/ultimate.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
+        100,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "quzzies": {
+      "id": "quzzies",
+      "displayName": "PEAG Quzzies",
+      "shortName": "PEAG",
+      "icon": "ph-game-controller",
+      "colorClass": "pink",
+      "dataFile": "sets/quzzies.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 17
+    },
+    "grile": {
+      "id": "grile",
+      "displayName": "Grile",
+      "shortName": "Grile",
+      "icon": "ph-list-checks",
+      "colorClass": "teal",
+      "dataFile": "sets/grile.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 4
+    },
+    "exemple": {
+      "id": "exemple",
+      "displayName": "Exemple Subiecte Mai 2021",
+      "shortName": "Exemple",
+      "icon": "ph-calendar",
+      "colorClass": "cyan",
+      "dataFile": "sets/exemple.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 5
+    },
+    "peag_exam": {
+      "id": "peag_exam",
+      "displayName": "PEAG Exam",
+      "shortName": "PEAG",
+      "icon": "ph-exam",
+      "colorClass": "red",
+      "dataFile": "sets/peag_exam.json",
+      "chapters": null,
+      "presets": [
+        5,
+        10,
+        20,
+        "all"
+      ],
+      "defaultCount": 20
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "java",
+  "name": "Java Programming",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Ce va afisa urmatoarea secventa de cod? (What will be the output of the next code sequence?)\n\npublic glass Eog\n{\npublic static yoid main(String[]a9品)\n{\nSystem.out.print(\"BB\")；\n}\nstatic {\nSyaten.out print(\"AA\")；\n}",
+      "answers": [
+        {"text": "eroare de compilare (compile error)", "isCorrect": true},
+        {"text": "AA", "isCorrect": false},
+        {"text": "BBAA", "isCorrect": false},
+        {"text": "BB", "isCorrect": false},
+        {"text": "AABB", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Cum poate fi definita in Java o clasa ce permite utilizarea unui fir de executie secundar? (How can one define in Java a class that allows the creation of a secondary thread?)",
+      "answers": [
+        {"text": "prin implementarea interfetei Executable (by implementing Executable)", "isCorrect": false},
+        {"text": "prin implementarea interfetei Synchronized (by implementing Synchronized)", "isCorrect": false},
+        {"text": "prin implementarea interfetei Thread (by implementing Thread)", "isCorrect": false},
+        {"text": "prin implementarea interfetei ExecutorService (by implementing ExecutorService)", "isCorrect": false},
+        {"text": "prin implementarea interfetei Runnable (by implementing Runnable)", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Ce va afisa urmatorul program in Java? (What will display the following Java code?)\n\nclass A {\nA method(int x) {\nSystem.out.println(\"A：：x= \"+x)； return new A(O)；\n}\n}\nclass B extends A {\nA method(int x) {\nSystem.out.println(\"B：：x= \" +x)； return new AO；\n}\nB method(int x){\nSystem.out.println(\"BM：：X=\" +X)； return new BO；\n}\n}\npublic class MainTest {\npublic static void main(String[] args) {\nB ob = new B()；\nA oba = ob.method(7)；\noba.method(5)；\n}\n}",
+      "answers": [
+        {"text": "BM：：x=7\\nA：：x = 5", "isCorrect": false},
+        {"text": "Codul sursa nu poate fi compilat (The source code can not be compiled)", "isCorrect": true},
+        {"text": "B：：x=7\\nA：：x=7", "isCorrect": false},
+        {"text": "BM：：x=7\\n B：：x = 7\\n A：：X=5", "isCorrect": false},
+        {"text": "Niciun raspuns (None of the existing answers)", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Ce metoda trebuie sa fie definite intr-o clasa ce implementeaza interfata java.lang.Runnable? (Which method must be defined by a class implementing the java.lang.Runnable interface?)",
+      "answers": [
+        {"text": "public void start()", "isCorrect": false},
+        {"text": "public void run()", "isCorrect": true},
+        {"text": "Niciun raspuns (None of these)", "isCorrect": false},
+        {"text": "void run()", "isCorrect": false},
+        {"text": "public void done()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Ce va afisa urmatorul program in Java? (What will display the following Java code?)\n\nimport java.util.Arrays；\nimport java.util.List；\nimport java.util.concurrent.Callable；\nimport java.util.concurrent.ExecutorService；\nimport java.util.concurrent.Executors；\npublic class MainTest {\npublic static void main(String[] args){\nExecutorService executor = Executors.newWorkStealingPoolO；\nList<Callable<Integer>> callables = Arrays.asList(() -> {return 1；}, () -> {return 2；}, () -> {return 7；})；\nint factor =3；\ntry {\nexecutor.invokeAll(callables).stream().map (future -> {\ntry { return future.get()*factor；}\ncatch (Exception e) { throw new IllegalStateException(e)；}\n}).forEach(System.out：：print)；\n}\ncatch (InterruptedException e) {e.printStackTraceO；}\n}\n}",
+      "answers": [
+        {"text": "3621", "isCorrect": false},
+        {"text": "Codul sursa nu poate fi compilat (The source code can not be compiled)", "isCorrect": true},
+        {"text": "Eroare la rulare (Runtime error)", "isCorrect": false},
+        {"text": "1127", "isCorrect": false},
+        {"text": "3*6*21", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Ce enunturi sunt adevarate pentru urmatorul program (What are the correct answers for the following program)?\n\npublic class ThreadDemo implements Runnable\n{\nprivate int x=0；\nprivate int y=0；\npublic static void main(String [] args)\n{\nThreadDemo obj = new ThreadDemo()；\n(new Thread(obj)).start()；/*Line 8*/\n(new Thread(obj)).start()；/*Line 9*/\n}\npublic synchronized void run ()/*Line 11*/\n{\nfor(int i=0；i<10；i++)/*Line 13*/\n{\nX++； y++；\nSystem.out.println(\"x=\"+x+\"；y=\"+y)；\n}\n}\n}",
+      "answers": [
+        {"text": "Programul va afisa perechi de valori pentru x si y si vor avea aceleasi valori pe fiecare linie (The program prints pairs of values for x and y that are always the same on the same line) - e.g. \"x=1，y=1\". In addition， these values are printed from \"x=1；y=1\" to \"x=20； y=20\" for both threads).", "isCorrect": true},
+        {"text": "Programul va afisa perechi de valori pentru x si y si este posibil sa nu aiba aceleasi valori (The program prints pairs of values for x and y that might not always be the same on the same line) (e. g. \"x=2，y=1\")", "isCorrect": false},
+        {"text": "Va fi eroare de compilare la linia 8 si 9 (Errors at lines 8 and 9 cause compilation to fail).", "isCorrect": false},
+        {"text": "Niciun raspuns (None of these).", "isCorrect": false},
+        {"text": "Va fi o eroare de compilare la linia 11 (An error at line 11 causes compilation to fail).", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Ce cuvant cheie poate fi utilizat in Java pentru a NU permite serializarea unui atribut? (What Java keyword can be used to forbid the serialization for an attribute?)",
+      "answers": [
+        {"text": "transient", "isCorrect": true},
+        {"text": "synchronized", "isCorrect": false},
+        {"text": "serializable", "isCorrect": false},
+        {"text": "volatile", "isCorrect": false},
+        {"text": "break", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Care din urmatoarele metode nu poate cauza in mod direct oprirea unui fir de executie? (Which of the following methods cannot directly cause a thread to stop executing?)",
+      "answers": [
+        {"text": "Apelul metodei setPriority() pentru un obiect din clasa Thread (Calling the setPriority() method on a Thread object.)", "isCorrect": true},
+        {"text": "Apelul metodei wait() pentru un obiect (Calling the wait() method on an object.)", "isCorrect": false},
+        {"text": "Apelul metodei sleep() pentru un obiect din clasa Thread (Calling sleep() method on a Thread object.)", "isCorrect": false},
+        {"text": "Apelul metodei notify()pentru un obiect (Calling notify() method on an object.)", "isCorrect": false},
+        {"text": "Niciunul din raspunsurile existente (None of these.)", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "RO： Avand in vedere urmatoarea secventa de cod， care este output-ul afisat la consola (EN： Considering the following code sequence， what is the output printed in the console)?\n\npublic class Application {\npublic static void main(String[][]args) {\nint a =5，b=10；\ninterchange(a，b)；\nSystem.out.println(a)；\nSystem.out.println(b)；\n}\npublic static void interchange(int a， int b){\na=7；\nb=12；\n}\n}",
+      "answers": [
+        {"text": "throws UnsupportedOperationException", "isCorrect": false},
+        {"text": "5, 10", "isCorrect": true},
+        {"text": "Niciun raspuns (None of the existing answers)", "isCorrect": false},
+        {"text": "7, 10", "isCorrect": false},
+        {"text": "7, 12", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Care este diferenta dintre codul scris intr-un bloc finally si codul scris dupa ultimul bloc catch? (What is the difference between the code written within a finally block and the code written after the last catch block?)",
+      "answers": [
+        {"text": "codul din blocul finally va fi executat indiferent daca o exceptie va fi generata sau nu (the code from the finally block will be executed no matter if an exception will be thrown or not)", "isCorrect": true},
+        {"text": "codul din blocul finally va fi executat doar daca nu va fi generata nicio exceptie (the code from the finally block will be executed if an exception is NOT thrown only)", "isCorrect": false},
+        {"text": "codul din blocul finally va fi executat inainte de instructiunea return (the code from the finally block will be executed before the return instruction)", "isCorrect": false},
+        {"text": "nu e nicio diferenta (there is no difference)", "isCorrect": false},
+        {"text": "codul din blocul finally va fi executat doar daca o exceptie va fi generata (the code from the finally block will be executed if an exception is thrown only)", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Ce va afisa urmatorul program in Java? (What will display the following Java code?)\n\nimport java.util.Arrays；\nimport java.util.List；\npublic class MainTest {\npublic static void main(String[]args)\n{\nList<Integer> numbers = Arrays.asList(10，25，30，44)；\nint factor=2；\nSystem.out.println(\nnumbers.stream().filter(number -> number %2 ==0)\n.mapToInt(e -> e*factor).sum())；\n}\n}",
+      "answers": [
+        {"text": "168", "isCorrect": true},
+        {"text": "218", "isCorrect": false},
+        {"text": "Eroare la rulare (Runtime error)", "isCorrect": false},
+        {"text": "Codul sursa nu poate fi compilat (The source code can not be compiled)", "isCorrect": false},
+        {"text": "124", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Cum va arata fisierul \"car1.txt\" in urma rularii urmatorului program in Java? (How will be displayed the \"car1.txt\" file after running the following Java code?)\n\nimport java.io.ObjectOutputStream；\nimport java.io.FileOutputStream；\nimport java.io.IOException；\nclass Car {\nprivate int weight=0；\nprivate String type = \"\"；\nprivate String color = \"\"；\npublic Car(int weight， String type， String color){\nthis.weight= weight； this.type = type； this.color=color；\n}\n// getters and setters...\npublic String toString() {\nreturn \"Car{\" +\"color='\"+ color + \"'， type =\"+ type + \"， weight=\" + weight + '}';\n}\n}\npublic class MainTest2 {\npublic static void main(String[] args)\n{\ntry(FileOutputStream fos = new FileOutputStream(\"car1.txt\");\nObjectOutputStream out= new ObjectOutputStream(fos);){\nCar c = new Car(10, \"BMW X5\", \"gri\");\nout.writeObject(\"\"+c);\n}catch (IOException e) { e.printStackTrace(); }\n}\n}",
+      "answers": [
+        {"text": "Binary serialized object content with hex values", "isCorrect": false},
+        {"text": "Codul sursa este incorrect si nu poate fi compilat (The source code is incorrect and it can not be compiled)", "isCorrect": false},
+        {"text": "Eroare la rulare (Runtime error)", "isCorrect": false},
+        {"text": "Plain text string representation: Car{color='gri', type ='BMW X5', weight=10}", "isCorrect": true},
+        {"text": "Java serialization header with string content", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "RO： Avand in vedere urmatoarea secventa de cod， care este output-ul afisat la consola? Clasa User contine doua proprietati cu modificatorul de acces public： String username， String password； (EN： Considering the following code sequence， what is the output printed in the console? User class contains two public properties： String username， String password；)\n\npublic class Application {\npublic static void main(String[] args) {\nUser u = new User(\"admin\", \"password\");\nchangePassword(u, \"p@ss\");\nSystem.out.println(u.password);\n}\npublic static void changePassword(User u， String newPassword) {\nu.password = newPassword；\n}\n}",
+      "answers": [
+        {"text": "p@ss", "isCorrect": true},
+        {"text": "admin", "isCorrect": false},
+        {"text": "Niciun raspuns (None of the existing answers)", "isCorrect": false},
+        {"text": "Compilation error.", "isCorrect": false},
+        {"text": "password", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "RO： Se considera urmatoarea clasa (EN： Having the following class)：\n\npublic class User implements Cloneable{\npublic String username；\npublic String password；\npublic List<String> products；\npublic User(String username， String password){\nthis.username = username；\nthis.password = password；\nthis.products = new ArrayList<String>()；\n}\npublic void addProduct(String productName) { this.products.add(productName)；}\n@Override\npublic User clone() throws CloneNotSupportedException { return (User) super.clone()；}\n}\n\nRO： Care este output-ul afisat la consola in urma executarii instructiunilor din main?\nEN： What is the output displayed in the console after executing the instructions from main function?\n\npublic static void main(String[]args){\ntry{\nUser u1 = new User(\"admin\", \"password\");\nUser u2 = u1.clone()；\nu1.addProduct(\"Product 1\"); u1.addProduct(\"Product 2\");\nu2.addProduct(\"Product 3\"); u2.addProduct(\"Product 4\");\nfor(String product : u2.products) { System.out.println(product)；}\n}catch(CloneNotSupportedException e){ e.printStackTrace()；}\n}",
+      "answers": [
+        {"text": "Product 1, Product 2, Product 3, Product 4", "isCorrect": true},
+        {"text": "throws CloneNotSupportedException", "isCorrect": false},
+        {"text": "Product 1, Product 2", "isCorrect": false},
+        {"text": "Product 3, Product 4", "isCorrect": false},
+        {"text": "Niciun raspuns (None of the existing answers)", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Luand in considerare urmatoare interfata functionala (Taking into account the following functional interface)：\n\n@FunctionalInterface\npublic interface Logger {\npublic void Log(String message， int nbOfTimes)；\n}\n\nCare dintre urmatoarele este o expresie lambda corecta ce poate fi salvata intr-o referinta catre Logger? (What statement is a correct lambda expression for saving the reference to Logger?)",
+      "answers": [
+        {"text": "(x，y)=>System.out.println(x)；", "isCorrect": false},
+        {"text": "((x)->System.out.println(x)；", "isCorrect": false},
+        {"text": "(xy)>System.out.println(x)；", "isCorrect": false},
+        {"text": "Sintaxa este gresita (syntax error)", "isCorrect": true},
+        {"text": "(x，y)-> return System.out.println(x)；", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Ce va afisa urmatoarea secventa de cod? (What will be the output of the next code sequence?)\n\npublic class Program\n{public static void main(String[] args) {\nfloat x = 2.0f； float y = 6.0f/3；\nif(x==y){ System.out.println(\"OK\");}\nelse{ System.out.println(\"NOT OK\");}\n}}",
+      "answers": [
+        {"text": "eroare de executie (runtime error)", "isCorrect": false},
+        {"text": "NOT OK", "isCorrect": false},
+        {"text": "rezultatul este impredictibil deoarece x si y sunt float (the result cannot be predicted because x and y are of type float)", "isCorrect": false},
+        {"text": "eroare de compilare (compile error)", "isCorrect": false},
+        {"text": "OK", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Care este output-ul codului de mai jos? (What is the output of the next code sequence?)\n\nclass ReferenceType {\npublic int value；\n}\npublic class Main {\nstatic void add(ReferenceType v1， ReferenceType v2) {\nv1 = new ReferenceType()；\nv1.value = v1.value + v2.value；\n}\npublic static void main(String[]args) {\nReferenceType v1 = new ReferenceType()；\nv1.value=2；\nReferenceType v2 = new ReferenceType()；\nv2.value=3；\nadd(v1，v2)；\nSystem.out.println(v1.value)；\n}\n}",
+      "answers": [
+        {"text": "2", "isCorrect": true},
+        {"text": "3", "isCorrect": false},
+        {"text": "Eroare de executie (runtime error)", "isCorrect": false},
+        {"text": "Eroare de compilare (compile error)", "isCorrect": false},
+        {"text": "5", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In urma rularii programului urmator， va aparea pe ecran (Running the following program， it will display)：\n\npackage eu.ase.objects；\npublic class Abonament{\nprivate int uid； private String issuerName；\npublic Abonament(int uidp， String issuerNamep){\nthis.uid = uidp； this.issuerName = issuerNamep；\n}\npublic void setUid(int c){ this.uid= c;}\npublic void setIssuerName(String n){ this.issuerName = n;}\npublic String toString(){ return new String(\"Uid=\"+this.uid+\", Issuer=\"+this.issuerName)；}\n}\npublic class ProgMain{\npublic static void main(String[]args){\nAbonament a = new Abonament(234,\"Ion\");\nAbonament b = new Abonament(355,\"Vasile\");\nb = a；\nb.setUid(888); b.setIssuerName(\"ZXY\");\nSystem.out.println(\"a=\"+a.toString());\nSystem.out.println(\"b=\"+b.toString());\n}\n}",
+      "answers": [
+        {"text": "a=Uid=234, Issuer = Ion si/and b= Uid = 355, Issuer = ZXY", "isCorrect": false},
+        {"text": "a=Uid=234, Issuer = Ion si/and b= Uid = 888, Issuer = ZXY", "isCorrect": false},
+        {"text": "Niciunul din raspunsurile existente (None of the existing answers)", "isCorrect": false},
+        {"text": "a=Uid=888, Issuer = ZXY si/and b=Uid =888, Issuer = ZXY", "isCorrect": true},
+        {"text": "a=Uid=234, Issuer = ZXY si/and b= Uid =888, Issuer = ZXY", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 19,
+      "question": "In care dintre urmatoarele situatii NU poate fi folosit cuvantul cheie final? (For which of the following scenarios the final keyword CANNOT be used?)",
+      "answers": [
+        {"text": "pentru declararea unui obiect mutabil constant (for defining a constant mutable object)", "isCorrect": false},
+        {"text": "pentru declararea unui obiect imutabil constant (for defining a constant immutable object)", "isCorrect": true},
+        {"text": "pentru declararea unei primitive constante (for defining a constant primitive)", "isCorrect": false},
+        {"text": "pentru definirea unei metode ce nu mai poate fi supradefinita (for defining a method that cannot be overridden anymore)", "isCorrect": false},
+        {"text": "pentru definirea unei clase ce nu mai poate fi derivata (for defining a class that cannot be derived anymore)", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 20,
+      "question": "RO： Pentru stocarea salariilor mai mari de 2000 intr-o lista separata se va folosi urmatoarea instructiune：EN： For storing the salaries greater than 2000 in a separate list， which of the following instruction should be used：",
+      "answers": [
+        {"text": "Niciun raspuns (None of the existing answers)", "isCorrect": false},
+        {"text": "employees.stream().filter(employee -> employee.salary >2000).map(employee-> employee.salary)", "isCorrect": false},
+        {"text": "employees.stream().map(employee -> employee.salary).collect(Collectors.toList())；", "isCorrect": false},
+        {"text": "employees.stream().filter(employee-> employee.salary>2000).map(employee-> employee.salary).collect(Collectors.toList())；", "isCorrect": true},
+        {"text": "employees.stream().filter(employee-> employee.salary>2000).collect(Collectors.toList())；", "isCorrect": false}
+      ]
+    }
+  ]
+}

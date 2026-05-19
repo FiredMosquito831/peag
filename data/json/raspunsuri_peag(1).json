@@ -1,0 +1,786 @@
+{
+  "id": "raspunsuri_peag",
+  "name": "raspunsuri_peag",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Sînt metode deterministe de căutare în spațiul soluțiilor",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Rezolvă exclusiv probleme definite pe spații continue",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Sînt tehnici de căutare stochastică bazate pe populații",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Folosesc exclusiv selecții deterministe",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Utilizează la fiecare moment de timp o variantă de soluție modificată prin perturbare normală",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 4, 8, 9, 10",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 2, 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 3, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 1, 2, 7, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 5",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 3, 4",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 3, 7",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 2, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 4, 5, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 3, 5, 6, 9",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 2, 4, 6, 8, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 3, 6, 7, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 3, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 6, 7, 9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 3, 5, 9",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 3, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 3, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 5, 6, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 6, 8, 11",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 6, 9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Nu poate fi utilizată în cazul atributelor ordinale",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Este preferabilă pentru problemele de optimizare",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Nu este utilizată în algoritmi genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Este doar un exercițiu de implementare, nefiind necesară",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Este preferabilă atunci cînd pentru fiecare genă sînt posibile mai mult de două valori distincte",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. este o funcție asimptotică",
+          "isCorrect": true
+        },
+        {
+          "text": "b. estimează nivelul de adaptare a individului",
+          "isCorrect": false
+        },
+        {
+          "text": "c. este stabilită de Holland",
+          "isCorrect": false
+        },
+        {
+          "text": "d. este definită pe spațiul unidimensional",
+          "isCorrect": false
+        },
+        {
+          "text": "e. se alege în funcție de dimensiunea populației",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Nici una din celelalte variante",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Nu este un algoritm auto-adaptiv",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Este algoritmul auto-adaptiv primar",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Nu este un algoritm evolutiv",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 2, 4, 7",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 4, 6, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 3, 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 1, 2, 5, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Este utilizată în funcție de reprezentarea cromozomială",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Este utilizată în general în manieră nedeterministă",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Este utilizată determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Este doar un exercițiu de implementare, nefiind necesară",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Nu este utilizată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 3, 5, 7",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 2, 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 4, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 3, 4",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 5",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 5, 7, 9",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 2",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 5, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 6, 7, 9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 4, 6, 8, 11, 13",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 3, 5, 6, 10, 13, 14, 15",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 3, 5, 7, 10, 12, 14, 15",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 2, 5, 6, 7, 14, 15",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 5, 9, 15",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 5, 6, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 4, 5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 5, 9, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 5, 9, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 5, 9, 11",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 3, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 4",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 1, 2, 4, 5, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 2, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 4, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 5, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 3, 4, 5, 6, 7,12, 18, 19, 21",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 3, 4, 7, 10, 13, 16, 17, 20",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 5, 6, 14, 15, 16, 18, 19, 20",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 7, 10, 12,17,21",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Toți operatorii de mai sus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 3, 4, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 2, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 2, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 1, 2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 3, 4, 5, 6, 11",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 5, 6, 12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 4, 5, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 2, 3, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 4, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 3, 4, 5, 6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. (y,x) și (2,5)",
+          "isCorrect": true
+        },
+        {
+          "text": "b. (x,y) și (2,5)",
+          "isCorrect": false
+        },
+        {
+          "text": "c. (y,x) și (1,5)",
+          "isCorrect": false
+        },
+        {
+          "text": "d. (y,x) și (1,4)",
+          "isCorrect": false
+        },
+        {
+          "text": "e. (x,y) și (1,4)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Nu permite utilizarea de operatori de mutație",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Nu este utilizată",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Nu permite utilizarea de operatori de recombinare",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Necesită operatori de variație special definiți",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Niciuna din celelalte variante",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Garantează obținerea de rezultate optime",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Obligatoriu după extragerea celui mai bun individ din populația finală",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Nu depinde de reprezentarea aleasă",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Nu e necesară în algoritmii genetici",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. d, h",
+          "isCorrect": true
+        },
+        {
+          "text": "b. a, e",
+          "isCorrect": false
+        },
+        {
+          "text": "c. f, i",
+          "isCorrect": false
+        },
+        {
+          "text": "d. g, j",
+          "isCorrect": false
+        },
+        {
+          "text": "e. b, c",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 4, 5, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 3, 4, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 2, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 1, 3, 4, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Revoluția industrială",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Evoluția naturală biologică",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Societatea informațională",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Noua revoluție agrară",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Societatea cunoașterii",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": true
+        },
+        {
+          "text": "b. C1=Y, C2=X",
+          "isCorrect": false
+        },
+        {
+          "text": "c. C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "d. C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "e. C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
