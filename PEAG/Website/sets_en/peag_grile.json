@@ -1,0 +1,401 @@
+{
+  "metadata": {
+    "source_txt": "all MCQs from Romanian to English google gemini-2 5-flash-lite-preview-09-2025 -batch -proofed.txt",
+    "split_method": "line-start id: 1 reset",
+    "segment_index": 3,
+    "question_count": 20,
+    "original_order_name": "exemple",
+    "inferred_name_from_count": "peag_grile_2",
+    "first_question_preview": "In genetic algorithms, representation via integer sequences",
+    "assigned_filename_inferred": "peag_grile_2_en.json",
+    "assignment_note": "Inferred from segment count/content because translated all-in-one TXT contains no filename headers."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "In genetic algorithms, representation via integer sequences",
+      "answers": {
+        "a": "Is preferable for optimization problems",
+        "b": "Is only an implementation exercise, not necessary",
+        "c": "Is preferable when more than two distinct values are possible for each gene",
+        "d": "Is not used in genetic algorithms",
+        "e": "Cannot be used in the case of ordinal attributes"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "question": "In genetic algorithms, representation via permutations",
+      "answers": {
+        "a": "Does not allow the use of mutation operators",
+        "b": "Is not used",
+        "c": "Needs specially defined operators (See Course II: Slide 19)",
+        "d": "Does not allow the use of recombination operators",
+        "e": "Does not allow more than two genes with the same value in a chromosome"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "question": "The types of problems that can be solved based on evolutionary computation are: 1. Optimization problems; 2. Search problems in the solution space; 3. Processing of large dimension data (big-data); 4. Modeling problems; 5. Data validation problems; 6. Simulation problems; 7. Dynamic allocation of data in computer memory; 8. Autonomous vehicle navigation",
+      "answers": {
+        "a": "2,4,6",
+        "b": "1,4,6 (See Course I: Introduction: Slide 9 and 10)",
+        "c": "2,4,6,8",
+        "d": "1,3,5,7",
+        "e": "2,3,4"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "question": "In an evolutionary algorithm, the quality function: 1. Evaluates the quality of the algorithm; 2. Evaluates the quality of each candidate; 3. Evaluates the speed of finding the solution relative to resource consumption; 4. Must be maximized; 5. Determines if a descendant is acceptable; 6. Selects the individuals that will reproduce; 7. Selects the individuals that pass to the next generation; 8. Contains a random factor; 9. Evaluates the quality of the current population; 10. Evaluates the quality of the current population compared to the previous generation.",
+      "answers": {
+        "a": "6,7,8",
+        "b": "5",
+        "c": "2,4 (See Course I: Introduction - Slide 11)",
+        "d": "1,3",
+        "e": "9,10"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "question": "In genetic algorithms, binary representation",
+      "answers": {
+        "a": "Is the most used variant for genotype representation",
+        "b": "Is not used for genetic algorithms",
+        "c": "Was the first type of chromosome representation in genetic algorithms (See Course 2: Slide 14)",
+        "d": "Always leads to optimal results",
+        "e": "Does not depend on the solved problem"
+      },
+      "correct": [
+        "a",
+        "c"
+      ],
+      "correct_raw": "a, c",
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "question": "The components of evolutionary algorithms are: 1. Representation; 2. Mutation probability; 3. Evaluation function; 4. Recombination probability; 5. Population; 6. Random number generation; 7. Parent selection mechanism; 8. Permutation generation; 9. Graphical representation of quality evolution; 10. Variation operators; 11. Establishment of genetic diversity of the population; 12. Mechanism for replacing the current population; 13. Hillclimbing; 14.Population initialization; 15. Termination condition;",
+      "answers": {
+        "a": "1,2,5,6,7,14,15",
+        "b": "1,3,5,7,10,12,14,15",
+        "c": "2,4,6,8,11,13",
+        "d": "2,4,5,9,15",
+        "e": "1,3,5,6,10,13,14,15"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "question": "Evolutionary computation is inspired by",
+      "answers": {
+        "a": "The industrial revolution",
+        "b": "The knowledge society",
+        "c": "The information society",
+        "d": "The new agrarian revolution",
+        "e": "Biological natural evolution (See Course I: Introduction - Slide 6)"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "question": "The Hillclimbing algorithm: 1. Is applied to a single point in the search space; 2. Application can be repeated for multiple points to increase performance; 3. Is inspired by mountaineering techniques; 4. Always finds the optimal solution; 5. Sometimes finds the optimal solution; 6. Calculations end when the system temperature becomes 0; 7. Usually finds a local optimum point; 8. Is used only for representation with real number strings;",
+      "answers": {
+        "a": "1,2,5,7",
+        "b": "1,5,7,8",
+        "c": "1,2,4,7",
+        "d": "1,4,6,7",
+        "e": "3,4,6,8"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "question": "The characteristics of a classic (canonical) genetic algorithm are: 1. Population representation is done via binary strings; 2. Population representation is done via natural number strings; 3. The probability of selecting an individual in the parent multiset is proportional to the value of its fitness function; 4. The probability of selecting an individual in the parent multiset is given by the individual's position in the population hierarchy, determined based on the fitness function; 5. The probability of performing a mutation is small; 6. The probability of performing a mutation is large; 7. The probability of performing recombination is small; 8. The probability of performing recombination is large; 9. Replacement of the current population is done based on age.",
+      "answers": {
+        "a": "There is no canonical genetic algorithm",
+        "b": "2,4,6,7",
+        "c": "1,3,5,8 (We hope, God help us)",
+        "d": "None of options A,B,C,E",
+        "e": "2,3,6,7,9"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "question": "Which of the following operators can be used in a genetic algorithm that uses real number string representation: 1. Negation; 2. Fuzzy Negation; 3. Random Resetting; 4. Smoothing/Blurring; 5. Uniform Mutation; 6. Non-uniform Mutation with fixed distribution; 7. Local Mutation; 8. Swap; 9. Insertion; 10. Rapid Mutation; 11. Shuffle; 12. Global Mutation; 13. Inversion; 14. Single-point; 15. Multi-point; 16. Uniform; 17. Root Recombination; 18. Simple Arithmetic; 19. Singular Arithmetic; 20. Total Arithmetic; 21. Maximum String Recombination; 22. PMC; 23. Order Recombination; 24. Edge Recombination; 25. Cycle Recombination",
+      "answers": {
+        "a": "All operators above",
+        "b": "2,7,10,12,17,21",
+        "c": "1,3,4,7,10,13,16,17,20",
+        "d": "3,4,5,6,7,12,18,19,21",
+        "e": "5,6,14,15,16,18,19,20"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "question": "Within an algorithm from the evolutionary strategies class, the mutation operation:",
+      "answers": {
+        "a": "Is used only in constrained problems",
+        "b": "Is performed with a small probability",
+        "c": "Uses the current population",
+        "d": "Uses the offspring population",
+        "e": "Determines the chromosomal structure",
+        "f": "Is non-uniform type",
+        "g": "Selects on average half of the individuals for mutation",
+        "h": "Is performed only once during an algorithm",
+        "i": "Is performed iteratively",
+        "j": "Is performed immediately once an offspring population is available"
+      },
+      "correct": [
+        "d",
+        "i",
+        "j"
+      ],
+      "correct_raw": "d, i, j",
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "question": "Within a genetic algorithm, the recombination operation:",
+      "answers": {
+        "a": "Is performed only once after the first parent selection step",
+        "b": "Is used with a small probability",
+        "c": "In general, the recombination probability does not matter in solving problems with genetic algorithms",
+        "d": "Is performed only once during a genetic algorithm",
+        "e": "Is performed immediately before every mutation procedure",
+        "f": "Is performed immediately after every parent selection step",
+        "g": "Is used with high probability",
+        "h": "Is performed iteratively",
+        "i": "Is used only in unconstrained problems",
+        "j": "Uses the parent population"
+      },
+      "correct": [
+        "e",
+        "f",
+        "g",
+        "h",
+        "j"
+      ],
+      "correct_raw": "e, f, g, h, j",
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "question": "Within an evolutionary algorithm, the initial population",
+      "answers": {
+        "a": "Is generated at the beginning of every evolutionary cycle",
+        "b": "Is generated using the normal probability distribution",
+        "c": "Is generated before the actual evolution begins",
+        "d": "Is generated after every evolutionary cycle",
+        "e": "Is generated using the uniform probability distribution",
+        "f": "Is generated randomly (See Course I: Introduction - Slide 11)",
+        "g": "Is set to the empty set"
+      },
+      "correct": [
+        "c",
+        "f"
+      ],
+      "correct_raw": "c, f",
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "question": "Given the following two permutation-type chromosomes {6, 3, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12 } and {7, 1, 15, 13, 2, 14, 6, 10, 12, 11, 4, 8, 3, 9, 5}. Applying the PMX recombination operator, with positions 4 and 8, the offspring are obtained.",
+      "answers": {
+        "a": "Child strings x2 = {13, 1, 10, 7, 14, 8, 5, 15, 12, 11, 4, 2, 3, 9, 6} y2 = {5, 3, 11, 13, 2, 14, 6, 10, 1, 8, 4, 7, 9, 15, 12}"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "question": "Within an algorithm from the evolutionary strategies class, the recombination operation:",
+      "answers": {
+        "a": "Is local or global type",
+        "b": "Is performed only once during an algorithm",
+        "c": "Selects on average half of the individuals for recombination",
+        "d": "Is performed with a small probability",
+        "e": "Determines the chromosomal structure",
+        "f": "Uses the current population",
+        "g": "Is performed only once, after the first step of generating a population",
+        "h": "Determines the obtaining of an offspring multiset in …",
+        "i": "Is used only in constrained problems",
+        "j": "Is performed iteratively"
+      },
+      "correct": [
+        "a",
+        "f",
+        "j"
+      ],
+      "correct_raw": "a, f, j",
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "question": "Within an algorithm from the evolutionary strategies class, chromosome representation",
+      "answers": {
+        "a": "Influences the type of recombination used",
+        "b": "Is chosen depending on the problem being solved",
+        "c": "Can only be of integer or real number string type",
+        "d": "Can be any of: binary strings, integer strings, real number strings, permutations",
+        "e": "Influences the mechanism for selecting the next generation",
+        "f": "Does not influence the type of mutation used (discrete/ non-discrete)",
+        "g": "Can only be of real number strings",
+        "h": "Contains both the description of the candidate individual and the parameters that .."
+      },
+      "correct": [
+        "a",
+        "b",
+        "d",
+        "e",
+        "h"
+      ],
+      "correct_raw": "a, b, d, e, h",
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "question": "Within a genetic algorithm, the parent selection operation:",
+      "answers": {
+        "a": "Is always based on a selection probability distribution",
+        "b": "Uses the current population",
+        "c": "Is performed only once during a genetic algorithm",
+        "d": "Is used only in constrained problems",
+        "e": "Is performed immediately before every mutation procedure",
+        "f": "Is performed immediately once an evaluated current population is available",
+        "g": "Is performed only once after the first step of generating a population",
+        "h": "Generally selects individuals based on the age factor",
+        "i": "Uses the mutated offspring population",
+        "j": "Uses the offspring population",
+        "k": "Is performed iteratively",
+        "l": "Can be realized by using a selection probability distribution"
+      },
+      "correct": [
+        "b",
+        "f",
+        "k",
+        "l"
+      ],
+      "correct_raw": "b, f, k, l",
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "question": "Given the permutation-type chromosome {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9} Following the application of the shuffle mutation operator, the chromosome {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9 } was obtained.The two positions used for the shuffle are:",
+      "answers": {
+        "a": "3 and 13",
+        "b": "1 and 15",
+        "c": "1 and 14",
+        "d": "4 and 8",
+        "e": "1 and 12",
+        "f": "4 and 15",
+        "g": "3 and 15",
+        "h": "2 and 13",
+        "i": "2 and 14",
+        "j": "2 and 15",
+        "k": "1 and 13"
+      },
+      "correct": [
+        "h"
+      ],
+      "correct_raw": "h",
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "question": "Within a genetic algorithm, the mutation operation:",
+      "answers": {
+        "a": "Has a small probability",
+        "b": "Is applied only if genetic diversity drops below a given threshold x",
+        "c": "Always produces feasible individuals",
+        "d": "Is applied to the offspring produced by the recombination operation",
+        "e": "Is applied to the parent multiset",
+        "f": "Is applied to the current population",
+        "g": "Is used only in constrained problems",
+        "h": "Can produce infeasible individuals",
+        "i": "Is performed only once, after the initial population generation",
+        "j": "Is applied immediately before every next generation selection step",
+        "k": "Is used only in unconstrained problems",
+        "l": "Does not use random factors."
+      },
+      "correct": [],
+      "correct_raw": "",
+      "warnings": [
+        "missing_correct",
+        "no_parsed_correct"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Within a genetic algorithm, the survivor selection operation",
+      "answers": {
+        "a": "Always uses random factors",
+        "b": "In some variants requires the calculation of a selection probability distribution",
+        "c": "The chosen individuals are always feasible",
+        "d": "Leads to an increase in the average quality of the current population",
+        "e": "Is applied at the beginning of every iteration",
+        "f": "Sometimes uses random factors",
+        "g": "Is applied to the current population",
+        "h": "Guarantees obtaining a generation with superior average quality if it uses age-based selection.",
+        "i": "Ensures the perpetuation of the individual with maximum quality from the current population",
+        "j": "Chooses the next generation from the individuals available after the mutation operation",
+        "k": "Is applied to the descendants obtained from the current population"
+      },
+      "correct": [
+        "b",
+        "d",
+        "f",
+        "g",
+        "i",
+        "j",
+        "k"
+      ],
+      "correct_raw": "b, d, f, g, i, j, k",
+      "warnings": []
+    }
+  ]
+}

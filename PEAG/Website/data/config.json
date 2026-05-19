@@ -19,6 +19,7 @@
       "icon": "ph-brain",
       "colorClass": "blue",
       "dataFile": "sets/uscatu.json",
+      "englishDataFile": "sets_en/uscatu.json",
       "chapters": null,
       "presets": [
         20,
@@ -35,6 +36,7 @@
       "icon": "ph-robot",
       "colorClass": "emerald",
       "dataFile": "sets/profa_ocr.json",
+      "englishDataFile": "sets_en/profa_ocr.json",
       "chapters": null,
       "presets": [
         5,
@@ -51,6 +53,7 @@
       "icon": "ph-scroll",
       "colorClass": "violet",
       "dataFile": "sets/peag_grile.json",
+      "englishDataFile": "sets_en/peag_grile.json",
       "chapters": null,
       "presets": [
         10,
@@ -67,6 +70,7 @@
       "icon": "ph-check-circle",
       "colorClass": "green",
       "dataFile": "sets/raspunsuri.json",
+      "englishDataFile": "sets_en/raspunsuri.json",
       "chapters": null,
       "presets": [
         5,
@@ -83,6 +87,7 @@
       "icon": "ph-star",
       "colorClass": "orange",
       "dataFile": "sets/ultimate.json",
+      "englishDataFile": "sets_en/ultimate.json",
       "chapters": null,
       "presets": [
         20,
@@ -99,6 +104,7 @@
       "icon": "ph-game-controller",
       "colorClass": "pink",
       "dataFile": "sets/quzzies.json",
+      "englishDataFile": "sets_en/quzzies.json",
       "chapters": null,
       "presets": [
         5,
@@ -115,6 +121,7 @@
       "icon": "ph-list-checks",
       "colorClass": "teal",
       "dataFile": "sets/grile.json",
+      "englishDataFile": "sets_en/grile.json",
       "chapters": null,
       "presets": [
         5,
@@ -131,6 +138,7 @@
       "icon": "ph-calendar",
       "colorClass": "cyan",
       "dataFile": "sets/exemple.json",
+      "englishDataFile": "sets_en/exemple.json",
       "chapters": null,
       "presets": [
         5,
@@ -147,6 +155,7 @@
       "icon": "ph-exam",
       "colorClass": "red",
       "dataFile": "sets/peag_exam.json",
+      "englishDataFile": "sets_en/peag_exam.json",
       "chapters": null,
       "presets": [
         5,

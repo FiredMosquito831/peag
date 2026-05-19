@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "source_txt": "all MCQs from Romanian to English google gemini-2 5-flash-lite-preview-09-2025 -batch -proofed.txt",
+    "split_method": "line-start id: 1 reset",
+    "segment_index": 2,
+    "question_count": 4,
+    "original_order_name": "uscatu",
+    "inferred_name_from_count": "raspunsuri",
+    "first_question_preview": "Within an evolutionary algorithm, the termination condition may include the following elements: a) control of the number of iterations (maximum admitted number of generated populations), b) availabili",
+    "assigned_filename_inferred": "raspunsuri_en.json",
+    "assignment_note": "Inferred from segment count/content because translated all-in-one TXT contains no filename headers."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Within an evolutionary algorithm, the termination condition may include the following elements: a) control of the number of iterations (maximum admitted number of generated populations), b) availability of memory space, c) reaching the optimal value of the objective function, d) checking a condition related to genetic diversity, e) the population size decreasing below an admitted limit, f) the chromosome length increasing.",
+      "answers": {
+        "a": "a, c, d",
+        "b": "b, d, e",
+        "c": "a, e, f",
+        "d": "b, c, d",
+        "e": "a, b, e"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "question": "In genetic algorithms, the parent selection operation",
+      "answers": {
+        "a": "Is only an implementation exercise, not necessary",
+        "b": "Is used deterministically",
+        "c": "Is used depending on the chromosomal representation",
+        "d": "Is not used",
+        "e": "Is generally used in a non-deterministic manner"
+      },
+      "correct": [
+        "b",
+        "e"
+      ],
+      "correct_raw": "b, e",
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "question": "In a genetic algorithm that maximizes a function (fitness): 1. Selection of the next generation is mandatorily age-based; 2. Only constrained problems are solved; 3. Parent selection is performed iteratively; 4. Mutation is performed with a small probability; 5. The use of FPS selection is not recommended; 6. The multiset of children is without duplicates; 7. Survivor selection is determined by quality and/or the age factor; 8. Recombination is performed rarely; 9. Determining a global maximum point is intended; 10. The chromosomal structure differs if the function is translated.",
+      "answers": {
+        "a": "Selection of the next generation is mandatorily age-based",
+        "b": "Only constrained problems are solved",
+        "c": "Parent selection is performed iteratively",
+        "d": "Mutation is performed with a small probability",
+        "e": "The use of FPS selection is not recommended",
+        "f": "The multiset of children is without duplicates",
+        "g": "Survivor selection is determined by quality and/or the age factor",
+        "h": "Recombination is performed rarely",
+        "i": "Determining a global maximum point is intended",
+        "j": "The chromosomal structure differs if the function is translated"
+      },
+      "correct": [
+        "c",
+        "d",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "correct_raw": "c, d, f, g, h, i",
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "question": "The Hillclimbing algorithm:",
+      "answers": {
+        "a": "Is a self-adaptive algorithm",
+        "b": "Is a deterministic algorithm",
+        "c": "Is an evolutionary algorithm",
+        "d": "Is an intermediate stage between deterministic and evolutionary algorithms",
+        "e": "None of the other options"
+      },
+      "correct": [
+        "a",
+        "c"
+      ],
+      "correct_raw": "a, c",
+      "warnings": []
+    }
+  ]
+}

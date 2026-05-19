@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "source_txt": "all MCQs from Romanian to English google gemini-2 5-flash-lite-preview-09-2025 -batch -proofed.txt",
+    "split_method": "line-start id: 1 reset",
+    "segment_index": 6,
+    "question_count": 17,
+    "original_order_name": "peag_grile_2",
+    "inferred_name_from_count": "profa_ocr",
+    "first_question_preview": "Within evolutionary algorithms, the goal of evolution is:",
+    "assigned_filename_inferred": "profa_ocr_en.json",
+    "assignment_note": "Inferred from segment count/content because translated all-in-one TXT contains no filename headers."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Within evolutionary algorithms, the goal of evolution is:",
+      "answers": {
+        "a": "Obtaining individuals better adapted to the environment"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "question": "In the classic problem-solving model, the three elements are: input data, transformation model, output data. Which of the following is not a problem class:",
+      "answers": {
+        "a": "Balancing problems: only the transformation model is known"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "question": "Which of the following stages of evolutionary algorithms can also be carried out deterministically:",
+      "answers": {
+        "a": "Selection of the next generation"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "question": "The scenario used for simulating evolutionary processes within evolutionary algorithms is:",
+      "answers": {
+        "a": "Environment with limited resources, maintained at a constant level"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is not a standard element of evolutionary algorithms:",
+      "answers": {
+        "a": "Resuscitation"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "question": "To guarantee obtaining the optimal solution, within the hillclimbing algorithm:",
+      "answers": {
+        "a": "Obtaining the optimal solution cannot be guaranteed"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "question": "Which of the following statements is incorrect:",
+      "answers": {
+        "a": "The individual evolves to adapt to the environment (this is correct)",
+        "b": "The population size must be fixed",
+        "c": "Selection operators act upon the population",
+        "d": "The population evolves to adapt to the environment",
+        "e": "The individual is a static element; it does not evolve"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "question": "Representation using binary strings within genetic algorithms:",
+      "answers": {
+        "a": "is natural for problems whose solution represents a string of Boolean decisions"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "question": "What arity does the recombination operator have in genetic algorithms (how many operands does it use)?",
+      "answers": {
+        "a": "binary (two operands)"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "question": "For problems where permutation representation signifies the order of occurrence of certain events, the recombination operator used is:",
+      "answers": {
+        "a": "OCX (Order crossover)"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "question": "To preserve common relationships from parent chromosomes, the recombination operator used is:",
+      "answers": {
+        "a": "ECX (Edge crossover) Correct"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "question": "The one-point crossover operator can be used in the case of representation by:",
+      "answers": {
+        "a": "integer strings, real number strings, binary strings"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "question": "In the case of integer string representation, arithmetic recombinations:",
+      "answers": {
+        "a": "can be applied if the results are rounded"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "question": "Which of the following statements is not true for the generational model?",
+      "answers": {
+        "a": "It does not take into account chromosome quality",
+        "b": "It can partially replace the current generation",
+        "c": "It can completely replace the current generation",
+        "d": "It can replace a single chromosome from the current population",
+        "e": "It requires tracking several consecutive generations (CORRECT)"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is not a selection mechanism?",
+      "answers": {
+        "a": "Simple Roulette",
+        "b": "Tournament",
+        "c": "Complicated Roulette Correct",
+        "d": "Multi-armed Roulette",
+        "e": "Parent/Genitor"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a disadvantage of using the FPS type selection probability distribution?",
+      "answers": {
+        "a": "Premature convergence"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is not a probability distribution model used for the selection stage?",
+      "answers": {
+        "a": "FPS with sigma scaling",
+        "b": "FPS with alpha scaling Correct",
+        "c": "Linear ranks",
+        "d": "FPS",
+        "e": "FPS with windows"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    }
+  ]
+}

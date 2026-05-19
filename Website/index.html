@@ -85,8 +85,12 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useRef } = React;
-        const APP_DATA_VERSION = 'peag-docx-repaired-2026-05-19';
+        const APP_DATA_VERSION = 'peag-bilingual-2026-05-19';
         const fetchJson = (path) => fetch(`${path}?v=${encodeURIComponent(APP_DATA_VERSION)}`, { cache: 'no-store' }).then(res => res.json());
+        const LANGUAGE_OPTIONS = {
+            ro: { label: 'Romana', short: 'RO', subtitle: 'Seturile romanesti curente' },
+            en: { label: 'English', short: 'EN', subtitle: 'Translated MCQ sets' }
+        };
 
         // --- 1. DATA INPUT ---
         // NOTE: Data is now loaded from external JSON files in data/ directory
@@ -354,9 +358,16 @@
         function processQuestions(rawData) {
             const questions = getQuestionList(rawData);
             return questions
-                .filter(q => q && q.question && Array.isArray(q.answers))
+                .filter(q => q && q.question && q.answers)
                 .map(q => {
-                const options = q.answers.map((ans, index) => {
+                const rawAnswers = Array.isArray(q.answers)
+                    ? q.answers
+                    : Object.entries(q.answers).map(([key, text]) => ({
+                        text: `${key}) ${text}`,
+                        isCorrect: Array.isArray(q.correct) && q.correct.includes(key)
+                    }));
+
+                const options = rawAnswers.map((ans, index) => {
                     const optId = String.fromCharCode(97 + index);
                     const cleanText = String(ans.text || '').replace(/^[a-zA-Z]\)\s*/, '');
                     return { id: optId, text: cleanText, isCorrect: Boolean(ans.isCorrect) };
@@ -499,7 +510,7 @@
 
         // SetupScreen - Now uses config and allQuestionData props for dynamic set management
         // Props changed: difficulty -> currentSetId, setDifficulty -> setCurrentSetId
-        function SetupScreen({ totalPool, onStart, hasSavedSession, onResume, currentSetId, setCurrentSetId, config, allQuestionData, websiteConfig }) {
+        function SetupScreen({ totalPool, onStart, hasSavedSession, onResume, currentSetId, setCurrentSetId, config, allQuestionData, websiteConfig, language, setLanguage }) {
             // Get config for current set to determine defaults
             const setConfig = config?.sets?.[currentSetId];
             const defaultCount = setConfig ? setConfig.defaultCount : 10;
@@ -591,6 +602,23 @@
                             </div>
                             <h1 className="text-xl font-bold text-gray-800 dark:text-white leading-tight">{websiteConfig?.title || 'PEAG Quiz'}</h1>
                             <p className="text-xs text-blue-600 dark:text-blue-400 font-medium mt-1">Evolutive Programming Algorithms</p>
+                        </div>
+
+                        <div className="mb-4 p-1 bg-gray-100 dark:bg-gray-700 rounded-xl flex gap-1">
+                            {Object.entries(LANGUAGE_OPTIONS).map(([langId, lang]) => (
+                                <button
+                                    key={langId}
+                                    type="button"
+                                    onClick={() => setLanguage(langId)}
+                                    className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all ${language === langId
+                                        ? 'bg-white dark:bg-gray-600 text-blue-600 dark:text-blue-300 shadow-sm'
+                                        : 'text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-white'
+                                        }`}
+                                >
+                                    <span className="block">{lang.label}</span>
+                                    <span className="block text-[9px] font-medium opacity-70">{lang.subtitle}</span>
+                                </button>
+                            ))}
                         </div>
 
                         {hasSavedSession && (
@@ -934,7 +962,9 @@
         function App() {
             // Loading state for JSON data
             const [config, setConfig] = useState(null);
-            const [allQuestionData, setAllQuestionData] = useState({});
+            const [allQuestionDataByLanguage, setAllQuestionDataByLanguage] = useState({ ro: {}, en: {} });
+            const [language, setLanguageState] = useState(() => localStorage.getItem('peag_language') || 'ro');
+            const allQuestionData = allQuestionDataByLanguage[language] || {};
             const [isLoading, setIsLoading] = useState(true);
             const [websiteConfig, setWebsiteConfig] = useState(null);
 
@@ -955,6 +985,12 @@
             const [isDark, setIsDark] = useState(false);
             const [hasSavedSession, setHasSavedSession] = useState(false);
 
+            const setLanguage = (lang) => {
+                if (!LANGUAGE_OPTIONS[lang]) return;
+                setLanguageState(lang);
+                localStorage.setItem('peag_language', lang);
+            };
+
             // Load config and question data from JSON files on mount
             useEffect(() => {
                 // Load theme preference
@@ -973,16 +1009,20 @@
 
                         // Then load all question sets defined in config
                         const setConfigs = configData.sets;
-                        const loadPromises = Object.values(setConfigs).map(setConfig =>
+                        const loadPromises = Object.values(setConfigs).flatMap(setConfig => ([
                             fetchJson(setConfig.dataFile)
-                                .then(data => ({ [setConfig.id]: data }))
-                        );
+                                .then(data => ({ lang: 'ro', id: setConfig.id, data })),
+                            fetchJson(setConfig.englishDataFile || setConfig.dataFile)
+                                .then(data => ({ lang: 'en', id: setConfig.id, data }))
+                        ]));
 
                         Promise.all(loadPromises)
                             .then(results => {
-                                const combined = {};
-                                results.forEach(r => Object.assign(combined, r));
-                                setAllQuestionData(combined);
+                                const combined = { ro: {}, en: {} };
+                                results.forEach(r => {
+                                    combined[r.lang][r.id] = r.data;
+                                });
+                                setAllQuestionDataByLanguage(combined);
 
                                 // Set default set from config
                                 const savedSession = localStorage.getItem('mgmt_session');
@@ -1033,6 +1073,7 @@
                 if (activeQuestions.length > 0) {
                     const sessionData = {
                         dataVersion: APP_DATA_VERSION,
+                        language,
                         screen,
                         gameMode,
                         currentSetId,      // Using new set ID instead of old 'difficulty'
@@ -1045,7 +1086,7 @@
                     localStorage.setItem('mgmt_session', JSON.stringify(sessionData));
                     setHasSavedSession(true);
                 }
-            }, [screen, gameMode, currentSetId, selectedPart, activeQuestions, answers, currentIndex, isSubmitted]);
+            }, [screen, gameMode, currentSetId, selectedPart, activeQuestions, answers, currentIndex, isSubmitted, language]);
 
             useEffect(() => {
                 if (isDark) {
@@ -1092,7 +1133,7 @@
                 }
 
                 const safeCount = Math.min(count, filteredPool.length);
-                const historyKey = `${selectedSets.join('_')}_${part}`;
+                const historyKey = `${language}_${selectedSets.join('_')}_${part}`;
                 const selected = selectQuestionsWithHistory(filteredPool, safeCount, historyKey);
 
                 setActiveQuestions(selected);
@@ -1238,6 +1279,8 @@
                             config={config}
                             allQuestionData={allQuestionData}
                             websiteConfig={websiteConfig}
+                            language={language}
+                            setLanguage={setLanguage}
                         />
                     )}
 

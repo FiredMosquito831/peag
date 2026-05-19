@@ -1,0 +1,495 @@
+{
+  "metadata": {
+    "source_txt": "all MCQs from Romanian to English google gemini-2 5-flash-lite-preview-09-2025 -batch -proofed.txt",
+    "split_method": "line-start id: 1 reset",
+    "segment_index": 7,
+    "question_count": 30,
+    "original_order_name": "profa_ocr",
+    "inferred_name_from_count": "grile_2_or_peag_exam_2_or_other_30q",
+    "first_question_preview": "Genetic algorithms",
+    "assigned_filename_inferred": "peag_exam_2_en.json",
+    "assignment_note": "Inferred from segment count/content because translated all-in-one TXT contains no filename headers."
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Genetic algorithms",
+      "answers": {
+        "a": "Are deterministic search methods in the solution space",
+        "b": "Solve exclusively problems defined over continuous spaces",
+        "c": "Are stochastic search techniques based on populations",
+        "d": "Use exclusively deterministic selections",
+        "e": "Utilize a solution variant modified by normal perturbation at every point in time"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "question": "Within a genetic algorithm, the recombination operation: 1. Is performed only once during a genetic algorithm; 2. Is performed immediately after each parent selection step; 3. In general, the recombination probability does not matter when solving problems using genetic algorithms; 4. Is performed immediately before each mutation procedure; 5. Is performed immediately before each parent selection step; 6. Uses the parent population; 7. Is used only in unconstrained problems; 8. Is used with high probability; 9. Is used with low probability; 10. Is performed only once, after the first parent selection step.",
+      "answers": {
+        "a": "4, 8, 9, 10",
+        "b": "2, 4, 6, 8",
+        "c": "2, 3, 4, 7",
+        "d": "2, 5, 7, 8",
+        "e": "1, 2, 7, 8"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "question": "Within an evolutionary algorithm, the termination condition: 1. Is mandatory; 2. Is not indicated; 3. Mandatorily includes, directly or indirectly, the control of the number of iterations (number of generated populations); 4. Cannot be implemented; 5. Is used only within GA, not in ES.",
+      "answers": {
+        "a": "1, 5",
+        "b": "5",
+        "c": "2, 3, 4",
+        "d": "1, 3",
+        "e": "2, 4"
+      },
+      "correct": [
+        "d"
+      ],
+      "correct_raw": "d",
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "question": "In a genetic algorithm, the initial population: 1. Is generated until a local optimum is reached; 2. Is constructed only once; 3. Undergoes mutation with a relatively small probability; 4. Must be modified at every iteration; 5. Contains exclusively feasible individuals; 6. Is formed by the individuals that pass into the next generation; 7. Is generated using the uniform probability distribution.",
+      "answers": {
+        "a": "2, 3, 7",
+        "b": "1, 2, 7",
+        "c": "1, 3",
+        "d": "2, 5, 7",
+        "e": "4, 5, 7"
+      },
+      "correct": [
+        "d"
+      ],
+      "correct_raw": "d",
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "question": "Which of the following methods can be used within memetic algorithms to improve the information within a population? 1. recursion; 2. hill climbing; 3. divide and conquer; 4. two-member evolutionary strategy; 5. backtracking; 6. exact methods; 7. heuristic methods; 8. data validation; 9. gradient method; 10. ECX.",
+      "answers": {
+        "a": "2, 3, 5, 6, 9",
+        "b": "2, 4, 6, 8, 10",
+        "c": "1, 3, 6, 7, 10",
+        "d": "1, 3, 5, 7, 8",
+        "e": "2, 4, 6, 7, 9"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "question": "Within a genetic algorithm that maximizes a function (fitness)? 1. The selection of the next generation is mandatorily based on age; 2. Only constrained problems are solved; 3. Mutation is performed with a small probability; 4. The use of FPS selection is not recommended; 5. The multiset of offspring is without duplicates; 6. Survivor selection is determined by quality and/or the age factor; 7. Recombination is performed rarely; 8. Determining a global maximum point is pursued; 9. The chromosomal structure differs if the function is translated.",
+      "answers": {
+        "a": "1, 3, 5, 9",
+        "b": "3, 6, 8",
+        "c": "4, 6, 8",
+        "d": "1, 3, 4, 7",
+        "e": "5, 6, 7"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "question": "Within the two-member evolutionary strategy (ES-2M)? 1. An initial random population is generated from the normal distribution; 2. At every moment of the algorithm's evolution, a single solution candidate is maintained; 3. Populations are large in size; 4. The calculation of a new term is performed by Gaussian mutation for every component of the current vector; 5. Problems in continuous spaces are solved; 6. Each term is calculated stochastically; 7. The calculation of a new term is performed by Gaussian mutation for a randomly selected component of the current vector; 8. Increasing the average quality of the current population is intended; 9. Obtaining a global optimum is guaranteed; 10. At the beginning of each iteration, the size of the current population is tested; 11. Descendants obtained from the current population through local recombination are created.",
+      "answers": {
+        "a": "6, 8, 11",
+        "b": "1, 10",
+        "c": "2, 4, 5, 6",
+        "d": "4, 8, 11",
+        "e": "2, 4, 6, 9"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "question": "In genetic algorithms, representation using integer strings",
+      "answers": {
+        "a": "Cannot be used in the case of ordinal attributes",
+        "b": "Is preferable for optimization problems",
+        "c": "Is not used in genetic algorithms",
+        "d": "Is merely an implementation exercise; it is not necessary",
+        "e": "Is preferable when more than two distinct values are possible for each gene"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 9,
+      "question": "In an evolutionary algorithm, the evaluation function?",
+      "answers": {
+        "a": "Is an asymptotic function",
+        "b": "Estimates the fitness level of the individual",
+        "c": "Is established by Holland",
+        "d": "Is defined over the one-dimensional space",
+        "e": "Is chosen according to the population size"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "question": "The ES2M algorithm?",
+      "answers": {
+        "a": "None of the other options",
+        "b": "Is not a self-adaptive algorithm",
+        "c": "Is the primary self-adaptive algorithm",
+        "d": "Is a deterministic algorithm",
+        "e": "Is not an evolutionary algorithm"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "question": "The Hill Climbing algorithm? 1. Is applied to a single point in the search space; 2. The application can be repeated for multiple points to increase performance; 3. Is inspired by climbing techniques; 4. Always finds the optimal solution; 5. Sometimes finds the optimal solution; 6. Calculations end when the system temperature becomes zero; 7. Usually finds a local optimum point; 8. Is used only for representation with real number strings.",
+      "answers": {
+        "a": "1, 2, 4, 7",
+        "b": "1, 4, 6, 7",
+        "c": "1, 5, 7, 8",
+        "d": "3, 4, 6, 8",
+        "e": "1, 2, 5, 7"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "question": "In genetic algorithms, the parent selection operation?",
+      "answers": {
+        "a": "Is used based on the chromosomal representation",
+        "b": "Is generally used in a non-deterministic manner",
+        "c": "Is used deterministically",
+        "d": "Is merely an implementation exercise; it is not necessary",
+        "e": "Is not used"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "question": "The types of problems that can be solved based on evolutionary computation include: 1. Optimization problems; 2. Geometry problems; 3. Processing of large-scale data (big data); 4. Modeling problems; 5. Data validation problems; 6. Simulation problems; 7. Dynamic allocation of data in computer memory; 8. Autonomous vehicle navigation.",
+      "answers": {
+        "a": "1, 3, 5, 7",
+        "b": "2, 4, 6, 8",
+        "c": "1, 4, 6",
+        "d": "2, 3, 4",
+        "e": "2, 4, 6"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 14,
+      "question": "Let X=[ 6 1 8 10 5 7 9 3 4 2 ] be a permutation. Following the application of inversion mutation for positions (2,7), the following mutated variant Y can be obtained: 1. Y=[ 2 6 7 8 10 5 1 9 3 4] ; 2. Y=[ 6 9 7 5 10 8 1 3 4 2 ] ; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ] ; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ] ; 5. Y=[ 6 8 7 5 10 1 9 3 4 2 ] ; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
+      "answers": {
+        "a": "2, 5",
+        "b": "5",
+        "c": "1",
+        "d": "1, 5",
+        "e": "2"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 15,
+      "question": "Let the following permutation chromosome be: {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9}. Following the application of the shuffle mutation operator, the chromosome: {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9 } was obtained. The two positions used for the shuffle are: 1. 1 and 14; 2. 4 and 15; 3. 3 and 15; 4. 4 and 8; 5. 2 and 15; 6. 1 and 12; 7. 2 and 14; 8. 2 and 13; 9. 1 and 15; 10. 1 and 13; 11. 3 and 13.",
+      "answers": {
+        "a": "1, 5, 7, 9",
+        "b": "2",
+        "c": "6",
+        "d": "5, 10",
+        "e": "6, 7, 9"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 16,
+      "question": "The components of evolutionary algorithms are: 1. Representation; 2. Mutation probability; 3. Evaluation function; 4. Recombination probability; 5. Population; 6. Random number generation; 7. Parent selection mechanism; 8. Permutation generation; 9. Graphical representation of quality evolution; 10.Variation operators; 11.Stabilirea diversității genetice a populației; 12. Mecanismul de înlocuire a populației curente; 13. Hillclimbing; 14. Inițializarea populației; 15. Condiția de terminare.",
+      "answers": {
+        "a": "2, 4, 6, 8",
+        "b": "1, 3, 5, 6, 10, 13, 14, 15",
+        "c": "1, 3, 5, 7, 10, 12, 14, 15",
+        "d": "1, 2, 5, 6, 7, 14, 15",
+        "e": "2, 4, 5, 9, 15"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 17,
+      "question": "În cadrul unui algoritm din clasa strategiilor evolutive, operația de mutație: 1. Este utilizată doar în probleme cu constrângeri; 2. Este efectuată imediat ce este disponibilă o populație de copii; 3. Alege pentru mutație în medie jumătate de indivizi; 4. Utilizează două multiseturi distincte de copii; 5. Este de tip neuniform (fluaj); 6. Este efectuată o singură dată, după prima etapă de generare a unei populații; 7. Este realizată cu probabilitate mică; 8. Este efectuată o singură dată pe parcursul unui algoritm; 9. Determină structura cromozomială; 10. Utilizează populația curentă; 11. Este efectuată iterativ.",
+      "answers": {
+        "a": "1, 5, 6, 8",
+        "b": "1, 4, 5, 7",
+        "c": "2, 5, 9, 10",
+        "d": "1, 5, 9, 10",
+        "e": "2, 5, 9, 11"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "question": "În algoritmii genetici, alegerea unei anumite reprezentări 1. Este independentă de problema de rezolvat; 2. Depinde de problema de rezolvat; 3. Poate fi făcută aleator; 4. Este imposibilă, fiind folosită doar reprezentarea prin numere reale; 5. Influențează calitatea soluției furnizate.",
+      "answers": {
+        "a": "3, 5",
+        "b": "4",
+        "c": "2, 5",
+        "d": "1, 3",
+        "e": "2, 3"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "question": "În cadrul unui algoritm evolutiv populația inițială: 1. Este generată înaintea începerii evoluției propriu-zise; 2. Este generată după fiecare ciclu evolutiv (care presupune efectuarea operațiilor de selecție, recombinare, mutație, evaluare); 3. Este generată la începutul fiecărui ciclu evolutiv; 4. Este generată aleator; 5. Este generată utilizând distribuția de probabilitate uniformă; 6. Este generată utilizând distribuția de probabilitate normală; 7. Este setată pe mulțimea vidă.",
+      "answers": {
+        "a": "1, 2, 4, 5, 6",
+        "b": "5, 7",
+        "c": "1, 2, 4, 7",
+        "d": "1, 4, 5",
+        "e": "2, 5, 7"
+      },
+      "correct": [
+        "d"
+      ],
+      "correct_raw": "d",
+      "warnings": []
+    },
+    {
+      "id": 20,
+      "question": "Care dintre următorii operatori pot fi utilizați într-un algoritm genetic care folosește reprezentarea prin șiruri de numere reale? 1. Negarea; 2. Negarea fuzzy; 3. Resetarea pseudo-aleatoare; 4. Resetare deterministă; 5. Mutația uniformă; 6. Mutația neuniformă cu distribuție fixată; 7. Mutația locală; 8. Interschimbarea; 9. Inserarea; 10. Mutația rapidă; 11. Amestecul; 12. Mutația globală; 13. Inversiunea; 14. Recombinare unipunct; 15. Recombinare multipunct; 16. Recombinare uniformă; 17. Recombinarea rădăcinilor; 18. Recombinare aritmetică simplă; 19. Recombinare aritmetică singulară; 20. Recombinare aritmetică totală; 21. Recombinarea șirurilor maxime; 22. Partially mapped crossover; 23. Recombinare de ordine; 24. Recombinarea muchiilor; 25. Recombinarea ciclică",
+      "answers": {
+        "a": "3, 4, 5, 6, 7, 12, 18, 19, 21",
+        "b": "1, 3, 4, 7, 10, 13, 16, 17, 20",
+        "c": "5, 6, 14, 15, 16, 18, 19, 20",
+        "d": "2, 7, 10, 12, 17, 21",
+        "e": "Toți operatorii de mai sus"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] o permutare. În urma aplicării mutației prin amestec pentru pozițiile (2,7) poate fi obținută următoarea variantă mutată Y: 1. Y=[ 2 6 7 8 10 5 1 9 3 4 ]; 2. Y=[ 6 7 8 10 5 1 9 3 4 2 ]; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ]; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ]; 5. Y=[ 6 9 7 5 10 8 1 3 4 2 ]; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
+      "answers": {
+        "a": "3, 4, 5",
+        "b": "1, 2, 3",
+        "c": "2, 5, 6",
+        "d": "1, 2, 5",
+        "e": "2, 4, 5"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor: 1. Se aplică asupra populației curente; 2. În unele variante necesită calcularea unei distribuții de probabilitate de selecție; 3. Utilizează întotdeauna factori aleatori; 4. Alege generația următoare dintre indivizii disponibili după operația de mutație; 5. Indivizii aleși sunt întotdeauna fezabili; 6. Uneori utilizează factori aleatori; 7. Asigură perpetuarea individului cu calitate maximă din populația curentă; 8. Duce la creșterea calității medii a populației curente; 9. Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vârstă; 10. Se aplică la începutul fiecărei iterații; 11. Se aplică asupra descendenților obținuți din populația curentă; 12. Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
+      "answers": {
+        "a": "2, 3, 4, 5, 6, 11",
+        "b": "4, 8, 11",
+        "c": "1, 7",
+        "d": "6, 8, 11",
+        "e": "2, 4, 6, 12"
+      },
+      "correct": [
+        "e"
+      ],
+      "correct_raw": "e",
+      "warnings": []
+    },
+    {
+      "id": 23,
+      "question": "Fie X=[ 6 1 8 10 5 7 12 43 9 3 4 2 ] o secvență de numere întregi. În urma aplicării mutației fluaj poate fi obținută următoarea variantă mutată: 1. Y=[ 16 1 8 10 5 7 12 43 9 3 4 2 ]; 2. Y=[ 6 1 8 10 5 7 12 43 9 4 3 2 ]; 3. Y=[ 6 1 8 10 15 7 12 43 9 3 4 2 ]; 4. Y=[ 7 1 8 10 5 7 12 43 9 3 4 2 ]; 5. Y=[ 6 1 8 10 5 7 12 43 9 3 4 2 ]; 6. Y=[ 6 1 8 10 5 7 12 42 9 3 4 2 ]",
+      "answers": {
+        "a": "2, 4, 5, 6",
+        "b": "1, 2, 3, 4, 5, 6",
+        "c": "4, 5, 6",
+        "d": "2, 4, 6",
+        "e": "2, 3, 4, 5, 6"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 24,
+      "question": "Fie permutările x=[10 2 3 9 1 7 6 4 8 5] și y=[5 4 7 2 1 9 3 6 8 10], un cromozom copil rezultat prin PMX este c=[ 5 2 3 9 1 4 7 6 8 10]. Atunci ordinea considerării părinților și respectiv punctele de încrucișare sunt:",
+      "answers": {
+        "a": "(y,x) și (2, 5)",
+        "b": "(x,y) și (2, 5)",
+        "c": "(y,x) și (1, 5)",
+        "d": "(y,x) și (1, 4)",
+        "e": "(x,y) și (1, 4)"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 25,
+      "question": "În algoritmii genetici, reprezentarea prin permutări",
+      "answers": {
+        "a": "Nu permite utilizarea de operatori de mutație",
+        "b": "Nu este utilizată",
+        "c": "Nu permite utilizarea de operatori de recombinare",
+        "d": "Necesită operatori de variație special definiți",
+        "e": "Nu permite mai mult de două gene cu aceeași valoare într-un cromozom"
+      },
+      "correct": [
+        "d"
+      ],
+      "correct_raw": "d",
+      "warnings": []
+    },
+    {
+      "id": 26,
+      "question": "Decodificarea trebuie realizată:",
+      "answers": {
+        "a": "Niciuna dintre celelalte variante",
+        "b": "Garantează obținerea de rezultate optime",
+        "c": "Obligatoriu după extragerea celui mai bun individ din populația finală",
+        "d": "Nu depinde de reprezentarea aleasă",
+        "e": "Nu e necesară în algoritmii genetici"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 27,
+      "question": "Fie următorii doi cromozomi de tip permutare: { 6, 3, 7, 8, 5, 1, 2, 4, 9 } și { 7, 2, 8, 5, 6, 9, 4, 1, 3}. Aplicând operatorul de recombinare PMX, cu pozițiile 3 și 6 se obțin descendenții: a. 6, 3, 7, 8, 5, 9, 4, 1, 2; b. 7, 4, 6, 8, 5, 1, 2, 9, 3; c. 8, 3, 7, 5, 6, 9, 4, 2, 1; d. 6, 2, 7, 8, 5, 1, 4, 9, 3; e. 7, 2, 8, 5, 6, 1, 3, 4, 9; f. 6, 2, 7, 8, 5, 9, 4, 1, 3; g. 7, 9, 8, 6, 5, 1, 2, 4, 3; h. 7, 3, 8, 5, 6, 9, 2, 4, 1; i. 7, 3, 8, 5, 6, 1, 2, 4, 9; j. 5, 3, 7, 8, 6, 9, 4, 1, 2.",
+      "answers": {
+        "a": "d, h",
+        "b": "a, e",
+        "c": "f, i",
+        "d": "g, j",
+        "e": "b, c"
+      },
+      "correct": [
+        "a"
+      ],
+      "correct_raw": "a",
+      "warnings": []
+    },
+    {
+      "id": 28,
+      "question": "În cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozomilor: 1. Poate fi oricare dintre: șiruri binare, șiruri de numere întregi, șiruri de numere reale, permutări; 2. Poate fi numai de tip șiruri de numere întregi sau reale; 3. Poate fi numai de tip șiruri de numere reale; 4. Nu influențează tipul de recombinare folosit (discretă / intermediară); 5. Se alege în funcție de problema care se rezolvă; 6. Influențează tipul de recombinare folosit; 7. Are influență asupra mecanismului de selecție a generației următoare; 8. Conține atât descrierea individului candidat cât și parametrii care controlează evoluția sa.",
+      "answers": {
+        "a": "2, 4, 5, 8",
+        "b": "1, 7, 8",
+        "c": "3, 4, 8",
+        "d": "2, 4, 5, 6",
+        "e": "1, 3, 4, 8"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    },
+    {
+      "id": 29,
+      "question": "Calculul evolutiv este inspirat din:",
+      "answers": {
+        "a": "Revoluția industrială",
+        "b": "Evoluția naturală biologică",
+        "c": "Societatea informațională",
+        "d": "Noua revoluție agrară",
+        "e": "Societatea cunoașterii"
+      },
+      "correct": [
+        "b"
+      ],
+      "correct_raw": "b",
+      "warnings": []
+    },
+    {
+      "id": 30,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sunt generați prin utilizarea operatorului CX?",
+      "answers": {
+        "a": "C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+        "b": "C1=Y, C2=X",
+        "c": "C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+        "d": "C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+        "e": "C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]"
+      },
+      "correct": [
+        "c"
+      ],
+      "correct_raw": "c",
+      "warnings": []
+    }
+  ]
+}
