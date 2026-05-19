@@ -1,0 +1,86 @@
+{
+  "id": "grile_profa_ocr_reader",
+  "name": "grile profa OCR Reader",
+  "questions": [
+    {
+      "id": 1,
+      "question": "O d.4",
+      "answers": [
+        {
+          "text": "e. 3, 5",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "e) a. 5C",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "e) a. 1,2,5C",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Toți operatorii de mai sus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. CI =[ 6 7 8 10 5 1 9 3 4 2], C2=[ 9 8 1 36751042]",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "o\td. g,j",
+      "answers": [
+        {
+          "text": "e. f, i",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O\tc. 1, 5, 7, 8",
+      "answers": [
+        {
+          "text": "e)\td. 1,2,5,^",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "•\ta.1,3c",
+      "answers": [
+        {
+          "text": "b. 1,2,7",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

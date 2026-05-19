@@ -1,0 +1,4654 @@
+{
+  "id": "the_ultimate_grile_adunate_si_culese_cu_drag_si_bucurie_de_pe_la_toti_si_toate",
+  "name": "THE_ULTIMATE_GRILE_ADUNATE_SI_CULESE_CU_DRAG_SI_BUCURIE_DE_PE_LA_TOTI_SI_TOATE",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, operatia de mutatie:",
+      "answers": [
+        {
+          "text": "a.                  Este utilizata doar in probleme cu constringeri",
+          "isCorrect": true
+        },
+        {
+          "text": "b.                  Este realizata cu probabilitate mica",
+          "isCorrect": false
+        },
+        {
+          "text": "c.                   Utilizeaza populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "d.                  Utilizeaza populatia de copii",
+          "isCorrect": false
+        },
+        {
+          "text": "e.                  Determina structura cromozomiala",
+          "isCorrect": false
+        },
+        {
+          "text": "f.                    Este de tip neuniform",
+          "isCorrect": false
+        },
+        {
+          "text": "g.                  Alege pentru mutatie in medie jumatate de indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "h.                  Este efectuata o singura data pe parcursul unui algoritm",
+          "isCorrect": false
+        },
+        {
+          "text": "i.                    Este efectuata iterativ",
+          "isCorrect": false
+        },
+        {
+          "text": "j.                    Este efectuata imediat ce este disponibila o populatie de copii",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In cadrul unui algoritm genetic operatia de recombinare:",
+      "answers": [
+        {
+          "text": "a.      Este efectuata o singura data dupa prima etapa de selectie a parintilor",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Este utilizata cu probabilitate mica",
+          "isCorrect": false
+        },
+        {
+          "text": "c.     In general probabilitatea de recombinare nu conteaza in rezolvarea problemelor prin algoritmi genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este efectuata o singura data pe parcursul unui algoritm genetic",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este efectuata imediat inaintea fiecare proceduri de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Este efectuata imediat dupa fiecare etapa de selectie a parintilor",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Este utilizata cu probabilitate mare (intre 0.5 si 1, pag. 79)",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Este efectuata iterativ",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        Este utilizata doar in probleme fara constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Utilizeaza populatia de parinti (recombinarea celor doi parinti)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In cadrul unui algoritm evolutiv populatia initiala",
+      "answers": [
+        {
+          "text": "a.      Este generata la inceputul fiecarui ciclu evolutiv-nu, pentru ca ciclu evolutiv inseamna fiecare generatie si nu e adevarat.",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Este generata utilizand distributia pe probabilitate normala",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Este generata inaintea inceperii evolutiei propriu-zise",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este generata dupa fiecare ciclu evolutiv",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este generata utilizant distributia de probabilitate uniforma",
+          "isCorrect": false
+        },
+        {
+          "text": "f.       Este generata aleator (setul initial de candidati este generat aleator, curs 1)",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Este setata pe multimea vida",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": ".          a. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+      "answers": [
+        {
+          "text": "b. 5 3 11 13 2 14 6 15 1 8 4 7 9 10 12",
+          "isCorrect": true
+        },
+        {
+          "text": "c. 5 3 11 13 2 14 6 15 1 8 4 7 9 15 12 - al doilea copil",
+          "isCorrect": false
+        },
+        {
+          "text": "d.13 1 10 7 14 8 5 15 12 11 4 2 3 9 6   - primul copil",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 5 3 15 13 2 14 6 10 1 8 4 7 9 11 12",
+          "isCorrect": false
+        },
+        {
+          "text": "f. 13 1 15 7 14 8 5 10 12 11 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "g. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "h. 13 1 11 7 14 8 5 15 12 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "i. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "j. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, operatia de recombinare:",
+      "answers": [
+        {
+          "text": "a.      Este de tip local sau global",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Este efectuata o singura data pe parcursul unui algoritm",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Alege pentru recombinare in medie jumatate de indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este realizata cu probabilitate mica",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Determina structura cromozomiala",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Utilizeaza poplatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Este efectuata o singura data, dupa prima etapa de generare a unei populatii",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Determina obtinerea unui multiset de copii in general de dimensiuni mai mari comparativ cu populatia curenta.",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        Este utilizata doar in probleme cu constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Este efectuata iterativ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozomilor",
+      "answers": [
+        {
+          "text": "a.      Influenteaza tipul de recombinare folosit",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Se alege in functie de problema care se rezolva",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Poate fi numai de tip siruri de numere intregi sau reale",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Poate fi oricare dintre: siruri binare, siruri de numere intregi, siruri de numere reale, permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Are influenta asupra mecanismului de  selectie a generatiei urmatoare",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Nu influenteaza tipul de mutatie folosit(discreta/ nediscreta)",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Poate fi numai de siruri de numere reale",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Contine atat descrierea individului candidat cat si parametrii care controleaza evolutia sa.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In cadrul unui algoritm genetic operatia de selectie a parintilor",
+      "answers": [
+        {
+          "text": "a.      Intotdeauna este bazata pe o distributie de probabilitate de selectie",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Utilizeaza populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Este efectuata o singura data pe parcursul unui algoritm genetic",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este utilizata doar in probleme cu constringeri",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este efectuata imediat inaintea fiecarei proceduri de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Este efectuata imediat ce este disponibila o populatie curenta eva",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "luata",
+      "answers": [
+        {
+          "text": "g.      Este efectuata o singura data dupa prima etapa de generare a unei populatii",
+          "isCorrect": true
+        },
+        {
+          "text": "h.      Alege in general indivizi pe baza factorului varsta",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        Utilizeaza populatia de copii mutati",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Utilizeaza populatia de copii",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       Este efectuata iterativ",
+          "isCorrect": false
+        },
+        {
+          "text": "l.        Poate fi realizata prin utilizarea unei distributii de probabilitate de selectie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": ", 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9",
+      "answers": [
+        {
+          "text": "a.      3 si 13",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      1 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       1 si 14",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      4 si 8",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      1 si 12",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        4 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      3 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      2 si 13",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        2 si 14",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        2 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       1 si 13",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In cadrul unui algoritm genetic operatia de mutatie",
+      "answers": [
+        {
+          "text": "a.      Are probabilitate mica",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Se aplica doar daca divesitatea genetica scade sub un prag x dat",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Intotdeauna produce indivizi fezabili",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Se aplica asupra descendentilor produsi de operatia de recombinare",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Se aplica asupra mutlisetului de parinti",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Se aplica asupra populatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Se utilizeaza doar in probleme cu constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Poate sa produca indivizi nefezabili",
+          "isCorrect": false
+        },
+        {
+          "text": "i.     Se efectueaza o singura data, dupa generarea populatiei initiale (mutatia se face de mai multe ori; in cazul unui algoritm genetic, mutatia se face in fiecare era)",
+          "isCorrect": false
+        },
+        {
+          "text": "j.     Se aplica imediat inaintea fiecarei etape de selectie a generatiei urmatoare (cred ca dupa mutatie urmeaza evaluare si dupa aceea selectia.- deci asta nu ar fi)",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       Se utilizeaza doar in problemele fara constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "l.        Nu foloseste factori aleatori.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "In cadrul unui algoritm genetic operatia de seleXCCCCCCSCC",
+      "answers": [
+        {
+          "text": "g.      Se aplica asupra populatiei curente si asupra descendentilor obtinuti",
+          "isCorrect": true
+        },
+        {
+          "text": "h.      Garanteaza obtinerea unei generatii cu calitate medie superioara. Daca foloseste selectia bazata pe varsta. (ASTA ESTE GENITOR, NU VARSTA)",
+          "isCorrect": false
+        },
+        {
+          "text": "i.      Se aplica asupra descendentilor. Asigura perpetuarea individului cu calitate maxima din populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Alege generatia urmatoare dintre indivizii disponibili dupa operatia de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       Se aplica asupra descendentilor obtinuti din populatia curenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Raspuns corect:",
+      "answers": [
+        {
+          "text": "h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6",
+          "isCorrect": true
+        },
+        {
+          "text": "i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Pentru pastrarea relatiilor comune din cromozomii parinti se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) PMX (Partially Mapped crossover)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu exista un operator pebntru acest scop",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX (Edge crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) incrusisare de tip turneu",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare binara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie de tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta asimptomatica",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta lenta",
+          "isCorrect": false
+        },
+        {
+          "text": "c) convergenta prematura",
+          "isCorrect": false
+        },
+        {
+          "text": "d) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Pentru problemele in care reprezentarea prin permutari semnifica ordiea de aparitie a unor evenimente, operatorul de recombinare folosit este:",
+      "answers": [
+        {
+          "text": "a) incrucisarea aritmetica singulara",
+          "isCorrect": true
+        },
+        {
+          "text": "b) incrucisarea unipunct",
+          "isCorrect": false
+        },
+        {
+          "text": "c) IPX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX (Order crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare uniforma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Mecanismul de selectie turnir:",
+      "answers": [
+        {
+          "text": "a) este intotdeauna de tip determinist",
+          "isCorrect": true
+        },
+        {
+          "text": "b) acorda o sansa si celui mai slab inidvid",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista un astfel de mecanism. Turniul este o competitie medievala",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu respecta distributia de probabilitate de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este cel mai des folosit mecanism de selectie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Pentru problemele cu dependenta de adiacente se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) OCX",
+          "isCorrect": true
+        },
+        {
+          "text": "b) niciunul din celelalte raspunsuri",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) PMX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare aritmetica singulara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Care din urmatoarele nu este un mecanism de selectie?",
+      "answers": [
+        {
+          "text": "a) Ruleta complicata",
+          "isCorrect": true
+        },
+        {
+          "text": "b) genitor",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ruleta simpla",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta multi-brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai bun optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "In cazul reprezentarii cu siruri de numere intregi, recombinarile aritmetice:",
+      "answers": [
+        {
+          "text": "a) se pot aplica daca se face rotunjirea rezultatelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) produc intotdeauna rezultate aberante",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista notiunea de recombinare aritmetica",
+          "isCorrect": false
+        },
+        {
+          "text": "d) sunt interzise",
+          "isCorrect": false
+        },
+        {
+          "text": "e) se pot aplica numai daca toate perechile de alele de pe pozitii identice sunt fie pare, fie impare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta prematura",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta asimptotica",
+          "isCorrect": false
+        },
+        {
+          "text": "c) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "d) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) convergenta lenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Schema generala de recombinare depinde de:",
+      "answers": [
+        {
+          "text": "a) numarul de indivizi din populatia initiala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) ooperatorul de recombinare folosit",
+          "isCorrect": false
+        },
+        {
+          "text": "c) existenta constrangerilor in problema de rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "d) reprezentarea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e) alegerea utilizatorului",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai buna optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "In cadrul algoritmilor genetici, generatia urmatoare este selectata dintre:",
+      "answers": [
+        {
+          "text": "a) parintii selectati",
+          "isCorrect": true
+        },
+        {
+          "text": "b) indivizii generatiei curente si descndentii obtinuti dupa etape de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) decendentii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "d) indivizii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "e) descendentii obtinuti din etapa de recombinare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Care din urmatoarele este un model de populatie?",
+      "answers": [
+        {
+          "text": "a) cu dimensiune fixa",
+          "isCorrect": true
+        },
+        {
+          "text": "b) cu dimensiune variabila",
+          "isCorrect": false
+        },
+        {
+          "text": "c) cu generatii",
+          "isCorrect": false
+        },
+        {
+          "text": "d) cu stari instabile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) cu stari stabile",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Care din urmatoarele nu este un model de distributie de probabilitate folosit pentru etapa de selectie:",
+      "answers": [
+        {
+          "text": "a) FPS cu ferestre",
+          "isCorrect": true
+        },
+        {
+          "text": "b) FPS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) FPS cu alfla scalare",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "e) FPS cu sigma scalare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Care mecanism de selectie prroduce rezultate mai apropiate de distributia de probabilitate de selectie calculata?",
+      "answers": [
+        {
+          "text": "a) toate produc rezultate la fel de apropiate",
+          "isCorrect": true
+        },
+        {
+          "text": "b) SUS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) niciunul",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta cu un brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnirul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Daca aplicarea unui operator de recombinare produce indivizi aberanti atunci:",
+      "answers": [
+        {
+          "text": "a) se folosesc parintii ca descendenti",
+          "isCorrect": true
+        },
+        {
+          "text": "b) se produce eroare la executie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) algoritmul produce totusi rezultate corecte, ca urmare a autoreglarii prin selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "d) rezultatele sunt imprevizibile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) problema nu se poate rezolva prin algoritm genetic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "De cate ori trebuie rotit bratul ruletei multi-brat pentru a executa intregul proces de selectie a parintilor, pentru o populatie cu k indivizi?",
+      "answers": [
+        {
+          "text": "a) de 2k ori",
+          "isCorrect": true
+        },
+        {
+          "text": "b) de k ori",
+          "isCorrect": false
+        },
+        {
+          "text": "c) o data",
+          "isCorrect": false
+        },
+        {
+          "text": "d) de k/2 ori",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu este ruleta multi-brat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Ce aritate are operatorul de recombinare in algorimtii genetici (cati operazi utilizeaza)",
+      "answers": [
+        {
+          "text": "a) unar (un operand)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) depinde de problema dee rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ternar (trei operanzi)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu exista operatori de recombinare in algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) binar (doi operanzi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Pentru a pastra cat mai bine informatia referioare la pozitiile absolute ale alelelor in cromozomi parinti se foloseste operatul:\na) incrucisare multipunct",
+      "answers": [
+        {
+          "text": "b) CX",
+          "isCorrect": true
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) PMX",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Care din urmatoarele afirmatii nu e adevarata petru modelul generational?",
+      "answers": [
+        {
+          "text": "a) poate inlocui un singur cromozom din populatia curenta",
+          "isCorrect": true
+        },
+        {
+          "text": "b) necesita urmarirea mai multor generatii consecutive",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu tine cont de calitatea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "d) poate inlocui parial generatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "e) poate inlocui complet generatia curenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Pentru pastrarea relatiilor comune din cromozomii parinti se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) PMX (Partially Mapped crossover)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu exista un operator pebntru acest scop",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX (Edge crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) incrusisare de tip turneu",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare binara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie de tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta asimptomatica",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta lenta",
+          "isCorrect": false
+        },
+        {
+          "text": "c) convergenta prematura",
+          "isCorrect": false
+        },
+        {
+          "text": "d) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Pentru problemele in care reprezentarea prin permutari semnifica ordiea de aparitie a unor evenimente, operatorul de recombinare folosit este:",
+      "answers": [
+        {
+          "text": "a) incrucisarea aritmetica singulara",
+          "isCorrect": true
+        },
+        {
+          "text": "b) incrucisarea unipunct",
+          "isCorrect": false
+        },
+        {
+          "text": "c) IPX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX (Order crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare uniforma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Mecanismul de selectie turnir:",
+      "answers": [
+        {
+          "text": "a) este intotdeauna de tip determinist",
+          "isCorrect": true
+        },
+        {
+          "text": "b) acorda o sansa si celui mai slab inidvid",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista un astfel de mecanism. Turniul este o competitie medievala",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu respecta distributia de probabilitate de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este cel mai des folosit mecanism de selectie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Pentru problemele cu dependenta de adiacente se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) OCX",
+          "isCorrect": true
+        },
+        {
+          "text": "b) niciunul din celelalte raspunsuri",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) PMX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare aritmetica singulara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Care din urmatoarele nu este un mecanism de selectie?",
+      "answers": [
+        {
+          "text": "a) Ruleta complicata",
+          "isCorrect": true
+        },
+        {
+          "text": "b) genitor",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ruleta simpla",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta multi-brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai bun optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "In cazul reprezentarii cu siruri de numere intregi, recombinarile aritmetice:",
+      "answers": [
+        {
+          "text": "a) se pot aplica daca se face rotunjirea rezultatelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) produc intotdeauna rezultate aberante",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista notiunea de recombinare aritmetica",
+          "isCorrect": false
+        },
+        {
+          "text": "d) sunt interzise",
+          "isCorrect": false
+        },
+        {
+          "text": "e) se pot aplica numai daca toate perechile de alele de pe pozitii identice sunt fie pare, fie impare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta prematura",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta asimptotica",
+          "isCorrect": false
+        },
+        {
+          "text": "c) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "d) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) convergenta lenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Schema generala de recombinare depinde de:",
+      "answers": [
+        {
+          "text": "a) numarul de indivizi din populatia initiala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) ooperatorul de recombinare folosit",
+          "isCorrect": false
+        },
+        {
+          "text": "c) existenta constrangerilor in problema de rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "d) reprezentarea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e) alegerea utilizatorului",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai buna optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "In cadrul algoritmilor genetici, generatia urmatoare este selectata dintre:",
+      "answers": [
+        {
+          "text": "a) parintii selectati",
+          "isCorrect": true
+        },
+        {
+          "text": "b) indivizii generatiei curente si descndentii obtinuti dupa etape de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) decendentii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "d) indivizii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "e) descendentii obtinuti din etapa de recombinare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Care din urmatoarele este un model de populatie?",
+      "answers": [
+        {
+          "text": "a) cu dimensiune fixa",
+          "isCorrect": true
+        },
+        {
+          "text": "b) cu dimensiune variabila",
+          "isCorrect": false
+        },
+        {
+          "text": "c) cu generatii",
+          "isCorrect": false
+        },
+        {
+          "text": "d) cu stari instabile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) cu stari stabile",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Care din urmatoarele nu este un model de distributie de probabilitate folosit pentru etapa de selectie:",
+      "answers": [
+        {
+          "text": "a) FPS cu ferestre",
+          "isCorrect": true
+        },
+        {
+          "text": "b) FPS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) FPS cu alfla scalare",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "e) FPS cu sigma scalare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Care mecanism de selectie prroduce rezultate mai apropiate de distributia de probabilitate de selectie calculata?",
+      "answers": [
+        {
+          "text": "a) toate produc rezultate la fel de apropiate",
+          "isCorrect": true
+        },
+        {
+          "text": "b) SUS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) niciunul",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta cu un brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnirul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Daca aplicarea unui operator de recombinare produce indivizi aberanti atunci:",
+      "answers": [
+        {
+          "text": "a) se folosesc parintii ca descendenti",
+          "isCorrect": true
+        },
+        {
+          "text": "b) se produce eroare la executie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) algoritmul produce totusi rezultate corecte, ca urmare a autoreglarii prin selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "d) rezultatele sunt imprevizibile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) problema nu se poate rezolva prin algoritm genetic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "De cate ori trebuie rotit bratul ruletei multi-brat pentru a executa intregul proces de selectie a parintilor, pentru o populatie cu k indivizi?",
+      "answers": [
+        {
+          "text": "a) de 2k ori",
+          "isCorrect": true
+        },
+        {
+          "text": "b) de k ori",
+          "isCorrect": false
+        },
+        {
+          "text": "c) o data",
+          "isCorrect": false
+        },
+        {
+          "text": "d) de k/2 ori",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu este ruleta multi-brat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Ce aritate are operatorul de recombinare in algorimtii genetici (cati operazi utilizeaza)",
+      "answers": [
+        {
+          "text": "a) unar (un operand)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) depinde de problema dee rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ternar (trei operanzi)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu exista operatori de recombinare in algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) binar (doi operanzi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "Pentru a pastra cat mai bine informatia referioare la pozitiile absolute ale alelelor in cromozomi parinti se foloseste operatul:\na) incrucisare multipunct",
+      "answers": [
+        {
+          "text": "b) CX",
+          "isCorrect": true
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) PMX",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "Care din urmatoarele afirmatii nu e adevarata petru modelul generational?",
+      "answers": [
+        {
+          "text": "a) poate inlocui un singur cromozom din populatia curenta",
+          "isCorrect": true
+        },
+        {
+          "text": "b) necesita urmarirea mai multor generatii consecutive",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu tine cont de calitatea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "d) poate inlocui parial generatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "e) poate inlocui complet generatia curenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "Raspuns corect:",
+      "answers": [
+        {
+          "text": "h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6",
+          "isCorrect": true
+        },
+        {
+          "text": "i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "-trebuie sa contina o diversitate genetica mare",
+      "answers": [
+        {
+          "text": "b.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "-utilizeaza populatia curenta",
+      "answers": [
+        {
+          "text": "d. 3,6,8",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Y= 6 1 8 10 5 7 12 42 9 3 4 2",
+      "answers": [
+        {
+          "text": "a.2,4,5,6",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "Y=  6 9 75 10 8 1 3 4 2",
+      "answers": [
+        {
+          "text": "b.2",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Este utilizata cu probabilitate mare",
+      "answers": [
+        {
+          "text": "e.2,4,6,8",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "si 15",
+      "answers": [
+        {
+          "text": "d.1,5,7,9",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Recombinarea aritmetica totala",
+      "answers": [
+        {
+          "text": "b.5,6,14,15,16,18,19,20",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "C2 = 9 8 1 3 6 7 5 10 4 2",
+      "answers": [
+        {
+          "text": "b.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Eset efectuata iterative",
+      "answers": [
+        {
+          "text": "a.2,5,9,11",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "Se urmareste determinarea unui punct de maxim global",
+      "answers": [
+        {
+          "text": "c. 3,6,8",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "3 8 5 6 9 2 4 1",
+      "answers": [
+        {
+          "text": "c. d,h",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "3 8 5 6 9 2 4 1",
+      "answers": [
+        {
+          "text": "b. d,h",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "Conditia de terminare",
+      "answers": [
+        {
+          "text": "b. 1,3,5,7,10,12,14,15",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "De obicei gaseste un punct de optim local",
+      "answers": [
+        {
+          "text": "d. 1,2,5,7",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Este generate utilizant distributia de probabilitate uniforma",
+      "answers": [
+        {
+          "text": "d. 2,5,7",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "In algoritmii genetici, operatie de selectie a parintilor:",
+      "answers": [
+        {
+          "text": "a) este utilizata in general in maniera nedeterminista",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu este utilizata",
+          "isCorrect": false
+        },
+        {
+          "text": "c) este utilizata determinista",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este utilizata in functie de reprezentarea cromozomiala",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este doar un exercitiu de implementare, nefiind necesara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozilor: 1. Poate fi oricare dintre: siruri binare, siruri de numere intregi, siruri de numere reale, permutari, 2. Poate fi numai de tip siruri de numere intregi sau reale, 3. Poate fi numai de tip siruri de numere reale, 4. Nu influenteaza tipul de recombinare folosit (discreta / indiscreta), 5. Se alege in functie de proble care se rezolva, 6. Influenteaza tipul de recombinare folosit,7. Are influenta asupra mecanismului de selectie a generatiei urmatoare, 8. Contine atat descrierea individului candidat cat si parametrii care controleaza evolutia sa.",
+      "answers": [
+        {
+          "text": "a) 2,4,5,6",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 1,3,4,8",
+          "isCorrect": false
+        },
+        {
+          "text": "c)3,4,8",
+          "isCorrect": false
+        },
+        {
+          "text": "d)2,4,5,8",
+          "isCorrect": false
+        },
+        {
+          "text": "e)1,7,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "In cadrul strategiei evolutive cu 2 membri (ES-2M): 1. Este generata o populatie initiala aleator, din distributia normala, 2. La fiecare moment al evolutiei algoritmul este mentinut un singur candidate la solutie,3.Populatiile sunt de dimensiuni mari, 4. Calculul unui termen nou este realizat prin mutatie gaussiana pentru fiecare componenta a vectorului curent, 5. Sunt rezolvate problemele de spatii continue, 6. Fiecare termen este calculat in maniera stochastica, 7. Calcul unui termen nou este realizat prin mutatie gaussiana pentru o componenta selectata aleator din vectorul curent, 8. Este intentionata cresterea calitatii medii a populatiei curente, 9.Este garantata obtinerea unui optim global, 10. La inceputul feicarei iterarii este testat dimensiunea populatiei curente, 11. Sunt creati descendetini obtinuti din populatia curenta prin recombinarea locala.",
+      "answers": [
+        {
+          "text": "a) 1,10",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 4,8,11",
+          "isCorrect": false
+        },
+        {
+          "text": "c)2,4,6,9",
+          "isCorrect": false
+        },
+        {
+          "text": "d)2,4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 6,8,11",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "Y=[6 1 8 10 5 7 12 42 9 3 4 2]",
+      "answers": [
+        {
+          "text": "a) 2, 4, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 2,4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "c)4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 1,2,3,4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 2,3,4,5,6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "In algoritmii genetici, reprezentarea prin permutari:",
+      "answers": [
+        {
+          "text": "a) nu este utilizata",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu permite utlizarea de operatori de recombinare",
+          "isCorrect": false
+        },
+        {
+          "text": "c) necesita operatori de variatie sepecial definiti",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu permite utilizarea de operatori de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu permite mai mult de doua gene cu aceeasi valoare intr un cromozom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Intr-un algoritm evolutiv, functia de evaluare:",
+      "answers": [
+        {
+          "text": "a) este o functie asimptotica",
+          "isCorrect": true
+        },
+        {
+          "text": "b) se alege in functie de dimensiunea populatiei",
+          "isCorrect": false
+        },
+        {
+          "text": "c) estimeaza nivelul de adpatate a individului",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este stabila de Holland",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este definita pe spatiul unidimensional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "In algoritmii genetici, alegerea unui anumite reprezentari 1. Este independenta de problema de rezolvat, 2. .. problema de rezolvat, 3 poate fi facuta aleator, 4. Este imposibila, fiind folosita reprezentarea prin numere reale, 5. Influenteaza calitatea solutiei furnizate",
+      "answers": [
+        {
+          "text": "a) 4",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 1,3",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 2,3",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 3,5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Decodificarea trebuie realizata:",
+      "answers": [
+        {
+          "text": "a) obligatoriu dupa extragerea celui mai bun individ din populatia finala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu depinde de reprezentarea aleasa",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu e necesara in algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "d) niciuna din celelalte variante",
+          "isCorrect": false
+        },
+        {
+          "text": "e) garanteaza obtinerea de rezultate optime",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, operatie de mutatie: 1. Este utilizata doar in probleme cu constrangeri, 2. Este efectuata imediat ce este disponibila o populatie de copii, 3. Alege pentru mutatie in medie jumatate de indivizi, 4. Utilizeaaza doua multiseturi distincte de copii, 5. Este de tip neuniform (fluaj), 6. Este efectuata o singura data, dupa prima etapa de genereare a unei populatii, 7. Este realizata cu probabilitate mica, 8. Este efectuata o singura data pe parcursul unui algoritm, 9. Determina structura cromozomiala, 10. Utilizeaza populatia curenta, 11. Este efectuata iterativ",
+      "answers": [
+        {
+          "text": "a)2,5,9,11",
+          "isCorrect": true
+        },
+        {
+          "text": "b)2,5,9,10",
+          "isCorrect": false
+        },
+        {
+          "text": "c)1,5,6,8",
+          "isCorrect": false
+        },
+        {
+          "text": "d)1,4,5,7",
+          "isCorrect": false
+        },
+        {
+          "text": "e)1,5,9,10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "Algoritmul Hillclimbing: 1. Se aplica asupra unui singur punct din spatiul de cautare, 2. Aplicarea se poate repeta pentru mai multe puncte pentru a creste performantele, 3. Este inspirat din tehnicile de alpinism, 4. Gaseste intodeauna solutia optima, 5. Gaseste uneori solutia optima, 6. Calculele se incheie atunci cand temeratura sistemului devine 0, 7. De obicei gaseste un punct de optim local, 8. Se utilieaza numai pentru reprezentarea cu siruri de numere reale",
+      "answers": [
+        {
+          "text": "a) 1,2,4,7",
+          "isCorrect": true
+        },
+        {
+          "text": "b)1,4,6,7",
+          "isCorrect": false
+        },
+        {
+          "text": "c)1,2,5,7",
+          "isCorrect": false
+        },
+        {
+          "text": "d)1,5,7,8",
+          "isCorrect": false
+        },
+        {
+          "text": "e)3,4,6,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Algoritmul ES2M:",
+      "answers": [
+        {
+          "text": "a) nu este un algoritm auto-adaptiv",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu este un algoritm evolutiv",
+          "isCorrect": false
+        },
+        {
+          "text": "c) niciuna din celelalte variante",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este algoritmul auto-adaptiv primar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "Fie permutarile x=[10 2 3 9 1 7 6 4 8 5] si y=[5 4 7 2 1 9 3 6 8 10], un cromozom copil rezultat prin PMX este c=[5 2 3 9 1 4 7 6 8 10]. Atunci ordinea considerarii parintilor si respectiv punctele de incucisare sunt:",
+      "answers": [
+        {
+          "text": "a) (x,y) si (2,5)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) (y,x) si (1,4)",
+          "isCorrect": false
+        },
+        {
+          "text": "c) (y,x) si (1,5)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) (x,y) si (1,4)",
+          "isCorrect": false
+        },
+        {
+          "text": "e)(y,x) si (2,5)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "Intr-un algoritm evolutiv, functia de evaluare:",
+      "answers": [
+        {
+          "text": "a) estimeaza nivelul de adaptare a individului’",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o functie asimptotica",
+          "isCorrect": false
+        },
+        {
+          "text": "c) se alege in functie de dimensiunea populatiei",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este stabilita de Holland",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este deinita de spatiul unidemensional",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "In cadrul unui algoritm genetic operatie de selectie a supravietuitorilor: 1. Se aplica asupra populatitei curente, 2. In unele variante necesita calcularea unei distributii de probabilitate de selectie, 3. Utilizeaza intotdeauna factori aleatori, 4. Alege generatia urmatoare dintre indivizii disponibili dupa operatia de mutatie, 5. Indivizii alesi sunt intotdeauna fezabili, 6. Uneori utiliezeaza factori aleatori, 7. Asigura perpetuarea individului cu calitatea maxima din populatia curenta, 8. Duce la cresterea calitatii medii a populatiei curente, 9. Gareanteaza obtinerea unui generatii cu calitate medie superioara, daca foloseste selectia bazata pe varsta, 10. Se aplica la inceputul fiecarei iteratii, 11. Se aplica asupra descendentilor obtinuti din populatia curenta,12. Se aplica asupra populatiei curente si asupra descendentilor obtinuti din populatia curenta.",
+      "answers": [
+        {
+          "text": "a) 2,3,4,5,6,11",
+          "isCorrect": true
+        },
+        {
+          "text": "b)2,4,5,6,12",
+          "isCorrect": false
+        },
+        {
+          "text": "c)4,8,11",
+          "isCorrect": false
+        },
+        {
+          "text": "d)1,7",
+          "isCorrect": false
+        },
+        {
+          "text": "e)6,8,11",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Componentele algoritmilor evolutivi sunt: 1. Rerprezentarea, 2. Probabilitatea de mutatie, 3. Functia de evaluare, 4. Probabilitatea de recombinare, 5. Populatia, 6. Generearea de numere aleatoare, 7. Mecanismul de selectia a parintilor, 8. Generarea de permutari, 9. Reprezentarea grafica a evolutiei calitatii, 10. Operatorii de variatie, 11. Stabilitea diversitatii genetice a populatiei, 12. Mecanismul de inlocuire a populatiei curente, 13. Hillclimbing, 14. Initializarea populatiei, 15. Conditia de terminare",
+      "answers": [
+        {
+          "text": "a) 1,3,5,6,10,13,14,15",
+          "isCorrect": true
+        },
+        {
+          "text": "b)2,4,5,9,15",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 1,3,5,7,10,12,14,15",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 1,2,5,6,7,14,15",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 2,4,6,8,11,13",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "In algoritmii genetici, reprezentarea prin siruri de numere intregi",
+      "answers": [
+        {
+          "text": "a) nu este utilizata in algoritmii genetici",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este preferabila pentru problemele de optimizare",
+          "isCorrect": false
+        },
+        {
+          "text": "c) este doar un exercitiu de implementare, nefiind necesara",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este preferabila atunci cand pentru fiecare gena sunt posibile mai mult de doua valori distincte",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu poate fi utilizata in cazul atributelor ordinale",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "In cadrul unui algoritm evoltiv conditia de terminare: 1. Este obligatorie, 2. Nu este indicata, 3. Include obligatoriu, direct sau indirect, controlul numarului de iteratii (numarul populatiilor generate), 4. Nu poate fi implementata, 5. Este doar in cadrul GA, nu si in cadrul ES",
+      "answers": [
+        {
+          "text": "a) 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 2,3,4",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 2,4",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 1,5",
+          "isCorrect": false
+        },
+        {
+          "text": "e)1,3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "Tipurile de probleme care pot fi rezolvate pe baza calcului evolutiv sunt: 1. Problema de optimizare, 2. Problemele de geometrie, 3. Prelucrarea datelor de dimensiune mare (big-data), 4. Problemele de modelare, 5. Problemele de validare a datelor, 6. Problemele de simulare, 7. Alocarea dinamica a datelor in memoria calculatorului, 8. Deplasarea autonoma a vehiculelor",
+      "answers": [
+        {
+          "text": "a) 1,4,6",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 2,4,6,8",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 2,3,4",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 2,4,6",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 1,3,5,7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "In cadrul unui algoritm genetic care maximizeaza o functie (fitness): 1. Selectia generatiei urmatoare este obliatoriu bazata pe varsta, 2. Sunt rezolvate doar problemele de constrangeri, 3. Mutatia este realizata cu probabilitate mica, 4. Nu este recomandata utilizare selectiei FPS, 5. Multisetul copiilor este fara duplicate, 6. Selectia suprevietuitorilor este determinata de calitatea si/sau factorul varsta, 7. Recombinarea este realizata rareori, 8. Se urmareste determinarea unui punct de maxim global, 9. Structura cormozomiala difera daca functia este translatat",
+      "answers": [
+        {
+          "text": "a) 1,3,4,7",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 1,3,5,9",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 5,6,7",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 4,6,8",
+          "isCorrect": false
+        },
+        {
+          "text": "e)3,6,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "question": "Algoritmii genetici:",
+      "answers": [
+        {
+          "text": "a) utlizeaza la fiecare moment de timp o varianta de solutie… prin perturbare normala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) sunt tehnici de cautare stochastica bazate pe populatii",
+          "isCorrect": false
+        },
+        {
+          "text": "c) folosesc exclusiv selectii deterministe",
+          "isCorrect": false
+        },
+        {
+          "text": "d) sunt metode deterministe de cautare in spatiul solutiilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e) rezolva exclusiv probleme definite pe spatii continue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "In cadrul unui algoritm evolutiv populatia initiala: 1 . este generata inaintea inceperii evolutiei propriu-zise, 2. Este generata dupa fiecare cilcu evolutiv (care presupune efectuarea operatiilor de selectie, recombinare, mutatie, evaluare), 3. Este generata la inceputul fiecarui ciclu evolutiv, 4. Este genereata aleator, 5. Este generata utilizand distributia de probabilitate uniforma, 6. Este generata utilizand distribtuia de probabilitate normala, 7. Este setata pe multimea vida",
+      "answers": [
+        {
+          "text": "a) 2,5,7",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 5,7",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 1,4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 1,2,4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 1,2,4,7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "Fie X=[6 1 8 10 5 7 9 3 4 2] o permutare. In urma aplicarii mutatiei prin inversiune pentru pozitiile (2,7) poate fi obtinuta urmatoarea varianta mutala: 1. Y=[2 6 7 8 10 5 1 9 3 4], 2. Y=[6 7 8 10 5 1 9 3 4 2], 3. Y=[7 6 8 10 5 1 9 3 4 2], 4. Y=[6 7 10 8 5 9 1 3 4 2], 5. Y=[6 9 7 5 10 8 1 3 4 2], 6=[6 2 8 10 5 1 9 3 4 7]",
+      "answers": [
+        {
+          "text": "a) 5",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 2",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 1, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "Care dintre urmatoarele metode pot fi folosite in cadrul algoritmilot memetici pentru a imbunatati infromatia in interiorul unei populatii: 1. Recursivitatea, 2. Hillclimbing, 3. Divide ei impera, 4. Strategie evolutiva cu doi memebri, 5. Backtracking, 6. Metode exact, 7. Metode euristice, 8. Validarea datelor, 9. Metoda gradientului, 10. ECX",
+      "answers": [
+        {
+          "text": "a) 2,4,6,8,10",
+          "isCorrect": true
+        },
+        {
+          "text": "b)1,3,5,7,8",
+          "isCorrect": false
+        },
+        {
+          "text": "c)2,3,5,6,9",
+          "isCorrect": false
+        },
+        {
+          "text": "d)2,4,6,7,9",
+          "isCorrect": false
+        },
+        {
+          "text": "e)1,3,6,7,10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "22. Fie X=[6 1 8 10 5 7 9 3 4 2] o permutare. In urma aplicarii mutatiei prin amestec pentru pozitiile (2,7) poate fi obtinuta urmatoarea varianta mutala: 1. Y=[2 6 7 8 10 5 1 9 3 4], 2. Y=[6 7 8 10 5 1 9 3 4 2], 3. Y=[7 6 8 10 5 1 9 3 4 2], 4. Y=[6 7 10 8 5 9 1 3 4 2], 5. Y=[6 9 7 5 10 8 1 3 4 2], 6=[6 2 8 10 5 1 9 3 4 7]",
+      "answers": [
+        {
+          "text": "a) 1, 2,5",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 3, 4, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 1, 2, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 2, 4, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 2,5, 6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "Utilizeaza populatia de parinti",
+      "answers": [
+        {
+          "text": "a) 2, 5, 7, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 1, 2, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "c)4,8,9,10",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 2,3,4,7",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 2,4,6,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "Fa) evolutia naturala bilogica",
+      "answers": [
+        {
+          "text": "b) revolutia industriala",
+          "isCorrect": true
+        },
+        {
+          "text": "c) noua relutie agrara",
+          "isCorrect": false
+        },
+        {
+          "text": "d) societatea cunoasterii",
+          "isCorrect": false
+        },
+        {
+          "text": "e) societatea informationala",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "question": "Fie urmatorul comozom de tip premuare: {7,6, 12, 14, 3, 10, 8, 15, 11, 5 , 4, 1 , 13, 2, 9}. In urma aplicarii operatorului de mutatie prin amestec s-a obtinut cromozumul: {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9}. Cele doua pozitii utilizate pentru ameste sunt 1. 1 si 14, 2. 4 si 15, 3. 3 si 15, 4. 4 si 8, 5. 2 si 15, 6. 1 si 12, 7. 2 si 14, 8. 2 si 13, 9. 1 si 15, 10. 1 si 13, 11. 3 si 13",
+      "answers": [
+        {
+          "text": "a)6",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 2",
+          "isCorrect": false
+        },
+        {
+          "text": "c) 6, 7, 9",
+          "isCorrect": false
+        },
+        {
+          "text": "d) 1, 5, 7, 9",
+          "isCorrect": false
+        },
+        {
+          "text": "e) 5, 10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "Negarea, 2. Megarea fuzzy, 3. Resetarea pseudo-aleatore, 4. Resetarea determinista, 5. Mutatia uniforma, 6. Mutatita neunfiroma cu mestributie fixata, 7. Mutatia locala, 8. Interschimabrea, 9. Inserarea, 10. Mutatia rapida, 11. Amestecul, 12. Mutatia globala, 13. Inversiunea, 14. Recombinarea unipunct, 15. Recombinarea multipunct, 16. Recombinarea unfiorma, 17. Recombinarea radacinilor, 18. Recombinarea artmetica simpla, 19. Recombinarea aritmetica singulara, 20. Recombinarea arimetica toatla, 21. Recombinarea sirurilor maxime, 22. Partially mapped crossover, 23. Recombinarea de ordine, 24. Recombinarea muchiilor, 25. Recombinare ciclica",
+      "answers": [
+        {
+          "text": "a) toti operatorii de mai sus",
+          "isCorrect": true
+        },
+        {
+          "text": "b) 5,6,14,15,16,18,19,20",
+          "isCorrect": false
+        },
+        {
+          "text": "c)1,3,4,7,10,13,16,17,20",
+          "isCorrect": false
+        },
+        {
+          "text": "d)2,7,10,12,17,21",
+          "isCorrect": false
+        },
+        {
+          "text": "e)3,4,5,6,7,12,18,19,21",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Fie X=[6 1 8 10 5 7 9 3 4 2] si Y=[9 8 7 3 6 1 5 10 4 2] permutari. Care urmasisunt generati prin utilizarea operatorului CX?",
+      "answers": [
+        {
+          "text": "a) C1=[ 6 7 8 10 5 1 9 3 4 2], C2=[9 8 1 3 6 7 5 10 4 2]",
+          "isCorrect": true
+        },
+        {
+          "text": "b) C1=[6 8 7 10 5 1 9 3 4 2] , C2=[9 1 8 3 6 7 5 10 4 2]",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "question": "Fie urmatorii doi cromozomi de tip permutare: {6, 3, 7, 8, 5 , 1, 2 , 4, 9} si { 7, 2, 8, 5, 6,9, 4 , 1 ,3}. Aplicand operatorul de recombinare PMX, cu pozitiile 3 si 6 se obtin descendentii:",
+      "answers": [
+        {
+          "text": "a. 6,3,7,8,5,9,4,1,2",
+          "isCorrect": true
+        },
+        {
+          "text": "b.7,4,6,8,5,1,2,9,3",
+          "isCorrect": false
+        },
+        {
+          "text": "c.8,3,7,8,5,9,4,2,1",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 6,2,7,8,5,1,4,9,3",
+          "isCorrect": false
+        },
+        {
+          "text": "e.7,2,8,5,6,1,3,4,9",
+          "isCorrect": false
+        },
+        {
+          "text": "f.6,2,7,8,5,9,4,1,3",
+          "isCorrect": false
+        },
+        {
+          "text": "g. 7,9,8,6,5,1,2,4,3",
+          "isCorrect": false
+        },
+        {
+          "text": "h.7,3,8,5,6,9,2,4,1",
+          "isCorrect": false
+        },
+        {
+          "text": "i.7,3,8,5,6,1,2,4,9",
+          "isCorrect": false
+        },
+        {
+          "text": "j.5,3,7,8,6,9,4,1,2",
+          "isCorrect": false
+        },
+        {
+          "text": "a) a, e",
+          "isCorrect": false
+        },
+        {
+          "text": "b) b, c",
+          "isCorrect": false
+        },
+        {
+          "text": "c) d,h",
+          "isCorrect": false
+        },
+        {
+          "text": "d) g, j",
+          "isCorrect": false
+        },
+        {
+          "text": "e) f,i",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "Pentru pastrarea relatiilor comune din cromozomii parinti se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) PMX (Partially Mapped crossover)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) nu exista un operator pebntru acest scop",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX (Edge crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) incrusisare de tip turneu",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare binara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie de tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta asimptomatica",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta lenta",
+          "isCorrect": false
+        },
+        {
+          "text": "c) convergenta prematura",
+          "isCorrect": false
+        },
+        {
+          "text": "d) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "question": "Pentru problemele in care reprezentarea prin permutari semnifica ordiea de aparitie a unor evenimente, operatorul de recombinare folosit este:",
+      "answers": [
+        {
+          "text": "a) incrucisarea aritmetica singulara",
+          "isCorrect": true
+        },
+        {
+          "text": "b) incrucisarea unipunct",
+          "isCorrect": false
+        },
+        {
+          "text": "c) IPX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX (Order crossover)",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare uniforma",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "Mecanismul de selectie turnir:",
+      "answers": [
+        {
+          "text": "a) este intotdeauna de tip determinist",
+          "isCorrect": true
+        },
+        {
+          "text": "b) acorda o sansa si celui mai slab inidvid",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista un astfel de mecanism. Turniul este o competitie medievala",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu respecta distributia de probabilitate de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "e) este cel mai des folosit mecanism de selectie",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "Pentru problemele cu dependenta de adiacente se foloseste operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "a) OCX",
+          "isCorrect": true
+        },
+        {
+          "text": "b) niciunul din celelalte raspunsuri",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) PMX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) incrucisare aritmetica singulara",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Care din urmatoarele nu este un mecanism de selectie?",
+      "answers": [
+        {
+          "text": "a) Ruleta complicata",
+          "isCorrect": true
+        },
+        {
+          "text": "b) genitor",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ruleta simpla",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta multi-brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnir",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai bun optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "In cazul reprezentarii cu siruri de numere intregi, recombinarile aritmetice:",
+      "answers": [
+        {
+          "text": "a) se pot aplica daca se face rotunjirea rezultatelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) produc intotdeauna rezultate aberante",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu exista notiunea de recombinare aritmetica",
+          "isCorrect": false
+        },
+        {
+          "text": "d) sunt interzise",
+          "isCorrect": false
+        },
+        {
+          "text": "e) se pot aplica numai daca toate perechile de alele de pe pozitii identice sunt fie pare, fie impare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "Care din urmatoarele este un dezavantaj al utilizatii distributiei de probabilitate de selectie tip FPS?",
+      "answers": [
+        {
+          "text": "a) Convergenta prematura",
+          "isCorrect": true
+        },
+        {
+          "text": "b) convergenta asimptotica",
+          "isCorrect": false
+        },
+        {
+          "text": "c) eliminarea indivizilor slabi",
+          "isCorrect": false
+        },
+        {
+          "text": "d) selectarea celor mai buni indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "e) convergenta lenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "Schema generala de recombinare depinde de:",
+      "answers": [
+        {
+          "text": "a) numarul de indivizi din populatia initiala",
+          "isCorrect": true
+        },
+        {
+          "text": "b) ooperatorul de recombinare folosit",
+          "isCorrect": false
+        },
+        {
+          "text": "c) existenta constrangerilor in problema de rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "d) reprezentarea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e) alegerea utilizatorului",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "Recombinarea multipla:",
+      "answers": [
+        {
+          "text": "a) nu se poate baza pe frecventa alelelor",
+          "isCorrect": true
+        },
+        {
+          "text": "b) este o generealizare a operatiilor de recombinare pentru reprezentarea cu permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are echivalent bilogic",
+          "isCorrect": false
+        },
+        {
+          "text": "d) este cea mai buna optiune pentru algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) produce rezultate mai bune doar in unele cazuri particulare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "In cadrul algoritmilor genetici, generatia urmatoare este selectata dintre:",
+      "answers": [
+        {
+          "text": "a) parintii selectati",
+          "isCorrect": true
+        },
+        {
+          "text": "b) indivizii generatiei curente si descndentii obtinuti dupa etape de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) decendentii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "d) indivizii generatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "e) descendentii obtinuti din etapa de recombinare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Care din urmatoarele este un model de populatie?",
+      "answers": [
+        {
+          "text": "a) cu dimensiune fixa",
+          "isCorrect": true
+        },
+        {
+          "text": "b) cu dimensiune variabila",
+          "isCorrect": false
+        },
+        {
+          "text": "c) cu generatii",
+          "isCorrect": false
+        },
+        {
+          "text": "d) cu stari instabile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) cu stari stabile",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "Care din urmatoarele nu este un model de distributie de probabilitate folosit pentru etapa de selectie:",
+      "answers": [
+        {
+          "text": "a) FPS cu ferestre",
+          "isCorrect": true
+        },
+        {
+          "text": "b) FPS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) FPS cu alfla scalare",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "e) FPS cu sigma scalare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Care mecanism de selectie prroduce rezultate mai apropiate de distributia de probabilitate de selectie calculata?",
+      "answers": [
+        {
+          "text": "a) toate produc rezultate la fel de apropiate",
+          "isCorrect": true
+        },
+        {
+          "text": "b) SUS",
+          "isCorrect": false
+        },
+        {
+          "text": "c) niciunul",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ruleta cu un brat",
+          "isCorrect": false
+        },
+        {
+          "text": "e) turnirul",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "Daca aplicarea unui operator de recombinare produce indivizi aberanti atunci:",
+      "answers": [
+        {
+          "text": "a) se folosesc parintii ca descendenti",
+          "isCorrect": true
+        },
+        {
+          "text": "b) se produce eroare la executie",
+          "isCorrect": false
+        },
+        {
+          "text": "c) algoritmul produce totusi rezultate corecte, ca urmare a autoreglarii prin selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "d) rezultatele sunt imprevizibile",
+          "isCorrect": false
+        },
+        {
+          "text": "e) problema nu se poate rezolva prin algoritm genetic",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "De cate ori trebuie rotit bratul ruletei multi-brat pentru a executa intregul proces de selectie a parintilor, pentru o populatie cu k indivizi?",
+      "answers": [
+        {
+          "text": "a) de 2k ori",
+          "isCorrect": true
+        },
+        {
+          "text": "b) de k ori",
+          "isCorrect": false
+        },
+        {
+          "text": "c) o data",
+          "isCorrect": false
+        },
+        {
+          "text": "d) de k/2 ori",
+          "isCorrect": false
+        },
+        {
+          "text": "e) nu este ruleta multi-brat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "Ce aritate are operatorul de recombinare in algorimtii genetici (cati operazi utilizeaza)",
+      "answers": [
+        {
+          "text": "a) unar (un operand)",
+          "isCorrect": true
+        },
+        {
+          "text": "b) depinde de problema dee rezolvat",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ternar (trei operanzi)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) nu exista operatori de recombinare in algoritmii genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "e) binar (doi operanzi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "Pentru a pastra cat mai bine informatia referioare la pozitiile absolute ale alelelor in cromozomi parinti se foloseste operatul:\na) incrucisare multipunct",
+      "answers": [
+        {
+          "text": "b) CX",
+          "isCorrect": true
+        },
+        {
+          "text": "c) ECX",
+          "isCorrect": false
+        },
+        {
+          "text": "d) OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "e) PMX",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "Care din urmatoarele afirmatii nu e adevarata petru modelul generational?",
+      "answers": [
+        {
+          "text": "a) poate inlocui un singur cromozom din populatia curenta",
+          "isCorrect": true
+        },
+        {
+          "text": "b) necesita urmarirea mai multor generatii consecutive",
+          "isCorrect": false
+        },
+        {
+          "text": "c) nu tine cont de calitatea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "d) poate inlocui parial generatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "e) poate inlocui complet generatia curenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "Raspuns corect:",
+      "answers": [
+        {
+          "text": "h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6",
+          "isCorrect": true
+        },
+        {
+          "text": "i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "A. Necesită operatori de variație special definiți",
+          "isCorrect": true
+        },
+        {
+          "text": "B.\nNu permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Nu este utilizată",
+          "isCorrect": false
+        },
+        {
+          "text": "D.\nNu permite utilizarea de operatori de recombinare",
+          "isCorrect": false
+        },
+        {
+          "text": "E.\nNu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 6,7,8",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 1,3",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 9",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2,3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "isCorrect": true
+        },
+        {
+          "text": "b. C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "c. C1=Y, C2=X",
+          "isCorrect": false
+        },
+        {
+          "text": "d. C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "e. C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. 2, 3, 4, 5, 6, 11",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 1,7",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 2, 4, 5, 6, 12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Operatorul de mutație cel mai utilizat este mutația prin interschimbare",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Sunt utilizați operatori de recombinare OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Nu se permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Mutația este aplicată cu probabilitate 1",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Reprezentarea este prin vectori binari",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "question": "În algoritmii genetici, reprezentarea prin permutări",
+      "answers": [
+        {
+          "text": "A. Nu permite utilizarea de operatori de recombinare",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Nu permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "isCorrect": false
+        },
+        {
+          "text": "D. Necesită operatori de variație special definiți",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Nu este utilizată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "Într-un algoritm evolutiv, funcția fitness: 1. Evaluează calitatea algoritmului; 2. Trebuie selectată aleator; 3. Evaluează viteza de găsire a soluției față de consumul de resurse; 4. Trebuie modificată la fiecare iterație; 5. Selectează indivizii care se vor reproduce; 6. Selectează indivizii care trec în generația următoare; 7. Evaluează calitatea populației curente față de cea a populației inițiale; 8. Evaluează calitatea populației curente față de cea din generația anterioară; 9. Evaluează calitatea fiecărui candidat.",
+      "answers": [
+        {
+          "text": "A. 1, 3",
+          "isCorrect": true
+        },
+        {
+          "text": "B. 2,3",
+          "isCorrect": false
+        },
+        {
+          "text": "C. 9",
+          "isCorrect": false
+        },
+        {
+          "text": "D. 4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "E. 6, 7, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sînt generați prin utilizarea operatorului CX?",
+      "answers": [
+        {
+          "text": "A. C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "isCorrect": true
+        },
+        {
+          "text": "B. C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "C. C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "D. C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "E. C1=Y, C2=X",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "question": "Fie următorii doi cromozomi de tip permutare: {6, 3, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12 } și {7, 1, 15, 13, 2, 14, 6, 10, 12, 11, 4, 8, 3, 9, 5}. Aplicînd operatorul de recombinare PMX, cu pozițiile 4 și 8 se obțin descendenții: a. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1; b. 13 1 11 7 14 8 5 15 12 10 4 2 3 9 6; c. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6; d. 5 3 11 13 2 14 6 15 1 8 4 7 9 10 12; e. 5 3 15 13 2 14 6 10 1 8 4 7 9 11 12; f. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6; g. 13 1 15 7 14 8 5 10 12 11 4 2 3 9 6; h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6; i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12.",
+      "answers": [
+        {
+          "text": "A. a, b",
+          "isCorrect": true
+        },
+        {
+          "text": "B. e, f",
+          "isCorrect": false
+        },
+        {
+          "text": "C. a, c",
+          "isCorrect": false
+        },
+        {
+          "text": "D. h, i",
+          "isCorrect": false
+        },
+        {
+          "text": "E. f, i",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor: 1. Se aplică asupra populației curente; 2. În unele variante necesită calcularea unei distribuții de probabilitate de selecție; 3. Utilizează întotdeauna factori aleatori; 4. Alege generația următoare dintre indivizii disponibili după operația de mutație; 5. Indivizii aleși sînt întotdeauna fezabili; 6. Uneori utilizează factori aleatori; 7. Asigură perpetuarea individului cu calitate maximă din populația curentă; 8. Duce la creșterea calității medii a populației curente; 9. Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vîrstă; 10.Se aplică la începutul fiecărei iterații; 11. Se aplică asupra descendenților obținuți din populația curentă; 12. Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
+      "answers": [
+        {
+          "text": "A. 2, 3, 4, 5, 6, 11",
+          "isCorrect": true
+        },
+        {
+          "text": "B. 4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "C. 2, 4, 5, 6, 12",
+          "isCorrect": false
+        },
+        {
+          "text": "D. 6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "E. 1, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Nu este utilizată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "In cadrul unui algoritm evolutive conditia de terminare: 1. este obligatorie; 2.nu este indicata; 3. include obligatoriu, direct sau indirect, controlul numarului de iteratii (nr pop generate), 4. nu poate fi implementata 5. este utilizata doar in GA, nu si in cadrul ES",
+      "answers": [
+        {
+          "text": "b. 1,3",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Influenteaza calitatea solutiei furnizate",
+      "answers": [
+        {
+          "text": "a.4; b.1,3; c.2,5; d.2,3 e.3,5",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Algoritmul ES2M:",
+      "answers": [
+        {
+          "text": "a. nu este un algoritm auto-adaptiv",
+          "isCorrect": true
+        },
+        {
+          "text": "b. nu este un algoritm evolutive",
+          "isCorrect": false
+        },
+        {
+          "text": "c. nici una din celelalte variante",
+          "isCorrect": false
+        },
+        {
+          "text": "d. este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "e. este algoritmul auto-adaptiv primar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "question": "În algoritmii genetici, reprezentarea prin permutări",
+      "answers": [
+        {
+          "text": "A. Nu permite utilizarea de operatori de recombinare",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Nu permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "isCorrect": false
+        },
+        {
+          "text": "D. Necesită operatori de variație special definiți",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Nu este utilizată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "question": "Evaluează calitatea fiecărui candidat.",
+      "answers": [
+        {
+          "text": "A. 1, 3",
+          "isCorrect": true
+        },
+        {
+          "text": "B. 2,3",
+          "isCorrect": false
+        },
+        {
+          "text": "C. 9",
+          "isCorrect": false
+        },
+        {
+          "text": "D. 4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "E. 6, 7, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sunt generați prin utilizarea operatorului CX?",
+      "answers": [
+        {
+          "text": "A. C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "isCorrect": true
+        },
+        {
+          "text": "B. C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "C. C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "D. C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "question": "Fie următorii doi cromozomi de tip permutare: {6, 3, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12 } și {7, 1, 15, 13, 2, 14, 6, 10, 12, 11, 4, 8, 3, 9, 5}. Aplicand operatorul de recombinare PMX, cu pozițiile 4 și 8 se obțin descendenții:",
+      "answers": [
+        {
+          "text": "a. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1;",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 13 1 11 7 14 8 5 15 12 10 4 2 3 9 6;",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6;",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 5 3 11 13 2 14 6 15 1 8 4 7 9 10 12;",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 5 3 15 13 2 14 6 10 1 8 4 7 9 11 12;",
+          "isCorrect": false
+        },
+        {
+          "text": "f. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6;",
+          "isCorrect": false
+        },
+        {
+          "text": "g. 13 1 15 7 14 8 5 10 12 11 4 2 3 9 6;",
+          "isCorrect": false
+        },
+        {
+          "text": "h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6;",
+          "isCorrect": false
+        },
+        {
+          "text": "i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12.",
+          "isCorrect": false
+        },
+        {
+          "text": "A. a, b",
+          "isCorrect": false
+        },
+        {
+          "text": "B. e, f",
+          "isCorrect": false
+        },
+        {
+          "text": "C. a, c",
+          "isCorrect": false
+        },
+        {
+          "text": "D. h, i",
+          "isCorrect": false
+        },
+        {
+          "text": "E. f, i",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "question": "Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
+      "answers": [
+        {
+          "text": "A. 2, 3, 4, 5, 6, 11",
+          "isCorrect": true
+        },
+        {
+          "text": "B. 4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "C. 2, 4, 5, 6, 12",
+          "isCorrect": false
+        },
+        {
+          "text": "D. 6,8,11",
+          "isCorrect": false
+        },
+        {
+          "text": "E.1,7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "question": "Se urmareste determianarea unui punct de maxim global",
+      "answers": [
+        {
+          "text": "A. 3,4,7,9",
+          "isCorrect": true
+        },
+        {
+          "text": "B. 2,3,5,9",
+          "isCorrect": false
+        },
+        {
+          "text": "C.1,3,5,7",
+          "isCorrect": false
+        },
+        {
+          "text": "D.4,7,9,10",
+          "isCorrect": false
+        },
+        {
+          "text": "E.1,2,3,4,7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "question": "Se aplica asupra descendentilor produsi de operatia de recombinare;",
+      "answers": [
+        {
+          "text": "A.3,5,7,12",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,4,5,8",
+          "isCorrect": false
+        },
+        {
+          "text": "C.6,7,8,10,11",
+          "isCorrect": false
+        },
+        {
+          "text": "D.2,4,5,6,7",
+          "isCorrect": false
+        },
+        {
+          "text": "E.4,8,10,12",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "question": "Este efectuata o singura data, dupa prima etapa de selectie a parintilor",
+      "answers": [
+        {
+          "text": "A.2,4,6,8,10;",
+          "isCorrect": true
+        },
+        {
+          "text": "B.2,6,7,8,9;",
+          "isCorrect": false
+        },
+        {
+          "text": "C.3,4,5,8,9",
+          "isCorrect": false
+        },
+        {
+          "text": "D.1,3,5,7,9;",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4,5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "question": "Influenteaza tipul de recombinare folosit;",
+      "answers": [
+        {
+          "text": "A.1,2,4,5",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,3,4,6",
+          "isCorrect": false
+        },
+        {
+          "text": "C.4,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "D.1,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4,5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "question": "In algoritmii genetici, reprezentarea prin siruri de numere intregi:",
+      "answers": [
+        {
+          "text": "A. Este preferabila pentru problemele de optimizare",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Este doar un exercitiu de implementare, nefiind necesara",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Nu poate si utilizata in cazul atributelor ordinale",
+          "isCorrect": false
+        },
+        {
+          "text": "D. E preferabila atunci cand pentru fiecare gena sunt posibile mai mult de doua valori distincte",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Nu este utilizata in algoritmi genetici",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "question": "Are influenta asupra mecanismului de selectie a generatiei urmatoare;",
+      "answers": [
+        {
+          "text": "A.1,7;  B.1,3,4;  C.2,4,5;  D. 3,4;   E.2,4,5,6",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "question": "Conditia de terminare",
+      "answers": [
+        {
+          "text": "A.1,3,5,7,10,12,14,15",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,3,5,6,10,13,14,15",
+          "isCorrect": false
+        },
+        {
+          "text": "C.2,4,6,8,11,13",
+          "isCorrect": false
+        },
+        {
+          "text": "D.1,2,5,6,7,14,15",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4,5,9,15",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "question": "este efectuata iterativ",
+      "answers": [
+        {
+          "text": "A.3,6,8,12;    B.3,6,7,8;    C.2,5,8,12;    D.1,2,4,5;  E.4,6,7,8;",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "question": "Evalueaza caliatea populatie curente fata de cea din generatia anterioara.",
+      "answers": [
+        {
+          "text": "A.5;",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,3;",
+          "isCorrect": false
+        },
+        {
+          "text": "C.6,7,8;",
+          "isCorrect": false
+        },
+        {
+          "text": "D.9,10;",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4;",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "question": "Fie urmatorul cromozom de numere intregi: ....",
+      "answers": [
+        {
+          "text": "B.1,2,3,5?",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "question": "Calculul evolutiv este:",
+      "answers": [
+        {
+          "text": "A. Similar metodelor de cautare directa",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Tehnica de rezolvare a problemelor este de tip experiment-eroare",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Concept ce confirma teoria relativitatii",
+          "isCorrect": false
+        },
+        {
+          "text": "D. Similar algoritmului de sortare;",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Concept ce concretizeaza teoria evolutiei;",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "question": "este efectuata iterativ",
+      "answers": [
+        {
+          "text": "A.2,10",
+          "isCorrect": true
+        },
+        {
+          "text": "B.3,4,7",
+          "isCorrect": false
+        },
+        {
+          "text": "C.2,5",
+          "isCorrect": false
+        },
+        {
+          "text": "D.6,9",
+          "isCorrect": false
+        },
+        {
+          "text": "E.7,8,10",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "question": "recombinarea ciclica",
+      "answers": [
+        {
+          "text": "A.1,3,4,7,10,13,16,17,20",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Toti operatorii de mai sus",
+          "isCorrect": false
+        },
+        {
+          "text": "C.3,4,5,6,7,12,18,19,21",
+          "isCorrect": false
+        },
+        {
+          "text": "D.2,7,10,12,17,21",
+          "isCorrect": false
+        },
+        {
+          "text": "E.5,6,14,15,16,18,19,20",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "question": "si {7,1,15,13,2,14,6,10,12,11,4,8,3,9,5}. Aplicand operatorul de recombinare OCX, cu pozitiile 4 si 8 se obtin descententii:",
+      "answers": [
+        {
+          "text": "a. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+          "isCorrect": true
+        },
+        {
+          "text": "b. 13 1 11 7 14 8 5 15 12 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "d. 5 3 11 13 2 14 6 15 1 8 4 7 9 10 12",
+          "isCorrect": false
+        },
+        {
+          "text": "e. 5 3 15 13 2 14 6 10 1 8 4 7 9 11 12",
+          "isCorrect": false
+        },
+        {
+          "text": "f. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "g. 13 1 15 7 14  5 10 12 11 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "h. 13 1 10 7 14 8 5 15 12 11 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "i. 5 3 11 13 2 14 6 10 1 8 4 7 9 15 12",
+          "isCorrect": false
+        },
+        {
+          "text": "j. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+          "isCorrect": false
+        },
+        {
+          "text": "A. c,d",
+          "isCorrect": false
+        },
+        {
+          "text": "B. f,i",
+          "isCorrect": false
+        },
+        {
+          "text": "C. h,i",
+          "isCorrect": false
+        },
+        {
+          "text": "D. c,j",
+          "isCorrect": false
+        },
+        {
+          "text": "E. a,b",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "question": "Deplasarea automata a vehiculelor",
+      "answers": [
+        {
+          "text": "A.2,3,4",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,4,6",
+          "isCorrect": false
+        },
+        {
+          "text": "C.1,3,5,7",
+          "isCorrect": false
+        },
+        {
+          "text": "D.2,4,6",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4,6,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "question": "Depinde de reprezentarea cromozomiala",
+      "answers": [
+        {
+          "text": "A.2,4,7.",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,5,8",
+          "isCorrect": false
+        },
+        {
+          "text": "C.3,5,6",
+          "isCorrect": false
+        },
+        {
+          "text": "D.2,3,4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "E.1,4,7,8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "question": "In algoritmii genetici, reprezentarea binara:",
+      "answers": [
+        {
+          "text": "A. Nu permite utilizarea de operatori de recombinare",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Nu permite utilizarea de operatori de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Necesita operatori de variatie special definiti",
+          "isCorrect": false
+        },
+        {
+          "text": "D. nu permite mai mult de doua gene cu aceeasi valoare intr-un cromozom",
+          "isCorrect": false
+        },
+        {
+          "text": "E. nu este utilizata",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "question": "este setata pe multimea vida",
+      "answers": [
+        {
+          "text": "A.1,2,3,4,5,6;       B. 5,7;   C.1,2,4,7;    D.2,5,7;     E.1,4,5;",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "question": "Este eficienta exclusiv in probleme cu restrictii",
+      "answers": [
+        {
+          "text": "A.1,5",
+          "isCorrect": true
+        },
+        {
+          "text": "B.1,4,5",
+          "isCorrect": false
+        },
+        {
+          "text": "C.1,3,5",
+          "isCorrect": false
+        },
+        {
+          "text": "D.2,3,6",
+          "isCorrect": false
+        },
+        {
+          "text": "E.2,4,6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "question": "Se utilizeaza numai pentru reprezentare cu siruri de numere reale",
+      "answers": [
+        {
+          "text": "A.1,4,6,7",
+          "isCorrect": true
+        },
+        {
+          "text": "B.3,4,6,8",
+          "isCorrect": false
+        },
+        {
+          "text": "C.1,2,4,6",
+          "isCorrect": false
+        },
+        {
+          "text": "D.1,5,7,8",
+          "isCorrect": false
+        },
+        {
+          "text": "E.1,2,5,7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, autoadaptibilitatea se refera la:",
+      "answers": [
+        {
+          "text": "A. Functia fitness",
+          "isCorrect": true
+        },
+        {
+          "text": "B. Distributia de probabilitate de selectie;",
+          "isCorrect": false
+        },
+        {
+          "text": "C. Modelul de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "D. Spatiul parametrilor",
+          "isCorrect": false
+        },
+        {
+          "text": "E. Modelul de selectie al parintilor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Operatorul de mutație cel mai utilizat este mutația prin interschimbare",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Nu se permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Sunt utilizați operatori de recombinare OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Mutația este aplicată cu probabilitate 1",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Reprezentarea este prin vectori binari",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, operatia de mutatie:",
+      "answers": [
+        {
+          "text": "a. Este utilizata doar in probleme cu constringeri",
+          "isCorrect": false
+        },
+        {
+          "text": "b.                  Este realizata cu probabilitate mica ()",
+          "isCorrect": true
+        },
+        {
+          "text": "c.                   Utilizeaza populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "d.                  Utilizeaza populatia de copii ()",
+          "isCorrect": true
+        },
+        {
+          "text": "e.                  Determina structura cromozomiala()",
+          "isCorrect": true
+        },
+        {
+          "text": "f.                    Este de tip neuniform ()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.                  Alege pentru mutatie in medie jumatate de indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "h.                  Este efectuata o singura data pe parcursul unui algoritm",
+          "isCorrect": false
+        },
+        {
+          "text": "i.                    Este efectuata iterative()",
+          "isCorrect": true
+        },
+        {
+          "text": "j.                    Este efectuata imediat ce este disponibila o populatie de copii()",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "question": "In cadrul unui algoritm genetic operatia de recombinare:",
+      "answers": [
+        {
+          "text": "a.      Este efectuata o singura data dupa prima etapa de selectie a parintilor",
+          "isCorrect": false
+        },
+        {
+          "text": "b.      Este utilizata cu probabilitate mica",
+          "isCorrect": false
+        },
+        {
+          "text": "c.     In general probabilitatea de recombinare nu conteaza in rezolvarea problemelor prin algoritmi genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este efectuata o singura data pe parcursul unui algoritm genetic",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este efectuata imediat inaintea fiecare proceduri de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Este efectuata imediat dupa fiecare etapa de selectie a parintilor()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.      Este utilizata cu probabilitate mare (intre 0.5 si 1, pag. 79)()",
+          "isCorrect": true
+        },
+        {
+          "text": "h.      Este efectuata iterativ ()",
+          "isCorrect": true
+        },
+        {
+          "text": "i.        Este utilizata doar in probleme fara constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Utilizeaza populatia de parinti (recombinarea celor doi parinti) ()",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "question": "In cadrul unui algoritm evolutiv populatia initiala",
+      "answers": [
+        {
+          "text": "a.      Este generata la inceputul fiecarui ciclu evolutiv-nu, pentru ca ciclu evolutiv inseamna fiecare generatie si nu e adevarat.",
+          "isCorrect": false
+        },
+        {
+          "text": "b.      Este generata utilizand distributia pe probabilitate normala",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Este generata inaintea inceperii evolutiei propriu-zise  ()",
+          "isCorrect": true
+        },
+        {
+          "text": "d.      Este generata dupa fiecare ciclu evolutiv",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este generata utilizant distributia de probabilitate uniforma()",
+          "isCorrect": true
+        },
+        {
+          "text": "f.       Este generata aleator (setul initial de candidati este generat aleator, curs 1) ()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.      Este setata pe multimea vida",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "question": "Fie urmatorii doi cromozomi de tip permutare {6, 3, 11,7, 14, 8, 5, 15, 1, 2, 4, 13, 9 ,10 ,12 } si {7, 1, 15,13,2, 14,6,10,12,11,4,8,3,9, 5}. Aplicand operatorul de recombinare PMX, cu pozitile 4 si 8 se obtin descendentii.  .",
+      "answers": [
+        {
+          "text": "a. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+          "isCorrect": false
+        },
+        {
+          "text": "b. 5 3 11 13 2 14 6 15 1 8 4 7 9 10 12",
+          "isCorrect": false
+        },
+        {
+          "text": "c. 5 3 11 13 2 14 6 15 1 8 4 7 9 15 12 - al doilea copil ()",
+          "isCorrect": true
+        },
+        {
+          "text": "d.13 1 10 7 14 8 5 15 12 11 4 2 3 9 6   - primul copil  ()",
+          "isCorrect": true
+        },
+        {
+          "text": "e. 5 3 15 13 2 14 6 10 1 8 4 7 9 11 12",
+          "isCorrect": false
+        },
+        {
+          "text": "f. 13 1 15 7 14 8 5 10 12 11 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "g. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "h. 13 1 11 7 14 8 5 15 12 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "i. 13 12 11 7 14 8 5 15 1 10 4 2 3 9 6",
+          "isCorrect": false
+        },
+        {
+          "text": "j. 5 3 15 13 2 14 6 10 12 8 4 7 9 11 1",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, operatia de recombinare:",
+      "answers": [
+        {
+          "text": "a.      Este de tip local sau global ()",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Este efectuata o singura data pe parcursul unui algoritm",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Alege pentru recombinare in medie jumatate de indivizi",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este realizata cu probabilitate mica",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Determina structura cromozomiala",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Utilizeaza poplatia curenta ()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.      Este efectuata o singura data, dupa prima etapa de generare a unei populatii",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Determina obtinerea unui multiset de copii in general de dimensiuni mai mari comparativ cu populatia curenta.()",
+          "isCorrect": true
+        },
+        {
+          "text": "i.        Este utilizata doar in probleme cu constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Este efectuata iterative()",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "question": "In cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozomilor",
+      "answers": [
+        {
+          "text": "a.      Influenteaza tipul de recombinare folosit",
+          "isCorrect": false
+        },
+        {
+          "text": "b.      Se alege in functie de problema care se rezolva",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Poate fi numai de tip siruri de numere intregi sau reale",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Poate fi oricare dintre: siruri binare, siruri de numere intregi, siruri de numere reale, permutari",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Are influenta asupra mecanismului de  selectie a generatiei urmatoare",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Nu influenteaza tipul de mutatie folosit(discreta/ nediscreta) ()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.      Poate fi numai de siruri de numere reale ()",
+          "isCorrect": true
+        },
+        {
+          "text": "h.      Contine atat descrierea individului candidat cat si parametrii care controleaza evolutia sa. ()",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "question": "In cadrul unui algoritm genetic operatia de selectie a parintilor",
+      "answers": [
+        {
+          "text": "a.      Intotdeauna este bazata pe o distributie de probabilitate de selectie",
+          "isCorrect": false
+        },
+        {
+          "text": "b.      Utilizeaza populatia curenta ()",
+          "isCorrect": true
+        },
+        {
+          "text": "c.       Este efectuata o singura data pe parcursul unui algoritm genetic",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Este utilizata doar in probleme cu constringeri",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      Este efectuata imediat inaintea fiecarei proceduri de mutatie",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Este efectuata imediat ce este disponibila o populatie curenta eva luata()",
+          "isCorrect": true
+        },
+        {
+          "text": "g.      Este efectuata o singura data dupa prima etapa de generare a unei populatii",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Alege in general indivizi pe baza factorului varsta",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        Utilizeaza populatia de copii mutate",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Utilizeaza populatia de copii",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       Este efectuata iterativ ()",
+          "isCorrect": true
+        },
+        {
+          "text": "l.        Poate fi realizata prin utilizarea unei distributii de probabilitate de selectie()",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "question": "Fie urmatorul cromozom de tip permutare {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9} In urma aplicarii operatorului de mutatie prin amestec s-a obitnut cromozomul {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9 }. Cele doua pozitii utilizate pentru amestesc sunt: 7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9 7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9",
+      "answers": [
+        {
+          "text": "a.      3 si 13",
+          "isCorrect": false
+        },
+        {
+          "text": "b.      1 si 15 ()",
+          "isCorrect": true
+        },
+        {
+          "text": "c.       1 si 14 ()",
+          "isCorrect": true
+        },
+        {
+          "text": "d.      4 si 8",
+          "isCorrect": false
+        },
+        {
+          "text": "e.      1 si 12",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        4 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      3 si 15",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      2 si 13",
+          "isCorrect": false
+        },
+        {
+          "text": "i.        2 si 14 ()",
+          "isCorrect": true
+        },
+        {
+          "text": "j.        2 si 15 ()",
+          "isCorrect": true
+        },
+        {
+          "text": "k.       1 si 13",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "question": "In cadrul unui algoritm genetic operatia de mutatie",
+      "answers": [
+        {
+          "text": "a.      Are probabilitate mica()",
+          "isCorrect": true
+        },
+        {
+          "text": "b.      Se aplica doar daca divesitatea genetica scade sub un prag x dat",
+          "isCorrect": false
+        },
+        {
+          "text": "c.       Intotdeauna produce indivizi fezabili",
+          "isCorrect": false
+        },
+        {
+          "text": "d.      Se aplica asupra descendentilor produsi de operatia de recombinare ()",
+          "isCorrect": true
+        },
+        {
+          "text": "e.      Se aplica asupra mutlisetului de parinti",
+          "isCorrect": false
+        },
+        {
+          "text": "f.        Se aplica asupra populatiei curente",
+          "isCorrect": false
+        },
+        {
+          "text": "g.      Se utilizeaza doar in probleme cu constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "h.      Poate sa produca indivizi nefezabili ()",
+          "isCorrect": true
+        },
+        {
+          "text": "i.     Se efectueaza o singura data, dupa generarea populatiei initiale (mutatia se face de mai multe ori; in cazul unui algoritm genetic, mutatia se face in fiecare era)",
+          "isCorrect": false
+        },
+        {
+          "text": "j.     Se aplica imediat inaintea fiecarei etape de selectie a generatiei urmatoare (cred ca dupa mutatie urmeaza evaluare si dupa aceea selectia.- deci asta nu ar fi)",
+          "isCorrect": false
+        },
+        {
+          "text": "k.       Se utilizeaza doar in problemele fara constrangeri",
+          "isCorrect": false
+        },
+        {
+          "text": "l.        Nu foloseste factori aleatori.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "question": "In cadrul unui algoritm genetic operatia de seleXCCCCCCSCC",
+      "answers": [
+        {
+          "text": "g.      Se aplica asupra populatiei curente si asupra descendentilor obtinuti()",
+          "isCorrect": true
+        },
+        {
+          "text": "h.      Garanteaza obtinerea unei generatii cu calitate medie superioara. Daca foloseste selectia bazata pe varsta. (ASTA ESTE GENITOR, NU VARSTA)",
+          "isCorrect": false
+        },
+        {
+          "text": "i.      Se aplica asupra descendentilor. Asigura perpetuarea individului cu calitate maxima din populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "j.        Alege generatia urmatoare dintre indivizii disponibili dupa operatia de mutatie ()",
+          "isCorrect": true
+        },
+        {
+          "text": "k.       Se aplica asupra descendentilor obtinuti din populatia curenta",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "question": "In cadrul unui algoritm genetic operatia de selectie a parintilor:",
+      "answers": [
+        {
+          "text": "R.Este efectuata iterative,Utilizeaza populatia curenta,Este efectuata imediat ce este disponibila o populatie curenta evaluate,Poate fi realizata prin utilizarea unei distributii de probabilitate de selectie.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "question": "Care dintre urmatoarele nu este un model de distributie de probabiliate folosit pentru etapa de selectie:",
+      "answers": [
+        {
+          "text": "a.FPS",
+          "isCorrect": true
+        },
+        {
+          "text": "b.Ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "c.FPS cu ferestre",
+          "isCorrect": false
+        },
+        {
+          "text": "d.FPS cu sigma scalare",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Fps cu alfa scalare",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "question": "Care dintre urmatoarele afirmatii nu e adevarata pentru modelul generational?",
+      "answers": [
+        {
+          "text": "a.Poate inlocui complet generatia curenta",
+          "isCorrect": true
+        },
+        {
+          "text": "b.Nu tine cont de calitatea cromozomilor",
+          "isCorrect": false
+        },
+        {
+          "text": "c.Poate inlocui partial generatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "d.Poate inlocui un singur cromozom din populatia curenta",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Necesita urmarirea mai multor generatii consecutive",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "question": "Algoritmii genetici:",
+      "answers": [
+        {
+          "text": "a.Utilizeaza la fiecare moment de timp o varianta de solutie…",
+          "isCorrect": true
+        },
+        {
+          "text": "b.Sunt tehnici de cautare stohastica bazate pe populatii",
+          "isCorrect": false
+        },
+        {
+          "text": "c.Folosesc exclusiv selectii determinisiste",
+          "isCorrect": false
+        },
+        {
+          "text": "d.Sunt metode deterministe de cautare in spatiul solutiilor",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Rezolva exclusiv probleme definite de spatii continue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "question": "In algoritmii genetici, alegerea unei anumite reprezentari:",
+      "answers": [
+        {
+          "text": "a.Este independenta de problema de rezolvat",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "question": "bDepinde de problema rezolvata;",
+      "answers": [
+        {
+          "text": "c.Poate fi facuta aleator",
+          "isCorrect": true
+        },
+        {
+          "text": "d.Este imposibila,fiind folosita doar reprezentarea prin numere reale",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Influenteaza calitatea solutiei furnizate",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "question": "Algoritmul ES2M:",
+      "answers": [
+        {
+          "text": "a.Nu este un algotim auto-adaptiv",
+          "isCorrect": true
+        },
+        {
+          "text": "b.Nu este un algoritm evloutiv",
+          "isCorrect": false
+        },
+        {
+          "text": "c.Nici una din celelalte varinate",
+          "isCorrect": false
+        },
+        {
+          "text": "d.Este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Este un algoritm auto-adaptiv primar",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "question": "In algoritmii genetici, operatia de selectie a parintilor:",
+      "answers": [
+        {
+          "text": "a.Este utilizata in general in maniera nedeterminista",
+          "isCorrect": true
+        },
+        {
+          "text": "b.Este doar un exercitiu de implementare,nefiind necesara",
+          "isCorrect": false
+        },
+        {
+          "text": "c.Nu este utilizata",
+          "isCorrect": false
+        },
+        {
+          "text": "d.Este utilizata determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "e.Este utilizata in functie de reprezentarea cromozimiala",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "question": "Algoritmii genetici:",
+      "answers": [
+        {
+          "text": "e.Sunt tehnici de cautare stohastica bazate pe populatii",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "question": "Fie X=[6 1 8 10 5 7 12 43 9 3 4 2] o permutare. In urma aplicarii muatiei prin inversiune pentru pozitiile(2,7) poate fi obtinuta urmatoarea varianta mutata: Y: 1.Y=[2 6 7 8 10 15 5 1 9 3 4], 2.y=[6 9 7 5 10 8 1 3 4 2];3. y=[7 6 8 10 5 1 9 3 4 2 ];4. Y=[6 7 10 8 5 9 1 3 4 2];5. Y=[6 8 7 5 10 1 9 3 4 2];6.Y=[6 2 8 10 5 1 9 3 4 7]",
+      "answers": [
+        {
+          "text": "b.2",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "question": "Fie urmatorii doi cromozomi de tip permutare:{6,3,7,8,5,1,2,4,9} si{7,2,8,5,6,9,4,1,3}.Aplicand opertaorul de recombinare PMX, cu pozitiile 3 si 6 se obtin decendetii:",
+      "answers": [
+        {
+          "text": "d.6,2,7,8,5,1,4,9,3",
+          "isCorrect": true
+        },
+        {
+          "text": "h.7,3,8,5,6,9,2,4,1",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

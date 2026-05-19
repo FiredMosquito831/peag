@@ -1,0 +1,84 @@
+{
+  "id": "grile",
+  "name": "Grile",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. a, c, d",
+          "isCorrect": true
+        },
+        {
+          "text": "b. b, d, e",
+          "isCorrect": false
+        },
+        {
+          "text": "c. a, e, f",
+          "isCorrect": false
+        },
+        {
+          "text": "d. b, c, d",
+          "isCorrect": false
+        },
+        {
+          "text": "e. a, b, e",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Este doar un exercițiu de implementare, nefiind necesară",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Este utilizată determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Este utilizată în funcție de reprezentarea cromozomială",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Nu este utilizată",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Este utilizată în general în manieră nedeterministă",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Alegeți o opțiune:",
+      "answers": [
+        {
+          "text": "a. Este un algoritm auto-adaptiv",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Este un algoritm evolutiv",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Este o etapă intermediară între algoritmii determiniști și cei evolutivi.",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Nici una din celelalte variante",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

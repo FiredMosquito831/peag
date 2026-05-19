@@ -1,0 +1,14 @@
+{
+  "title": "PEAG MCQ Exam Practice",
+  "description": "PEAG exam preparation platform with repaired DOCX-derived multiple choice question sets.",
+  "author": "Alexandru Amadeus",
+  "links": {
+    "youtube": "https://youtube.com",
+    "github": "https://github.com",
+    "website": "https://example.com"
+  },
+  "branding": {
+    "primaryColor": "blue",
+    "logo": null
+  }
+}

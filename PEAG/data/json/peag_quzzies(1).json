@@ -1,0 +1,240 @@
+{
+  "id": "peag_quzzies",
+  "name": "PEAG quzzies",
+  "questions": [
+    {
+      "id": 1,
+      "question": "În cadrul algoritmilor evolutivi, scopul evoluției este:",
+      "answers": [
+        {
+          "text": "a. Obținerea unor indivizi mai bine adaptați mediului",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "În modelul clasic de rezolvare a problemelor, cele trei elemente sînt: datele de intrare, modelul de transformare, datele de ieșire. Care din următoarele nu este o clasă de probleme:",
+      "answers": [
+        {
+          "text": "b. Probleme de echilibrare: se cunoaște doar modelul de transformare",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Care din următoarele etape ale algoritmilor evolutivi se pot desfășura și în mod determinist:",
+      "answers": [
+        {
+          "text": "e. Selecția generației următoare",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Scenariul utilizat simularea proceselor evolutive în cadrul algoritmilor evolutivi este:",
+      "answers": [
+        {
+          "text": "c. Mediu cu resurse limitate, care se mențin la un nivel constant",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Care dintre următoarele nu este un element standard al algoritmilor evolutivi:",
+      "answers": [
+        {
+          "text": "c. Resuscitarea",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Pentru a garanta obținerea soluției optime, în cadrul algoritmului hillclimbing:",
+      "answers": [
+        {
+          "text": "b. Nu se poate garanta obținerea soluției optime",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Care din următoarele afirmații este incorectă:",
+      "answers": [
+        {
+          "text": "a. Individul evoluează pentru a se adapta mediului (asta e corectă)",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Dimensiunea populației trebuie să fie fixă",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Operatorii de selecție acționează asupra populației",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Populația evoluează pentru a se adapta mediului",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Individul este un element static, nu evoluează",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Reprezentarea cu șiruri binare în cadrul algoritmilor genetici:",
+      "answers": [
+        {
+          "text": "a. este naturală pentru problemele a căror soluție reprezintă un șir de decizii booleene",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Ce aritate are operatorul de recombinare în algoritmii genetici (cîți operanzi utilizează)?",
+      "answers": [
+        {
+          "text": "a. binar (doi operanzi)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Pentru problemele în care reprezentarea prin permutări semnifică ordinea de apariție a unor evenimente, operatorul de recombinare folosit este:",
+      "answers": [
+        {
+          "text": "b. OCX (Order crossover)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Pentru păstrarea relațiilor comune din cromozomii părinți se folosește operatorul de recombinare:",
+      "answers": [
+        {
+          "text": "e. ECX (Edge crossover) Corect",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Operatorul de recombinare unipunct se poate folosi în cazul reprezentării prin:",
+      "answers": [
+        {
+          "text": "b. șiruri de numere întregi, șiruri de numere reale, șiruri binare",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "în cazul reprezentării cu șiruri de numere întregi, recombinările aritmetice:",
+      "answers": [
+        {
+          "text": "b. se pot aplica dacă se face rotunjirea rezultatelor",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Care din următoarele afirmații nu e adevărată pentru modelul generațional?",
+      "answers": [
+        {
+          "text": "a. Nu ține cont de calitatea cromozomilor",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Poate înlocui parțial generația ciuentă",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Poate înlocui complet generația curentă",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Poate înlocui un singur cromozom din populația curentă",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Necesită urmărirea mai multor generații consecutive (CORECT)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Care din următoarele nu este un mecanism de selecție?",
+      "answers": [
+        {
+          "text": "a. Ruletă simplă",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Turnir",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Ruletă complicată Corect",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Ruletă multi-braț",
+          "isCorrect": false
+        },
+        {
+          "text": "e. Genitor",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Care din următoarele este un dezavantaj al utilizării distribuției de probabilitate de selecție tip FPS?",
+      "answers": [
+        {
+          "text": "b. Convergența prematură",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Care din următoarele nu este un model de distribuție de probabilitate folosit pentru etapa de selecție:",
+      "answers": [
+        {
+          "text": "a. FPS cu sigma scalare",
+          "isCorrect": true
+        },
+        {
+          "text": "b. FPS cu alfa scalare Corect",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Ranguri liniare",
+          "isCorrect": false
+        },
+        {
+          "text": "d. FPS",
+          "isCorrect": false
+        },
+        {
+          "text": "e. FPS cu ferestre",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

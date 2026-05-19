@@ -1,0 +1,748 @@
+[
+  {
+    "id": 1,
+    "question": "In a table one can have:",
+    "answers": [
+      {
+        "text": "A simple primary key",
+        "isCorrect": true
+      },
+      {
+        "text": "A foreign primary key",
+        "isCorrect": false
+      },
+      {
+        "text": "A control key",
+        "isCorrect": false
+      },
+      {
+        "text": "A simple foreign key",
+        "isCorrect": true
+      },
+      {
+        "text": "A composed primary key",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Display the employees that have the same manager as the manager of their department.",
+    "answers": [
+      {
+        "text": "select * from employees e, departments d where e.department_id = d.department_id and e.manager_id = d.manager_id;",
+        "isCorrect": true
+      },
+      {
+        "text": "select * from employees, departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees natural join departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees e join departments d using (manager_id, department_id);",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees e, departments d where e.manager_id = d.manager_id;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "In order to determine the DB efficiency, the following costs should be studied:",
+    "answers": [
+      {
+        "text": "cost of required hardware",
+        "isCorrect": true
+      },
+      {
+        "text": "cost of technical advice",
+        "isCorrect": true
+      },
+      {
+        "text": "cost imposed by the transition from the existing system to the DB system",
+        "isCorrect": true
+      },
+      {
+        "text": "cost of necessary resources (human, material, informational, etc.)",
+        "isCorrect": true
+      },
+      {
+        "text": "cost of necessary software",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Specify what kind of crossing is performed in the following hierarchical query: select employee_id, name, surname, manager_id, level from employees connect by manager_id= prior employee_id start with name = 'Dumitru' and surname = 'Stefan';",
+    "answers": [
+      {
+        "text": "Straight up",
+        "isCorrect": false
+      },
+      {
+        "text": "Top down",
+        "isCorrect": true
+      },
+      {
+        "text": "Bottom up",
+        "isCorrect": false
+      },
+      {
+        "text": "It's not an hierarchical query",
+        "isCorrect": false
+      },
+      {
+        "text": "Bottom down",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Comparative concepts regarding the organization of data in Files and in Relational Databases:",
+    "answers": [
+      {
+        "text": "The record corresponds to the tuple",
+        "isCorrect": true
+      },
+      {
+        "text": "The file corresponds to the relation",
+        "isCorrect": true
+      },
+      {
+        "text": "The record corresponds to the object",
+        "isCorrect": false
+      },
+      {
+        "text": "The field corresponds to the attribute",
+        "isCorrect": true
+      },
+      {
+        "text": "The file corresponds to the table",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Choose the correct answers regarding scalability:",
+    "answers": [
+      {
+        "text": "Vertical scalability means scaling by adding more power (CPU, RAM) to an existing machine",
+        "isCorrect": true
+      },
+      {
+        "text": "Horizontal scalability means scaling by adding more power (CPU, RAM) to an existing machine",
+        "isCorrect": false
+      },
+      {
+        "text": "Vertical scalability is applied for relational DBMSs",
+        "isCorrect": true
+      },
+      {
+        "text": "Horizontal scalability is applied for SQL DBMSs",
+        "isCorrect": false
+      },
+      {
+        "text": "Horizontal scalability is applied for NoSQL DBMSs",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Choose the right answers about SQL commands:",
+    "answers": [
+      {
+        "text": "ALTER VIEW modifies a view",
+        "isCorrect": false
+      },
+      {
+        "text": "ALTER command is part of the DDL",
+        "isCorrect": true
+      },
+      {
+        "text": "A view may be modified using CREATE OR REPLACE VIEW command.",
+        "isCorrect": true
+      },
+      {
+        "text": "ALTER VIEW modifies a table",
+        "isCorrect": false
+      },
+      {
+        "text": "COMMIT completes all previous transactions",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Having the table STUDENT (name, year, group, no_stud_group, group_secretary, birth_date) and the primary key(name,group), what affirmation(s) is (are) not true:",
+    "answers": [
+      {
+        "text": "The table has a composed primary key",
+        "isCorrect": false
+      },
+      {
+        "text": "The table is in 2NF",
+        "isCorrect": true
+      },
+      {
+        "text": "The table has a fully functionally dependence",
+        "isCorrect": true
+      },
+      {
+        "text": "The table is normalized",
+        "isCorrect": true
+      },
+      {
+        "text": "The table is in 3NF",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "The characteristics of the relational model:",
+    "answers": [
+      {
+        "text": "It made the transition to a new generation (the second).",
+        "isCorrect": true
+      },
+      {
+        "text": "The model implementation is made at logical level by attributes with key roles.",
+        "isCorrect": true
+      },
+      {
+        "text": "It was proposed by IBM and revolutionized the representation of data in the database.",
+        "isCorrect": true
+      },
+      {
+        "text": "The model is simple, has a solid theoretical foundation being based on the set theory (assemblies) and mathematical logic.",
+        "isCorrect": true
+      },
+      {
+        "text": "All types of highly complex data structures from different fields can be represented using this model.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "In the components architecture, the Data component refers to:",
+    "answers": [
+      {
+        "text": "Data dictionary",
+        "isCorrect": true
+      },
+      {
+        "text": "Hardware resources",
+        "isCorrect": false
+      },
+      {
+        "text": "Actual data collections",
+        "isCorrect": true
+      },
+      {
+        "text": "Related files",
+        "isCorrect": true
+      },
+      {
+        "text": "Database management system",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Having the following command: CREATE TABLE flowers (id NUMBER, name VARCHAR2(60)) PARTITION BY HASH (id) PARTITIONS 4 STORE IN (garden1, garden2, garden3, garden4); what statement is true:",
+    "answers": [
+      {
+        "text": "this is an example of range partitioning.",
+        "isCorrect": false
+      },
+      {
+        "text": "The \"id\" is the partitioning key.",
+        "isCorrect": true
+      },
+      {
+        "text": "this is an example of list partitioning.",
+        "isCorrect": false
+      },
+      {
+        "text": "The \"garden\" is the partitioning key.",
+        "isCorrect": false
+      },
+      {
+        "text": "this is an example of hash partitioning.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "The SELECT statement:",
+    "answers": [
+      {
+        "text": "includes the mandatory clauses FROM and WHERE",
+        "isCorrect": false
+      },
+      {
+        "text": "is a declarative statement",
+        "isCorrect": true
+      },
+      {
+        "text": "contains the optional clauses GROUP BY and HAVING",
+        "isCorrect": true
+      },
+      {
+        "text": "is sensitive to uppercase/lowercase for the keywords",
+        "isCorrect": false
+      },
+      {
+        "text": "is part of the DDL (Data Definition Language) category",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "The query 'SELECT MIN (salary)... WHERE e.department_id = d.department_id (+) ... UNION ... WHERE e.department_id (+)= d.department_id' is equivalent to:",
+    "answers": [
+      {
+        "text": "SELECT MIN (salary) AS min_salary, d.department_id, d.department_name FROM employees e inner join departments d on e.department_id = d.department_id GROUP BY d.department_id, d.department_name;",
+        "isCorrect": false
+      },
+      {
+        "text": "SELECT MIN (salary) AS \"min_salary\", d.department_id, d.department_name FROM employees e, departments d WHERE e.department_id(+) = d.department_id and e.department_id = d.department_id (+) GROUP BY d.department_id, d.department_name;",
+        "isCorrect": false
+      },
+      {
+        "text": "SELECT MIN (salary) AS min_salary, d.department_id, d.department_name FROM employees e full outer join departments d on e.department_id = d.department_id GROUP BY d.department_id, d.department_name;",
+        "isCorrect": true
+      },
+      {
+        "text": "SELECT MIN (salary) AS min_salary, d.department_id, d.department_name FROM employees e, departments d WHERE e.department_id(+) = d.department_id (+) GROUP BY d.department_id, d.department_name;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "The dynamic analysis of a database system:",
+    "answers": [
+      {
+        "text": "Identifies the entities",
+        "isCorrect": false
+      },
+      {
+        "text": "Identifies the states",
+        "isCorrect": true
+      },
+      {
+        "text": "Identifies the events",
+        "isCorrect": true
+      },
+      {
+        "text": "Has as result the data flow diagram",
+        "isCorrect": false
+      },
+      {
+        "text": "Identifies the relationships",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Choose the correct answer(s) regarding Normal Forms:",
+    "answers": [
+      {
+        "text": "A table is NF4 if and only if is NF3 and is not containing two or more multivalue dependencies.",
+        "isCorrect": true
+      },
+      {
+        "text": "A table is in the 2nd NF if all its attributes contain basic values (nondecomposable) meaning that each tuple must not have group or repetitive data.",
+        "isCorrect": false
+      },
+      {
+        "text": "A table in NF2 still has a number of update anomalies due any multi-value dependencies.",
+        "isCorrect": false
+      },
+      {
+        "text": "A table in NF2 still has a number of update anomalies due to any transitive dependencies.",
+        "isCorrect": true
+      },
+      {
+        "text": "A table is in the 2nd NF if and only if is in NF1 and each non-key attribute of the table is fully functionally dependent on the key.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "A data model consists of:",
+    "answers": [
+      {
+        "text": "Integrity rules",
+        "isCorrect": true
+      },
+      {
+        "text": "Defining entities and associated attributes",
+        "isCorrect": true
+      },
+      {
+        "text": "Model's logic",
+        "isCorrect": false
+      },
+      {
+        "text": "Model's operators",
+        "isCorrect": true
+      },
+      {
+        "text": "Model's language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Display the employees that have the same manager as the manager of their department.",
+    "answers": [
+      {
+        "text": "select * from employees e, departments d where e.department_id=d.department_id and e.manager_id=d.manager_id;",
+        "isCorrect": true
+      },
+      {
+        "text": "select * from employees, departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees natural join departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees e join departments d using(manager_id,department_id);",
+        "isCorrect": true
+      },
+      {
+        "text": "select * from employees e, departments d where e.manager_id=d.manager_id;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Having the following command: CREATE TABLE flowers (id NUMBER, name VARCHAR2(60)) PARTITION BY HASH (id) PARTITIONS 4 STORE IN (garden1, garden2, garden3, garden4); what statement is true:",
+    "answers": [
+      {
+        "text": "this is an example of range partitioning.",
+        "isCorrect": false
+      },
+      {
+        "text": "The \"id\" is the partitioning key.",
+        "isCorrect": true
+      },
+      {
+        "text": "this is an example of list partitioning.",
+        "isCorrect": false
+      },
+      {
+        "text": "The \"garden\" is the partitioning key.",
+        "isCorrect": false
+      },
+      {
+        "text": "this is an example of hash partitioning.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Display the employees that have the same manager as the manager of their department.",
+    "answers": [
+      {
+        "text": "select * from employees e, departments d where e.department_id=d.department_id and e.manager_id=d.manager_id;",
+        "isCorrect": true
+      },
+      {
+        "text": "select * from employees, departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees natural join departments;",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees e join departments d using(manager_id,department_id);",
+        "isCorrect": false
+      },
+      {
+        "text": "select * from employees e, departments d where e.manager_id=d.manager_id;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In Oracle, the following partitions can be implemented:",
+    "answers": [
+      {
+        "text": "Range partitions",
+        "isCorrect": true
+      },
+      {
+        "text": "Composite range-hash partitions",
+        "isCorrect": true
+      },
+      {
+        "text": "Object partitions",
+        "isCorrect": false
+      },
+      {
+        "text": "Composite hash-join partitions",
+        "isCorrect": false
+      },
+      {
+        "text": "Composite range-list partitions",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "The technical performances of a DBMS concern:",
+    "answers": [
+      {
+        "text": "Trend of using the DBMS in the market",
+        "isCorrect": true
+      },
+      {
+        "text": "Minimum required hardware configuration",
+        "isCorrect": true
+      },
+      {
+        "text": "Technical facilities",
+        "isCorrect": true
+      },
+      {
+        "text": "Data model that is implemented",
+        "isCorrect": true
+      },
+      {
+        "text": "Usage facilities for categories of users",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Having the cluster CREATE CLUSTER clust (col1 NUMBER(3)) SIZE 600 TABLESPACE users STORAGE (INITIAL 200K NEXT 300K MINEXTENTS 2 PCTINCREASE 33); What affirmation is true:",
+    "answers": [
+      {
+        "text": "the size of the first extent is 300 kilobytes",
+        "isCorrect": false
+      },
+      {
+        "text": "Oracle allocates 1 extent for the cluster upon creation",
+        "isCorrect": false
+      },
+      {
+        "text": "the size of the first extent is 200 kilobytes",
+        "isCorrect": true
+      },
+      {
+        "text": "Oracle allocates 2 extents for the cluster upon creation",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "It is specific to NoSQL Databases:",
+    "answers": [
+      {
+        "text": "Vertical scalability",
+        "isCorrect": false
+      },
+      {
+        "text": "ACID transactions",
+        "isCorrect": false
+      },
+      {
+        "text": "CAP theorem",
+        "isCorrect": true
+      },
+      {
+        "text": "Horizontal scalability",
+        "isCorrect": true
+      },
+      {
+        "text": "Store semi-structured data",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "A database system includes:",
+    "answers": [
+      {
+        "text": "The DBMS",
+        "isCorrect": true
+      },
+      {
+        "text": "The logical structure of the database",
+        "isCorrect": false
+      },
+      {
+        "text": "Database machines",
+        "isCorrect": false
+      },
+      {
+        "text": "The metadata",
+        "isCorrect": true
+      },
+      {
+        "text": "The database",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Data security means:",
+    "answers": [
+      {
+        "text": "Recovery",
+        "isCorrect": false
+      },
+      {
+        "text": "Data authorization",
+        "isCorrect": true
+      },
+      {
+        "text": "Semantic security",
+        "isCorrect": false
+      },
+      {
+        "text": "Concurrency control",
+        "isCorrect": false
+      },
+      {
+        "text": "Backup",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Defining the data structure in a DBMS:",
+    "answers": [
+      {
+        "text": "Is made using the data manipulation language",
+        "isCorrect": false
+      },
+      {
+        "text": "Is implemented using SELECT command",
+        "isCorrect": false
+      },
+      {
+        "text": "Is implemented using CREATE command",
+        "isCorrect": true
+      },
+      {
+        "text": "Is illegal",
+        "isCorrect": false
+      },
+      {
+        "text": "Is made using data description language",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Complementarity:",
+    "answers": [
+      {
+        "text": "Is a relational algebra operator",
+        "isCorrect": true
+      },
+      {
+        "text": "Uses a condition",
+        "isCorrect": false
+      },
+      {
+        "text": "Is a relational calculus operator",
+        "isCorrect": false
+      },
+      {
+        "text": "Has as result one table",
+        "isCorrect": true
+      },
+      {
+        "text": "Is a binary operator",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Oracle indexes types are:",
+    "answers": [
+      {
+        "text": "Simple Index",
+        "isCorrect": false
+      },
+      {
+        "text": "Balanced Tree Index",
+        "isCorrect": false
+      },
+      {
+        "text": "Byte Tree Index",
+        "isCorrect": false
+      },
+      {
+        "text": "Bitmap Index",
+        "isCorrect": true
+      },
+      {
+        "text": "B*Tree Index",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Big data refers to:",
+    "answers": [
+      {
+        "text": "Storing large amounts of data",
+        "isCorrect": true
+      },
+      {
+        "text": "Uncertainty of data",
+        "isCorrect": true
+      },
+      {
+        "text": "High internet speed",
+        "isCorrect": false
+      },
+      {
+        "text": "Structured data",
+        "isCorrect": false
+      },
+      {
+        "text": "Secured data",
+        "isCorrect": false
+      }
+    ]
+  }
+]

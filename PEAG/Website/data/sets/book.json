@@ -1,0 +1,3516 @@
+{
+  "id": "book",
+  "name": "Grile Carte",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The data model for the database is a set composed of:",
+      "answers": [
+        {
+          "text": "a) concepts",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the structure of the program",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the data structure",
+          "isCorrect": true
+        },
+        {
+          "text": "d) internal schema",
+          "isCorrect": false
+        },
+        {
+          "text": "e) functional structure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In the relational model of the database:",
+      "answers": [
+        {
+          "text": "a) union and projection are relational calculus operators",
+          "isCorrect": false
+        },
+        {
+          "text": "b) in a table two tuples cannot have the same value for the composed key assembly",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the key composed of several attributes is called primary key",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the model implementation is done at a logical level",
+          "isCorrect": true
+        },
+        {
+          "text": "e) defining data is made through two-dimensional arrays called relations",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "The structure of a file is given by its components:",
+      "answers": [
+        {
+          "text": "a) the program",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the identification",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the index file structure",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the data",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the communication",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "The file access mode / method can be:",
+      "answers": [
+        {
+          "text": "a) indexed-sequential",
+          "isCorrect": false
+        },
+        {
+          "text": "b) undetermined",
+          "isCorrect": false
+        },
+        {
+          "text": "c) dynamic",
+          "isCorrect": true
+        },
+        {
+          "text": "d) structured",
+          "isCorrect": false
+        },
+        {
+          "text": "e) standard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "The elements / components of any data model of the database are:",
+      "answers": [
+        {
+          "text": "a) integrity rules",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the rules of behavior",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the rules of communication",
+          "isCorrect": false
+        },
+        {
+          "text": "d) defining the calculation procedures",
+          "isCorrect": false
+        },
+        {
+          "text": "e) defining the objects / entities",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Considering the implemented data model, databases can be:",
+      "answers": [
+        {
+          "text": "a) generalized",
+          "isCorrect": false
+        },
+        {
+          "text": "b) special",
+          "isCorrect": false
+        },
+        {
+          "text": "c) statistics",
+          "isCorrect": false
+        },
+        {
+          "text": "d) management",
+          "isCorrect": false
+        },
+        {
+          "text": "e) archiving",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In the hierarchical model of the database:",
+      "answers": [
+        {
+          "text": "a) any access to a node can be done in several ways",
+          "isCorrect": false
+        },
+        {
+          "text": "b) a parent node can have multiple child nodes",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the relationship parent - child can be 1:1, 1:M",
+          "isCorrect": true
+        },
+        {
+          "text": "d) the number of possible hierarchies increases combinatorial with the number of records",
+          "isCorrect": true
+        },
+        {
+          "text": "e) there is a locating operator for the tree",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "The elements / components of any data model of the database are:",
+      "answers": [
+        {
+          "text": "a) defining the entities / objects",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the operator acting on the structure of the data",
+          "isCorrect": true
+        },
+        {
+          "text": "c) arithmetic operators",
+          "isCorrect": false
+        },
+        {
+          "text": "d) defining the links between entities / associations",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Codd's rules",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "In the relational model of the database:",
+      "answers": [
+        {
+          "text": "a) defining of the objects is made through record types",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the tuple is a table's column and has a name",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the domain is a subset of Cartesian product of many tables",
+          "isCorrect": false
+        },
+        {
+          "text": "d) potentially, any table can link to any table",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the quantifiers are domain oriented operators of relational calculus",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In object-oriented model for databases:",
+      "answers": [
+        {
+          "text": "a) object's behavior is implemented through methods",
+          "isCorrect": true
+        },
+        {
+          "text": "b) messages are requests for retrieval",
+          "isCorrect": true
+        },
+        {
+          "text": "c) an object derives its data and functionality from another object",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the object properties can be updated",
+          "isCorrect": true
+        },
+        {
+          "text": "e) there are four fundamental (basic) characteristics of objects",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "In object-oriented model for databases:",
+      "answers": [
+        {
+          "text": "a) there is the integrity restriction: access to objects is not limited",
+          "isCorrect": false
+        },
+        {
+          "text": "b) there is the integrity restriction: the object identifier ensures the integrity of reference to it",
+          "isCorrect": true
+        },
+        {
+          "text": "c) there is the operator for updating the properties",
+          "isCorrect": true
+        },
+        {
+          "text": "d) there is the operator for updating the classes",
+          "isCorrect": true
+        },
+        {
+          "text": "e) objects can respond differently to the same properties",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "The manipulation part of a data model for the database is given by:",
+      "answers": [
+        {
+          "text": "a) defining the entities",
+          "isCorrect": false
+        },
+        {
+          "text": "b) defining the links",
+          "isCorrect": false
+        },
+        {
+          "text": "c) defining the attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "d) integrity rules",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the derivation rules",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "In object-oriented model for databases:",
+      "answers": [
+        {
+          "text": "a) the base concept is the class of tuples",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the object has a name and interface",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the object has a name and message",
+          "isCorrect": false
+        },
+        {
+          "text": "d) there is an operator for the object identifier",
+          "isCorrect": false
+        },
+        {
+          "text": "e) there are the following characteristics of objects: the message, polymorphism",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "In the relational model of the database:",
+      "answers": [
+        {
+          "text": "a) the links between tables are described in DDL",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the relational operators are implemented in DDL",
+          "isCorrect": false
+        },
+        {
+          "text": "c) there is the set type restriction",
+          "isCorrect": false
+        },
+        {
+          "text": "d) there is the location operator for records",
+          "isCorrect": false
+        },
+        {
+          "text": "e) there is the NULL value",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "When organizing data in files, the reference levels are:",
+      "answers": [
+        {
+          "text": "a) conceptual",
+          "isCorrect": false
+        },
+        {
+          "text": "b) programmer",
+          "isCorrect": false
+        },
+        {
+          "text": "c) global",
+          "isCorrect": false
+        },
+        {
+          "text": "d) network",
+          "isCorrect": false
+        },
+        {
+          "text": "e) overall",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "In the hierarchical model of the database:",
+      "answers": [
+        {
+          "text": "a) implementation of the model is made physically",
+          "isCorrect": true
+        },
+        {
+          "text": "b) implementation of the model is made logically",
+          "isCorrect": false
+        },
+        {
+          "text": "c) if a record type has no achievements, neither have its descendents",
+          "isCorrect": true
+        },
+        {
+          "text": "d) there is an operator for locating a tree",
+          "isCorrect": false
+        },
+        {
+          "text": "e) there is an operator for locating a database",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "For the evolution of organizing data in external memory, the following aspects are envisaged:",
+      "answers": [
+        {
+          "text": "a) data organizing mode",
+          "isCorrect": true
+        },
+        {
+          "text": "b) levels of structuring data",
+          "isCorrect": true
+        },
+        {
+          "text": "c) processing data modes",
+          "isCorrect": true
+        },
+        {
+          "text": "d) redundancy of programs",
+          "isCorrect": false
+        },
+        {
+          "text": "e) related software",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In the relational database model:",
+      "answers": [
+        {
+          "text": "a) here is the entity restriction",
+          "isCorrect": true
+        },
+        {
+          "text": "b) there is the concept of inner key",
+          "isCorrect": false
+        },
+        {
+          "text": "c) here is the notion of foreign key",
+          "isCorrect": true
+        },
+        {
+          "text": "d) T (a1: D1, ..., an: Dn), where T – table, ai – attribute, Di – domain, is the relational schema",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the order of rows and columns in a table is of great importance for creating the table",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "The DB protection, in terms of data security relates to:",
+      "answers": [
+        {
+          "text": "a) encryption",
+          "isCorrect": true
+        },
+        {
+          "text": "b) concurrency control",
+          "isCorrect": false
+        },
+        {
+          "text": "c) views",
+          "isCorrect": true
+        },
+        {
+          "text": "d) control keys",
+          "isCorrect": false
+        },
+        {
+          "text": "e) backup",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "The DB protection, in terms of data integrity relates to:",
+      "answers": [
+        {
+          "text": "a) vision of network administrator",
+          "isCorrect": false
+        },
+        {
+          "text": "b) manual procedures",
+          "isCorrect": false
+        },
+        {
+          "text": "c) concurrent access control",
+          "isCorrect": true
+        },
+        {
+          "text": "d) data encryption",
+          "isCorrect": false
+        },
+        {
+          "text": "e) backup and recovery",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "The protection of the database is provided through:",
+      "answers": [
+        {
+          "text": "a) data security",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the integrity of programs",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the security of programs",
+          "isCorrect": false
+        },
+        {
+          "text": "d) network software",
+          "isCorrect": false
+        },
+        {
+          "text": "e) DBMS",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "The design of RDB using the normalization technique:",
+      "answers": [
+        {
+          "text": "a) removes the insert anomaly",
+          "isCorrect": true
+        },
+        {
+          "text": "b) removes the update anomaly",
+          "isCorrect": false
+        },
+        {
+          "text": "c) is a top-down approach",
+          "isCorrect": true
+        },
+        {
+          "text": "d) removes the delete anomaly",
+          "isCorrect": true
+        },
+        {
+          "text": "e) is a bottom-up approach",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "A table is in NF2 if:",
+      "answers": [
+        {
+          "text": "a) it is in NF3",
+          "isCorrect": false
+        },
+        {
+          "text": "b) all its attributes are atomic",
+          "isCorrect": false
+        },
+        {
+          "text": "c) it has no transitive dependencies",
+          "isCorrect": false
+        },
+        {
+          "text": "d) is in NF1 and each non-key attribute is fully functionally dependent on the table key",
+          "isCorrect": true
+        },
+        {
+          "text": "e) is in NF1 and has no incomplete functional dependencies",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Relational calculus:",
+      "answers": [
+        {
+          "text": "a) is a procedural language",
+          "isCorrect": true
+        },
+        {
+          "text": "b) is implemented in SQL language",
+          "isCorrect": true
+        },
+        {
+          "text": "c) can be tuple oriented having as basic construction the tuple calculus expression",
+          "isCorrect": true
+        },
+        {
+          "text": "d) is implemented in Quelle language",
+          "isCorrect": true
+        },
+        {
+          "text": "e) contains the projection operator",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "A database is in 1NF if:",
+      "answers": [
+        {
+          "text": "a) it is in NF2",
+          "isCorrect": false
+        },
+        {
+          "text": "b) is in NF2",
+          "isCorrect": true
+        },
+        {
+          "text": "c) has all tables in 1NF",
+          "isCorrect": true
+        },
+        {
+          "text": "d) has no transitive dependencies",
+          "isCorrect": false
+        },
+        {
+          "text": "e) has only simple keys",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "A table is in FN1 if:",
+      "answers": [
+        {
+          "text": "a) there are no composite attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "b) there are no multi-valued attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "c) there are no decomposable attributes",
+          "isCorrect": true
+        },
+        {
+          "text": "d) there are no derived attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "e) there are no repetitive attributes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Similar concepts for RBD and files are:",
+      "answers": [
+        {
+          "text": "a) record - column",
+          "isCorrect": false
+        },
+        {
+          "text": "b) table - file",
+          "isCorrect": false
+        },
+        {
+          "text": "c) key - index",
+          "isCorrect": true
+        },
+        {
+          "text": "d) domain - data type",
+          "isCorrect": false
+        },
+        {
+          "text": "e) tuple - row",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "The following statements about relational algebra are true:",
+      "answers": [
+        {
+          "text": "a) it is a procedural language",
+          "isCorrect": true
+        },
+        {
+          "text": "b) it is a declarative language",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the result of an operation is a relation",
+          "isCorrect": true
+        },
+        {
+          "text": "d) it uses operators that act on one or two relations",
+          "isCorrect": true
+        },
+        {
+          "text": "e) it is implemented in QUEL language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "The following are DML commands:",
+      "answers": [
+        {
+          "text": "a) CREATE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) DROP",
+          "isCorrect": false
+        },
+        {
+          "text": "c) SELECT",
+          "isCorrect": true
+        },
+        {
+          "text": "d) INSERT",
+          "isCorrect": true
+        },
+        {
+          "text": "e) GRANT",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "The following are DDL commands:",
+      "answers": [
+        {
+          "text": "a) UPDATE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) ALTER",
+          "isCorrect": true
+        },
+        {
+          "text": "c) DELETE",
+          "isCorrect": false
+        },
+        {
+          "text": "d) CREATE",
+          "isCorrect": true
+        },
+        {
+          "text": "e) REVOKE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Test question 1: The command to create a table is:",
+      "answers": [
+        {
+          "text": "a) MAKE TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) NEW TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "c) CREATE TABLE",
+          "isCorrect": true
+        },
+        {
+          "text": "d) BUILD TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "e) DEFINE TABLE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Test question 2: To delete a table, you use:",
+      "answers": [
+        {
+          "text": "a) REMOVE TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) DROP TABLE",
+          "isCorrect": true
+        },
+        {
+          "text": "c) DELETE TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "d) ERASE TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "e) CLEAR TABLE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Test question 3: To add a new column to an existing table, you use:",
+      "answers": [
+        {
+          "text": "a) ADD COLUMN",
+          "isCorrect": false
+        },
+        {
+          "text": "b) INSERT COLUMN",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ALTER TABLE ... ADD",
+          "isCorrect": true
+        },
+        {
+          "text": "d) MODIFY TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "e) EXTEND TABLE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Test question 4: The command to remove all records from a table but keep the structure is:",
+      "answers": [
+        {
+          "text": "a) DELETE FROM table",
+          "isCorrect": true
+        },
+        {
+          "text": "b) DROP TABLE",
+          "isCorrect": false
+        },
+        {
+          "text": "c) TRUNCATE TABLE",
+          "isCorrect": true
+        },
+        {
+          "text": "d) REMOVE ALL",
+          "isCorrect": false
+        },
+        {
+          "text": "e) CLEAR TABLE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Test question 5: To grant privileges to a user, you use:",
+      "answers": [
+        {
+          "text": "a) ASSIGN",
+          "isCorrect": false
+        },
+        {
+          "text": "b) PERMIT",
+          "isCorrect": false
+        },
+        {
+          "text": "c) ALLOW",
+          "isCorrect": false
+        },
+        {
+          "text": "d) GRANT",
+          "isCorrect": true
+        },
+        {
+          "text": "e) AUTHORIZE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Test question 6: To revoke privileges from a user, you use:",
+      "answers": [
+        {
+          "text": "a) DENY",
+          "isCorrect": false
+        },
+        {
+          "text": "b) REMOVE PRIVILEGE",
+          "isCorrect": false
+        },
+        {
+          "text": "c) REVOKE",
+          "isCorrect": true
+        },
+        {
+          "text": "d) CANCEL",
+          "isCorrect": false
+        },
+        {
+          "text": "e) WITHDRAW",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Test question 7: The command to modify data in a table is:",
+      "answers": [
+        {
+          "text": "a) CHANGE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) MODIFY",
+          "isCorrect": false
+        },
+        {
+          "text": "c) UPDATE",
+          "isCorrect": true
+        },
+        {
+          "text": "d) EDIT",
+          "isCorrect": false
+        },
+        {
+          "text": "e) SET",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Test question 8: To retrieve data from a table, you use:",
+      "answers": [
+        {
+          "text": "a) GET",
+          "isCorrect": false
+        },
+        {
+          "text": "b) FETCH",
+          "isCorrect": false
+        },
+        {
+          "text": "c) SELECT",
+          "isCorrect": true
+        },
+        {
+          "text": "d) QUERY",
+          "isCorrect": false
+        },
+        {
+          "text": "e) FIND",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Test question 9: To insert new data into a table, you use:",
+      "answers": [
+        {
+          "text": "a) ADD",
+          "isCorrect": false
+        },
+        {
+          "text": "b) PUT",
+          "isCorrect": false
+        },
+        {
+          "text": "c) INSERT INTO",
+          "isCorrect": true
+        },
+        {
+          "text": "d) INCLUDE",
+          "isCorrect": false
+        },
+        {
+          "text": "e) APPEND",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Test question 10: To delete specific records from a table, you use:",
+      "answers": [
+        {
+          "text": "a) REMOVE",
+          "isCorrect": false
+        },
+        {
+          "text": "b) DROP",
+          "isCorrect": false
+        },
+        {
+          "text": "c) DELETE FROM ... WHERE",
+          "isCorrect": true
+        },
+        {
+          "text": "d) ERASE",
+          "isCorrect": false
+        },
+        {
+          "text": "e) PURGE",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "ALTER TABLE command:",
+      "answers": [
+        {
+          "text": "a) defines the data from a table",
+          "isCorrect": false
+        },
+        {
+          "text": "b) only works with virtual tables",
+          "isCorrect": false
+        },
+        {
+          "text": "c) displays the data in a table",
+          "isCorrect": false
+        },
+        {
+          "text": "d) updates data in a table",
+          "isCorrect": false
+        },
+        {
+          "text": "e) uploads the data into a table",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "In the methodology of developing databases, the entity-relationship diagram results from the:",
+      "answers": [
+        {
+          "text": "a) functional analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "b) dynamic design",
+          "isCorrect": false
+        },
+        {
+          "text": "c) structural analysis",
+          "isCorrect": true
+        },
+        {
+          "text": "d) dynamic analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "e) logical design",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "When organizing a database, the following aspects are considered:",
+      "answers": [
+        {
+          "text": "a) organizing input data",
+          "isCorrect": true
+        },
+        {
+          "text": "b) organizing output data",
+          "isCorrect": false
+        },
+        {
+          "text": "c) organizing storing data",
+          "isCorrect": true
+        },
+        {
+          "text": "d) organizing the final processing",
+          "isCorrect": false
+        },
+        {
+          "text": "e) organizing programs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "The effectiveness of a database can be assessed by:",
+      "answers": [
+        {
+          "text": "a) the study of the flowchart of an organization",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the study of initial costs",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the calculation of return",
+          "isCorrect": true
+        },
+        {
+          "text": "d) relational calculus",
+          "isCorrect": false
+        },
+        {
+          "text": "e) relational algebra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "In the methodology for developing a database, building a view is made in the:",
+      "answers": [
+        {
+          "text": "a) external schema design",
+          "isCorrect": true
+        },
+        {
+          "text": "b) conceptual schema design",
+          "isCorrect": false
+        },
+        {
+          "text": "c) internal schema design",
+          "isCorrect": false
+        },
+        {
+          "text": "d) logical analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "e) overall analysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "The objectives in achieving a database are:",
+      "answers": [
+        {
+          "text": "a) the same data cannot be used in different ways",
+          "isCorrect": false
+        },
+        {
+          "text": "b) increasing the cost for data storage",
+          "isCorrect": false
+        },
+        {
+          "text": "c) retrieval requests should only be predetermined",
+          "isCorrect": false
+        },
+        {
+          "text": "d) database applications must be able to reuse already existing data",
+          "isCorrect": true
+        },
+        {
+          "text": "e) minimum redundancy, but uncontrolled",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Types of user for the databases are:",
+      "answers": [
+        {
+          "text": "a) small and medium enterprises",
+          "isCorrect": false
+        },
+        {
+          "text": "b) aggregates",
+          "isCorrect": false
+        },
+        {
+          "text": "c) intensives",
+          "isCorrect": true
+        },
+        {
+          "text": "d) end-users",
+          "isCorrect": true
+        },
+        {
+          "text": "e) specialists",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "In the methodology for database developing, the design phase contains:",
+      "answers": [
+        {
+          "text": "a) choosing the DBMS",
+          "isCorrect": true
+        },
+        {
+          "text": "b) choosing the involved personnel",
+          "isCorrect": false
+        },
+        {
+          "text": "c) choosing real world entities",
+          "isCorrect": false
+        },
+        {
+          "text": "d) dynamic design",
+          "isCorrect": false
+        },
+        {
+          "text": "e) schemas design",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "In the methodology for database developing, the analytical activity is conducted under the following aspects:",
+      "answers": [
+        {
+          "text": "a) static informational",
+          "isCorrect": false
+        },
+        {
+          "text": "b) structural",
+          "isCorrect": true
+        },
+        {
+          "text": "c) modular",
+          "isCorrect": false
+        },
+        {
+          "text": "d) object",
+          "isCorrect": false
+        },
+        {
+          "text": "e) functional",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "In order to achieve a database, choosing a DBMS takes into account the following aspects:",
+      "answers": [
+        {
+          "text": "a) legislative requirements",
+          "isCorrect": false
+        },
+        {
+          "text": "b) application requirements",
+          "isCorrect": true
+        },
+        {
+          "text": "c) technical facilities of DBMS",
+          "isCorrect": true
+        },
+        {
+          "text": "d) universal programming languages",
+          "isCorrect": false
+        },
+        {
+          "text": "e) limits of users",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "These are types of indexes:",
+      "answers": [
+        {
+          "text": "a) trees",
+          "isCorrect": true
+        },
+        {
+          "text": "b) networks",
+          "isCorrect": false
+        },
+        {
+          "text": "c) spatial",
+          "isCorrect": true
+        },
+        {
+          "text": "d) distributed",
+          "isCorrect": false
+        },
+        {
+          "text": "e) hash",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "When choosing an indexing key:",
+      "answers": [
+        {
+          "text": "a) the attributes in ORDER BY clause are candidates for the key.",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the attributes in FROM clause are candidates for the key.",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the attributes in HAVING clause are candidates for the key.",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the attributes in GROUP BY clause are candidates for the key.",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the attributes in WHERE clause are candidates for the key.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "The partitioning methods offered by Oracle are:",
+      "answers": [
+        {
+          "text": "a) range partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "b) hash partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "c) list partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "d) composite range-hash partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "e) composite range-list partitions",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "In Oracle subpartitions can be:",
+      "answers": [
+        {
+          "text": "a) range",
+          "isCorrect": true
+        },
+        {
+          "text": "b) hash",
+          "isCorrect": true
+        },
+        {
+          "text": "c) list",
+          "isCorrect": true
+        },
+        {
+          "text": "d) index",
+          "isCorrect": false
+        },
+        {
+          "text": "e) cluster",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "When creating range partitions, there must be specified:",
+      "answers": [
+        {
+          "text": "a) the partitioning method: range",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the partitioning method: interval",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the partition's column",
+          "isCorrect": true
+        },
+        {
+          "text": "d) the partition bounds",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the partition values",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "Whatever the partition's type, the following elements must be specified:",
+      "answers": [
+        {
+          "text": "a) the method",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the intervals",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the values",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the partition columns",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the number of partitions",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "When creating range-hash partitions, there must be specified:",
+      "answers": [
+        {
+          "text": "a) the partitioning method: hash",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the partition's column",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the partition bounds",
+          "isCorrect": true
+        },
+        {
+          "text": "d) the subpartitioning method: hash",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the subpartitioning method: range",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "When creating hash partitions, there must be specified:",
+      "answers": [
+        {
+          "text": "a) the partition bounds",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the partition intervals",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the number of partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "d) the columns of partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the partitioning method",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "Clusters have:",
+      "answers": [
+        {
+          "text": "a) advantages for retrieving",
+          "isCorrect": true
+        },
+        {
+          "text": "b) advantages for updating",
+          "isCorrect": false
+        },
+        {
+          "text": "c) disadvantages for indexing",
+          "isCorrect": false
+        },
+        {
+          "text": "d) disadvantages for retrieving",
+          "isCorrect": false
+        },
+        {
+          "text": "e) disadvantages for updating",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "Optimized requests can be obtained by:",
+      "answers": [
+        {
+          "text": "a) using indexes",
+          "isCorrect": true
+        },
+        {
+          "text": "b) using partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "c) using the DBMS optimizer",
+          "isCorrect": true
+        },
+        {
+          "text": "d) using clusters",
+          "isCorrect": true
+        },
+        {
+          "text": "e) using views",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "question": "Optimizing the storing space can be made by:",
+      "answers": [
+        {
+          "text": "a) reusing data",
+          "isCorrect": true
+        },
+        {
+          "text": "b) reallocating the data",
+          "isCorrect": false
+        },
+        {
+          "text": "c) compaction of data",
+          "isCorrect": true
+        },
+        {
+          "text": "d) dynamic allocation of space",
+          "isCorrect": true
+        },
+        {
+          "text": "e) locking the accounts",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "question": "Clusters are created for tables that:",
+      "answers": [
+        {
+          "text": "a) are very big",
+          "isCorrect": false
+        },
+        {
+          "text": "b) are very small",
+          "isCorrect": false
+        },
+        {
+          "text": "c) are subjected to repeated requests and are rarely updated",
+          "isCorrect": true
+        },
+        {
+          "text": "d) are frequently queried together",
+          "isCorrect": true
+        },
+        {
+          "text": "e) participate in joins in multiple queries",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "question": "The decision for using clusters is made considering:",
+      "answers": [
+        {
+          "text": "a) the frequency of updates",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the frequency of common queries on the clusters' indexes",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the DBA's experience",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the amount of data in tables",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the number of indexes",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Clustering can be applied on:",
+      "answers": [
+        {
+          "text": "a) retail DB",
+          "isCorrect": false
+        },
+        {
+          "text": "b) telco DB",
+          "isCorrect": false
+        },
+        {
+          "text": "c) documentary DB",
+          "isCorrect": true
+        },
+        {
+          "text": "d) medical DB",
+          "isCorrect": false
+        },
+        {
+          "text": "e) airport DB",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "The steps for creating a cluster index are: I. Create the view  II. Create the index  III. Create the cluster  IV. Insert data in cluster V. Delete the view",
+      "answers": [
+        {
+          "text": "I V",
+          "isCorrect": false
+        },
+        {
+          "text": "III II ",
+          "isCorrect": true
+        },
+        {
+          "text": "V I II III",
+          "isCorrect": false
+        },
+        {
+          "text": "III IV",
+          "isCorrect": false
+        },
+        {
+          "text": "I II III IV V ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "CREATE INDEX idx_1 ON CLUSTER cluster_3;",
+      "answers": [
+        {
+          "text": "a) is wrong because an index cannot be created on clusters",
+          "isCorrect": false
+        },
+        {
+          "text": "b) is wrong because the cluster has to have a table specified",
+          "isCorrect": false
+        },
+        {
+          "text": "c) is the command for creating a cluster index",
+          "isCorrect": true
+        },
+        {
+          "text": "d) is the command for creating a cluster table",
+          "isCorrect": false
+        },
+        {
+          "text": "e) assumes the cluster is already created",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "question": "ALL_CLUSTERS:",
+      "answers": [
+        {
+          "text": "a) is a view that contains all clusters from the DB",
+          "isCorrect": false
+        },
+        {
+          "text": "b) is a view that contains all clusters that are accessible to the current user",
+          "isCorrect": true
+        },
+        {
+          "text": "c) is a view that contains all clusters in user's schema",
+          "isCorrect": false
+        },
+        {
+          "text": "d) is a view that can be queried",
+          "isCorrect": true
+        },
+        {
+          "text": "e) is a cluster that can be queried",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "Characteristics for the hierarchical structure:",
+      "answers": [
+        {
+          "text": "a) A subordinate can be reached in many ways",
+          "isCorrect": false
+        },
+        {
+          "text": "b) A subordinate node can have only one superior",
+          "isCorrect": true
+        },
+        {
+          "text": "c) A node can have any number of subordinates and superiors",
+          "isCorrect": false
+        },
+        {
+          "text": "d) A subordinate node must have many superiors",
+          "isCorrect": false
+        },
+        {
+          "text": "e) A superior may have one or many subordinates",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "In a table one can have:",
+      "answers": [
+        {
+          "text": "a) A simple primary key",
+          "isCorrect": true
+        },
+        {
+          "text": "b) A composed primary key",
+          "isCorrect": true
+        },
+        {
+          "text": "c) A simple foreign key",
+          "isCorrect": true
+        },
+        {
+          "text": "d) A foreign primary key",
+          "isCorrect": true
+        },
+        {
+          "text": "e) A control key",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "The conceptual schema is the result of:",
+      "answers": [
+        {
+          "text": "a) The system study",
+          "isCorrect": false
+        },
+        {
+          "text": "b) The system analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "c) The application requirements",
+          "isCorrect": false
+        },
+        {
+          "text": "d) The database structure's design",
+          "isCorrect": true
+        },
+        {
+          "text": "e) The database functions' design",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "The clusters are useful for:",
+      "answers": [
+        {
+          "text": "a) Optimizing the database access",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Requests",
+          "isCorrect": true
+        },
+        {
+          "text": "c) Updates",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Data inserts",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Documentary databases",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "A components database system architecture includes:",
+      "answers": [
+        {
+          "text": "a) data",
+          "isCorrect": true
+        },
+        {
+          "text": "b) database management system",
+          "isCorrect": true
+        },
+        {
+          "text": "c) application programs",
+          "isCorrect": true
+        },
+        {
+          "text": "d) legal and administrative regulations",
+          "isCorrect": true
+        },
+        {
+          "text": "e) hardware",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "question": "Having the table STUDENT (name, year, group, no_stud_group, group_secretary, birth_date), what affirmation(s) is(are) not true:",
+      "answers": [
+        {
+          "text": "a) The table is in 2NF",
+          "isCorrect": true
+        },
+        {
+          "text": "b) The table has a fully functionally dependence",
+          "isCorrect": true
+        },
+        {
+          "text": "c) The table has a non-transitive dependence",
+          "isCorrect": false
+        },
+        {
+          "text": "d) The table is normalized",
+          "isCorrect": true
+        },
+        {
+          "text": "e) The table has a composed primary key",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "In the relational model:",
+      "answers": [
+        {
+          "text": "a) There is the “record” notion",
+          "isCorrect": false
+        },
+        {
+          "text": "b) The attributes that have a role in making the links between tables are called composed keys",
+          "isCorrect": false
+        },
+        {
+          "text": "c) The links between tables are described in DML",
+          "isCorrect": false
+        },
+        {
+          "text": "d) There is the “table schema” notion",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Projection, negation and existential are relational algebra operators",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "The object is characterized by:",
+      "answers": [
+        {
+          "text": "a) identifier",
+          "isCorrect": true
+        },
+        {
+          "text": "b) methods",
+          "isCorrect": true
+        },
+        {
+          "text": "c) messages",
+          "isCorrect": true
+        },
+        {
+          "text": "d) public implementation",
+          "isCorrect": false
+        },
+        {
+          "text": "e) private interface",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is NOT a characteristic of a database system?",
+      "answers": [
+        {
+          "text": "a) Data independence",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Controlled redundancy",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Centralized control",
+          "isCorrect": false
+        },
+        {
+          "text": "d) File-based processing",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Concurrent access",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "question": "In SQL, the GROUP BY clause is used to:",
+      "answers": [
+        {
+          "text": "a) sort rows",
+          "isCorrect": false
+        },
+        {
+          "text": "b) filter rows before grouping",
+          "isCorrect": false
+        },
+        {
+          "text": "c) group rows that have the same values in specified columns",
+          "isCorrect": true
+        },
+        {
+          "text": "d) join tables",
+          "isCorrect": false
+        },
+        {
+          "text": "e) define a view",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "question": "The HAVING clause in SQL is used to:",
+      "answers": [
+        {
+          "text": "a) filter rows before grouping",
+          "isCorrect": false
+        },
+        {
+          "text": "b) filter groups after aggregation",
+          "isCorrect": true
+        },
+        {
+          "text": "c) sort grouped results",
+          "isCorrect": false
+        },
+        {
+          "text": "d) specify join conditions",
+          "isCorrect": false
+        },
+        {
+          "text": "e) define computed columns",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "question": "A transaction in a DBMS must satisfy the ACID properties. 'C' stands for:",
+      "answers": [
+        {
+          "text": "a) Consistency",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Concurrency",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Control",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Commit",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Cache",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "question": "In Oracle, the command to enable row movement for a table (required for partition key updates) is:",
+      "answers": [
+        {
+          "text": "a) ALTER TABLE ... ENABLE ROW MOVEMENT",
+          "isCorrect": true
+        },
+        {
+          "text": "b) ALTER TABLE ... ALLOW MOVEMENT",
+          "isCorrect": false
+        },
+        {
+          "text": "c) SET ROW MOVEMENT ON",
+          "isCorrect": false
+        },
+        {
+          "text": "d) MODIFY TABLE ... MOVE ROWS",
+          "isCorrect": false
+        },
+        {
+          "text": "e) ENABLE TABLE MOVEMENT",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "question": "Having the following command: CREATE TABLE sales (invoice_no NUMBER, sale_year INT NOT NULL, sale_month INT NOT NULL, sale_day INT NOT NULL) PARTITION BY RANGE (sale_year, sale_month, sale_day) (PARTITION sales_q1 VALUES LESS THAN (1999, 04, 01), (PARTITION sales_q2 VALUES LESS THAN (1999, 07, 01),(PARTITION sales_q3 VALUES LESS THAN (1999, 10, 01),(PARTITION sales_q4 VALUES LESS THAN (2000, 01, 01 ); what statement is true:",
+      "answers": [
+        {
+          "text": "a) A row with sale_year=1999, sale_month=8, and sale_day=1 would be stored in partition sales_q3.",
+          "isCorrect": true
+        },
+        {
+          "text": "b) A row with sale_year=1999, sale_month=10, and sale_day=11 would be stored in partition sales_q3.",
+          "isCorrect": false
+        },
+        {
+          "text": "c) this is an example of hash partitioning.",
+          "isCorrect": false
+        },
+        {
+          "text": "d) this is an example of range partitioning.",
+          "isCorrect": true
+        },
+        {
+          "text": "e) this is an example of list partitioning.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "question": "What affirmation is it true:",
+      "answers": [
+        {
+          "text": "a) State-transition diagram comes from structural analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Data flow diagram comes from functional analysis",
+          "isCorrect": true
+        },
+        {
+          "text": "c) State-transition diagram comes from functional analysis",
+          "isCorrect": false
+        },
+        {
+          "text": "d) State-transition diagram comes from dynamic analysis",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Entity-relationship diagram comes from conceptual analysis",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "question": "Choose the right answers about SQL commands:",
+      "answers": [
+        {
+          "text": "a) ALTER VIEW modifies a view",
+          "isCorrect": false
+        },
+        {
+          "text": "b) ALTER VIEW modifies a table",
+          "isCorrect": false
+        },
+        {
+          "text": "c) COMMIT completes all previous transactions",
+          "isCorrect": true
+        },
+        {
+          "text": "d) COMMIT is a command for updating",
+          "isCorrect": true
+        },
+        {
+          "text": "e) A view may be modified using CREATE OR REPLACE VIEW command.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "question": "Having the following command: CREATE TABLE students (ids VARCHAR2(10) PRIMARY KEY, name VARCHAR2(20) NOT NULL, faculty VARCHAR2(3) CONSTRAINT ckl CHECK(faculty IN ('COM','CIB','MAN')))",
+      "answers": [
+        {
+          "text": "a) There are 3 constraints defined for the STUDENTS table",
+          "isCorrect": true
+        },
+        {
+          "text": "b) The System names all the constraints",
+          "isCorrect": false
+        },
+        {
+          "text": "c) There is a referential constraint",
+          "isCorrect": false
+        },
+        {
+          "text": "d) IDS field has a domain constraint",
+          "isCorrect": false
+        },
+        {
+          "text": "e) an entity constraint is defined for the STUDENTS table",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "question": "The command: CREATE INDEX idx_cluster ON CLUSTER clust1;",
+      "answers": [
+        {
+          "text": "a) Creates a cluster called CLUST1",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Creates a table called CLUST1",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Creates an index called IDX_CLUSTER",
+          "isCorrect": true
+        },
+        {
+          "text": "d) Helps optimizing future requests",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Is not working",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "question": "The table STUDENT (id, name, addresses, group, year)",
+      "answers": [
+        {
+          "text": "a) Is not normalized",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Has group attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Has repetitive attributes",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Has all attributes with basic values",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Has join dependences",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "question": "Characteristics for the network structure:",
+      "answers": [
+        {
+          "text": "a) A subordinate can be reached in multiple ways",
+          "isCorrect": true
+        },
+        {
+          "text": "b) A subordinate node can have only one superior",
+          "isCorrect": false
+        },
+        {
+          "text": "c) A node can have any number of subordinates and superiors",
+          "isCorrect": true
+        },
+        {
+          "text": "d) A superior may have one or many subordinates",
+          "isCorrect": true
+        },
+        {
+          "text": "e) A subordinate node must have many superiors",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "question": "In the design of OODB the objects can be grouped in:",
+      "answers": [
+        {
+          "text": "a) Composite objects = they have at least one multi-value property and all the properties are not objects",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Compound objects = they have at least one multi-value property and all the properties are not objects",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Aggregated objects = objects that represent groups of entities and contain group properties that are transmitted to all instances of subclasses (inheritance).",
+          "isCorrect": true
+        },
+        {
+          "text": "d) Simple objects = they have single-valued properties (domain with one value) and have properties which are objects",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Associated objects = independent objects that are designed to establish a link between other objects",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "question": "Having the following command: CREATE TABLE flowers (id NUMBER, name VARCHAR2(60)) PARTITION BY HASH (id) PARTITIONS 4 STORE IN (garden1, garden2, garden3, garden4); what statement is true:",
+      "answers": [
+        {
+          "text": "a) this is an example of range partitioning.",
+          "isCorrect": false
+        },
+        {
+          "text": "b) The \"id\" is the partitioning key.",
+          "isCorrect": true
+        },
+        {
+          "text": "c) this is an example of list partitioning.",
+          "isCorrect": false
+        },
+        {
+          "text": "d) The \"garden\" is the partitioning key.",
+          "isCorrect": false
+        },
+        {
+          "text": "e) this is an example of hash partitioning.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "question": "Choose the right answers about SQL commands:",
+      "answers": [
+        {
+          "text": "a) A partition cannot be dropped",
+          "isCorrect": false
+        },
+        {
+          "text": "b) A partition can be dropped by using the DROP PARTITION command",
+          "isCorrect": false
+        },
+        {
+          "text": "c) A partition can be dropped by using the ALTER TABLE command",
+          "isCorrect": true
+        },
+        {
+          "text": "d) An index cannot be dropped",
+          "isCorrect": false
+        },
+        {
+          "text": "e) An index can be dropped using the DROP INDEX command",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "question": "Having the following command: CREATE TABLE students (ids VARCHAR2(10) PRIMARY KEY, name VARCHAR2(20) NOT NULL, faculty VARCHAR2(3) CONSTRAINT ckl CHECK(faculty IN ('COM','CIB','MAN')))",
+      "answers": [
+        {
+          "text": "a) There are no integrity constraints",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Ck1 is a domain constraint",
+          "isCorrect": true
+        },
+        {
+          "text": "c) NAME field has a unique key constraint associated",
+          "isCorrect": false
+        },
+        {
+          "text": "d) IDS field has a unique key constraint associated",
+          "isCorrect": true
+        },
+        {
+          "text": "e) The primary key constraint has no name",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "question": "The command: CREATE TABLE products_cluster CLUSTER clust1(prod_id) AS SELECT * FROM products WHERE price>100;",
+      "answers": [
+        {
+          "text": "a) Creates a cluster called CLUST1",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Creates a table called PRODUCTS_CLUSTER",
+          "isCorrect": true
+        },
+        {
+          "text": "c) Creates a cluster called PRODUCTS_CLUSTER",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Puts in the cluster only the products that have the price greater than 100",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Is not working",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "question": "The table STUDENT (id, name, surname, faculty, city)",
+      "answers": [
+        {
+          "text": "a) Has a composed primary key",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Is normalized",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Is in the 3rd Normal Form",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Has a transitive dependence",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Has a non-transitive dependence",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "question": "Having the following command: CREATE TABLE flowers (id NUMBER, name VARCHAR2(60)) PARTITION BY HASH (id) PARTITIONS 4 STORE IN (garden1, garden2, garden3, garden4);",
+      "answers": [
+        {
+          "text": "a) The partitioning key is 'name'",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Each partition stores rows based on hash of 'id'",
+          "isCorrect": true
+        },
+        {
+          "text": "c) This is list partitioning",
+          "isCorrect": false
+        },
+        {
+          "text": "d) The number of partitions is 3",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Partition names are garden1–garden4",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "question": "In Oracle, to drop a partition, you use:",
+      "answers": [
+        {
+          "text": "a) DROP PARTITION",
+          "isCorrect": false
+        },
+        {
+          "text": "b) ALTER TABLE ... DROP PARTITION",
+          "isCorrect": true
+        },
+        {
+          "text": "c) DELETE PARTITION",
+          "isCorrect": false
+        },
+        {
+          "text": "d) REMOVE PARTITION",
+          "isCorrect": false
+        },
+        {
+          "text": "e) TRUNCATE PARTITION",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "question": "A clustered index in Oracle:",
+      "answers": [
+        {
+          "text": "a) Stores table data physically ordered by the index key",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Can be created on any table",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Requires the table to be organized as a cluster",
+          "isCorrect": true
+        },
+        {
+          "text": "d) Improves performance for range queries",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Cannot be unique",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Which of the following is true about views?",
+      "answers": [
+        {
+          "text": "a) A view can contain data from multiple tables",
+          "isCorrect": true
+        },
+        {
+          "text": "b) A view stores data physically",
+          "isCorrect": false
+        },
+        {
+          "text": "c) Views can be updated only if they are simple (single table, no aggregates)",
+          "isCorrect": true
+        },
+        {
+          "text": "d) CREATE OR REPLACE VIEW replaces an existing view",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Views improve security by restricting access",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "question": "In relational algebra, the natural join operator:",
+      "answers": [
+        {
+          "text": "a) Requires explicit attribute names",
+          "isCorrect": false
+        },
+        {
+          "text": "b) Combines tuples with equal values on common attributes",
+          "isCorrect": true
+        },
+        {
+          "text": "c) Is equivalent to Cartesian product + selection",
+          "isCorrect": true
+        },
+        {
+          "text": "d) Eliminates duplicate columns",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Is denoted by ⨝",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "question": "The SQL command: SELECT city + state location FROM customers;",
+      "answers": [
+        {
+          "text": "a) Concatenates city and state into a column named location",
+          "isCorrect": true
+        },
+        {
+          "text": "b) Uses '+' as string concatenation (Oracle-specific)",
+          "isCorrect": true
+        },
+        {
+          "text": "c) Will fail in standard SQL (use || instead)",
+          "isCorrect": false
+        },
+        {
+          "text": "d) Returns one column",
+          "isCorrect": true
+        },
+        {
+          "text": "e) Is invalid because '+' is arithmetic only",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "question": "Having the following command: CREATE TABLE flowers (id NUMBER, name VARCHAR2(60)) PARTITION BY HASH (id) PARTITIONS 4;",
+      "answers": [
+        {
+          "text": "a) This creates 4 partitions named SYS_P1, SYS_P2, etc.",
+          "isCorrect": true
+        },
+        {
+          "text": "b) The partitioning key must be NOT NULL",
+          "isCorrect": true
+        },
+        {
+          "text": "c) Rows are distributed evenly across partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "d) You cannot specify storage clauses without STORE IN",
+          "isCorrect": false
+        },
+        {
+          "text": "e) Hash partitioning supports direct access via partition key",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "question": "Optimizing the response time in a database, can be made by:",
+      "answers": [
+        {
+          "text": "a. Using clusters",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Creating optimized requests that are based on relational calculus and algebra",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Using views",
+          "isCorrect": false
+        },
+        {
+          "text": "d. Using partitions",
+          "isCorrect": true
+        },
+        {
+          "text": "e. Using indexes",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "question": "After running the command DROP TABLE employees CASCADE CONSTRAINTS;",
+      "answers": [
+        {
+          "text": "a. Only the employees table is deleted.",
+          "isCorrect": false
+        },
+        {
+          "text": "b. Only the data from the employees table is deleted.",
+          "isCorrect": false
+        },
+        {
+          "text": "c. The employees table is not deleted if there are other tables that depend on it.",
+          "isCorrect": false
+        },
+        {
+          "text": "d. The employees table is deleted, along with the integrity constraints on the tables that refer to it.",
+          "isCorrect": true
+        },
+        {
+          "text": "e. Nothing is deleted.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "question": "Choose the correct answer(s), referring to relational DBMS (RDBMS) vs NOSQL vs NewSQL.",
+      "answers": [
+        {
+          "text": "a. RDBMS offers vertical scaling",
+          "isCorrect": true
+        },
+        {
+          "text": "b. NOSQL offers SQL support",
+          "isCorrect": false
+        },
+        {
+          "text": "c. NewSQL doesn't offer SQL support",
+          "isCorrect": true
+        },
+        {
+          "text": "d. NOSQL offers horizontal scaling",
+          "isCorrect": true
+        },
+        {
+          "text": "e. NewSQL offers horizontal scaling",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "question": "Having the following code, choose the correct answer(s). (UPDATE PRODUCT_INFORMATION P SET PRODUCT_NAME=REPLACE(PRODUCT_NAME,'_','') WHERE EXISTS( SELECT 1 FROM ORDER_ITEMS O WHERE O.PRODUCT_ID=P.PRODUCT_ID AND DISCOUNT_PRICE IS NULL) OR LIST_PRICE>100)",
+      "answers": [
+        {
+          "text": "a. Generates an error",
+          "isCorrect": false
+        },
+        {
+          "text": "b. SELECT 1 FROM order_items o; displays the first row from the table",
+          "isCorrect": false
+        },
+        {
+          "text": "c. Modifies the product's name, only for the products having a list_price larger than 100 or with no discount price.",
+          "isCorrect": true
+        },
+        {
+          "text": "d. Modifies the product's name so that if it contains _ it will be replaced with space",
+          "isCorrect": true
+        },
+        {
+          "text": "e. SELECT 1 FROM order_items o; displays 1 a few times",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "question": "Choose the correct statement(s), referring to indexes.",
+      "answers": [
+        {
+          "text": "a. Indexes are automatically created when a unique constraint is created.",
+          "isCorrect": true
+        },
+        {
+          "text": "b. Indexes are logically and physically independent of the data in the associated table.",
+          "isCorrect": false
+        },
+        {
+          "text": "c. If an index is dropped, the applications will not be affected, but some queries might work slower.",
+          "isCorrect": true
+        },
+        {
+          "text": "d. The indexes don't require additional storing space.",
+          "isCorrect": false
+        },
+        {
+          "text": "e. The database automatically takes care of the indexes when an insert, update or delete operation is made.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "question": "For a database:",
+      "answers": [
+        {
+          "text": "a) the conceptual structure is deduced from the logical structure",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the external structure is deduced from the conceptual structure",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the global structure is deduced from the conceptual structure",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the global structure is deduced from the physical structure",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the internal structure is deduced from the physical structure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "question": "The data component from a DBS architecture may contain:",
+      "answers": [
+        {
+          "text": "a) the operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the coding system",
+          "isCorrect": false
+        },
+        {
+          "text": "c) distributed dictionary",
+          "isCorrect": false
+        },
+        {
+          "text": "d) auxiliary files",
+          "isCorrect": true
+        },
+        {
+          "text": "e) .DOC files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "question": "In a DBS tiered architecture, the application programmer's vision corresponds to:",
+      "answers": [
+        {
+          "text": "a) physical level",
+          "isCorrect": false
+        },
+        {
+          "text": "b) operating system level",
+          "isCorrect": false
+        },
+        {
+          "text": "c) DBMS level",
+          "isCorrect": false
+        },
+        {
+          "text": "d) physical and logical level",
+          "isCorrect": false
+        },
+        {
+          "text": "e) logical level",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "question": "Oracle is:",
+      "answers": [
+        {
+          "text": "a) a universal programming language",
+          "isCorrect": false
+        },
+        {
+          "text": "b) a database",
+          "isCorrect": false
+        },
+        {
+          "text": "c) a file system",
+          "isCorrect": false
+        },
+        {
+          "text": "d) a network DBMS",
+          "isCorrect": false
+        },
+        {
+          "text": "e) an object oriented DBMS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "question": "For a database:",
+      "answers": [
+        {
+          "text": "a) the external schema is deduced from global schema",
+          "isCorrect": true
+        },
+        {
+          "text": "b) the logical schema is deduced from conceptual schema",
+          "isCorrect": true
+        },
+        {
+          "text": "c) the global schema is deduced from external schema",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the internal schema is deduced from the logical schema",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the external schema is deduced from the internal schema",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "question": "Database internal structure (physical) is a point of view of:",
+      "answers": [
+        {
+          "text": "a) the application programmer",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the network administrator",
+          "isCorrect": false
+        },
+        {
+          "text": "c) the programs administrator",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the team leader",
+          "isCorrect": false
+        },
+        {
+          "text": "e) there is no such data structure",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "question": "In a database system architecture, Oracle component is part of:",
+      "answers": [
+        {
+          "text": "a) data",
+          "isCorrect": false
+        },
+        {
+          "text": "b) auxiliary elements",
+          "isCorrect": false
+        },
+        {
+          "text": "c) mandatory elements",
+          "isCorrect": false
+        },
+        {
+          "text": "d) software",
+          "isCorrect": true
+        },
+        {
+          "text": "e) the database",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "question": "Components of a database system are:",
+      "answers": [
+        {
+          "text": "a) operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "b) network software",
+          "isCorrect": false
+        },
+        {
+          "text": "c) computer network",
+          "isCorrect": false
+        },
+        {
+          "text": "d) computing model",
+          "isCorrect": false
+        },
+        {
+          "text": "e) utility programs",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "question": "The component architecture of a database system contains:",
+      "answers": [
+        {
+          "text": "a) files",
+          "isCorrect": false
+        },
+        {
+          "text": "b) communication programs",
+          "isCorrect": false
+        },
+        {
+          "text": "c) specialized communication software",
+          "isCorrect": false
+        },
+        {
+          "text": "d) data",
+          "isCorrect": true
+        },
+        {
+          "text": "e) auxiliary elements",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "question": "In how many levels of organization may be structured a database?",
+      "answers": [
+        {
+          "text": "a) two",
+          "isCorrect": false
+        },
+        {
+          "text": "b) three",
+          "isCorrect": true
+        },
+        {
+          "text": "c) four",
+          "isCorrect": false
+        },
+        {
+          "text": "d) one",
+          "isCorrect": false
+        },
+        {
+          "text": "e) sometimes three, sometimes four",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "question": "In tiered architecture of a database system, database administrator's point of view corresponds to the:",
+      "answers": [
+        {
+          "text": "a) logic level",
+          "isCorrect": false
+        },
+        {
+          "text": "b) physical level",
+          "isCorrect": false
+        },
+        {
+          "text": "c) conceptual level",
+          "isCorrect": true
+        },
+        {
+          "text": "d) application level",
+          "isCorrect": false
+        },
+        {
+          "text": "e) no level",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "question": "The external structure of a database is the point of view of:",
+      "answers": [
+        {
+          "text": "a) application programmer",
+          "isCorrect": true
+        },
+        {
+          "text": "b) there is no such data structure",
+          "isCorrect": false
+        },
+        {
+          "text": "c) database administrator",
+          "isCorrect": false
+        },
+        {
+          "text": "d) network administrator",
+          "isCorrect": false
+        },
+        {
+          "text": "e) DBMS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "question": "The data component from a DBS may contain:",
+      "answers": [
+        {
+          "text": "a) the application programs",
+          "isCorrect": false
+        },
+        {
+          "text": "b) DB dictionary",
+          "isCorrect": true
+        },
+        {
+          "text": "c) user programs",
+          "isCorrect": false
+        },
+        {
+          "text": "d) programs dictionary",
+          "isCorrect": false
+        },
+        {
+          "text": "e) HTML files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "question": "Tasks of the database administrator are:",
+      "answers": [
+        {
+          "text": "a) ensures the conceptual independence of data",
+          "isCorrect": false
+        },
+        {
+          "text": "b) defines DB dictionary",
+          "isCorrect": true
+        },
+        {
+          "text": "c) monitors access to data",
+          "isCorrect": true
+        },
+        {
+          "text": "d) ensures data protection",
+          "isCorrect": true
+        },
+        {
+          "text": "e) maintains the database",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "question": "Available tools for the database administrator are:",
+      "answers": [
+        {
+          "text": "a) hardware products offered by DBMS",
+          "isCorrect": false
+        },
+        {
+          "text": "b) hardware products from operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "c) software products provided by DBMS",
+          "isCorrect": true
+        },
+        {
+          "text": "d) software products provided by the operating system",
+          "isCorrect": true
+        },
+        {
+          "text": "e) software products made by database administrator",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "question": "Functions of a DBMS are:",
+      "answers": [
+        {
+          "text": "a) programs manipulation",
+          "isCorrect": false
+        },
+        {
+          "text": "b) network management",
+          "isCorrect": false
+        },
+        {
+          "text": "c) a description of the interfaces",
+          "isCorrect": false
+        },
+        {
+          "text": "d) define users",
+          "isCorrect": false
+        },
+        {
+          "text": "e) use the universal language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "question": "Considering the implemented data model, databases can be grouped in:",
+      "answers": [
+        {
+          "text": "a) hierarchical, local",
+          "isCorrect": false
+        },
+        {
+          "text": "b) distributed, generalized",
+          "isCorrect": false
+        },
+        {
+          "text": "c) relational, managerial",
+          "isCorrect": false
+        },
+        {
+          "text": "d) object-oriented, specialized",
+          "isCorrect": false
+        },
+        {
+          "text": "e) network, documentation",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "question": "Data component from a DBS may contain:",
+      "answers": [
+        {
+          "text": "a) operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "b) code system",
+          "isCorrect": false
+        },
+        {
+          "text": "c) distributed dictionary",
+          "isCorrect": false
+        },
+        {
+          "text": "d) annex files",
+          "isCorrect": true
+        },
+        {
+          "text": "e) .DOC files",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "question": "Oracle is:",
+      "answers": [
+        {
+          "text": "a) an operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "b) a programming language",
+          "isCorrect": false
+        },
+        {
+          "text": "c) a data file system",
+          "isCorrect": false
+        },
+        {
+          "text": "d) a set of programs",
+          "isCorrect": true
+        },
+        {
+          "text": "e) an object oriented DBMS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "question": "Oracle DBMS contains:",
+      "answers": [
+        {
+          "text": "a) procedural language",
+          "isCorrect": true
+        },
+        {
+          "text": "b) descriptive language",
+          "isCorrect": false
+        },
+        {
+          "text": "c) a data description language",
+          "isCorrect": false
+        },
+        {
+          "text": "d) a data manipulation language",
+          "isCorrect": false
+        },
+        {
+          "text": "e) a distributed user language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "question": "Database is a set of data:",
+      "answers": [
+        {
+          "text": "a) administered, coherent",
+          "isCorrect": false
+        },
+        {
+          "text": "b) accessible to multiple users in a timely manner",
+          "isCorrect": true
+        },
+        {
+          "text": "c) structured with a minimum redundancy and controlled",
+          "isCorrect": true
+        },
+        {
+          "text": "d) organized, coherent",
+          "isCorrect": true
+        },
+        {
+          "text": "e) managed, programmed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "question": "The defining elements of a database are:",
+      "answers": [
+        {
+          "text": "a) characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "b) collection of group characteristics",
+          "isCorrect": false
+        },
+        {
+          "text": "c) data collections",
+          "isCorrect": true
+        },
+        {
+          "text": "d) family of characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "e) collection of databases",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "question": "The defining elements of a database are:",
+      "answers": [
+        {
+          "text": "a) collection of properties",
+          "isCorrect": false
+        },
+        {
+          "text": "b) data collection",
+          "isCorrect": true
+        },
+        {
+          "text": "c) family characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "d) family records",
+          "isCorrect": false
+        },
+        {
+          "text": "e) the characteristic",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "question": "The database is a set of data:",
+      "answers": [
+        {
+          "text": "a) organized, structured",
+          "isCorrect": true
+        },
+        {
+          "text": "b) with a minimum redundancy and uncontrolled",
+          "isCorrect": false
+        },
+        {
+          "text": "c) accessible to multiple users in a timely manner",
+          "isCorrect": true
+        },
+        {
+          "text": "d) consistent, modular",
+          "isCorrect": false
+        },
+        {
+          "text": "e) evenly distributed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "question": "The data component from a DBS may contain:",
+      "answers": [
+        {
+          "text": "a) the operating system",
+          "isCorrect": false
+        },
+        {
+          "text": "b) the computer system",
+          "isCorrect": false
+        },
+        {
+          "text": "c) distributed techniques",
+          "isCorrect": false
+        },
+        {
+          "text": "d) the database dictionary",
+          "isCorrect": true
+        },
+        {
+          "text": "e) only XML type files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "question": "Oracle is:",
+      "answers": [
+        {
+          "text": "a) a universal programming language",
+          "isCorrect": false
+        },
+        {
+          "text": "b) a database",
+          "isCorrect": false
+        },
+        {
+          "text": "c) a file system",
+          "isCorrect": false
+        },
+        {
+          "text": "d) a network DBMS",
+          "isCorrect": false
+        },
+        {
+          "text": "e) a view-oriented DBMS",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "question": "Oracle contains:",
+      "answers": [
+        {
+          "text": "a) a procedural language",
+          "isCorrect": true
+        },
+        {
+          "text": "b) a descriptive language",
+          "isCorrect": true
+        },
+        {
+          "text": "c) a data description language",
+          "isCorrect": true
+        },
+        {
+          "text": "d) a data manipulation language",
+          "isCorrect": true
+        },
+        {
+          "text": "e) a distributed user language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "question": "A database is a set of data:",
+      "answers": [
+        {
+          "text": "a) driven, coherent",
+          "isCorrect": false
+        },
+        {
+          "text": "b) accessible to multiple users in a timely manner",
+          "isCorrect": true
+        },
+        {
+          "text": "c) structured with a minimum redundancy and controlled",
+          "isCorrect": true
+        },
+        {
+          "text": "d) organized, coherent",
+          "isCorrect": true
+        },
+        {
+          "text": "e) programmed",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "question": "The defining elements of a database are:",
+      "answers": [
+        {
+          "text": "a) characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "b) collection of group characteristics",
+          "isCorrect": false
+        },
+        {
+          "text": "c) data collections",
+          "isCorrect": true
+        },
+        {
+          "text": "d) family characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "e) database collections",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "question": "The defining elements of a database are:",
+      "answers": [
+        {
+          "text": "a) collection of properties",
+          "isCorrect": false
+        },
+        {
+          "text": "b) data collections",
+          "isCorrect": true
+        },
+        {
+          "text": "c) family characteristics",
+          "isCorrect": true
+        },
+        {
+          "text": "d) family records",
+          "isCorrect": false
+        },
+        {
+          "text": "e) characteristics",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

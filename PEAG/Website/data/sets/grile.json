@@ -1,0 +1,132 @@
+[
+  {
+    "id": "grile",
+    "name": "Grile MCQs",
+    "questions": [
+      {
+        "id": 1,
+        "question": "În cadrul unui algoritm evolutiv condiția de terminare poate include următoarele elemente: a) controlul numărului de iterații (număr maxim admis de populații generate), b) disponibilitatea spațiului de memorie, c) atingerea valorii optime a funcției obiectiv, d) verificarea unei condiții legate de diversitatea genetică, e) scăderea dimensiunii populației sub o limită admisă, f) creșterea lungimii cromozomilor.",
+        "answers": [
+          {
+            "text": "a. a, c, d",
+            "isCorrect": true
+          },
+          {
+            "text": "b. b, d, e",
+            "isCorrect": false
+          },
+          {
+            "text": "c. a, e, f",
+            "isCorrect": false
+          },
+          {
+            "text": "d. b, c, d",
+            "isCorrect": false
+          },
+          {
+            "text": "e. a, b, e",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "În algoritmii genetici, operația de selecție a părinților",
+        "answers": [
+          {
+            "text": "a. Este doar un exercițiu de implementare, nefiind necesară",
+            "isCorrect": false
+          },
+          {
+            "text": "b. Este utilizată determinist",
+            "isCorrect": true
+          },
+          {
+            "text": "c. Este utilizată în funcție de reprezentarea cromozomială",
+            "isCorrect": false
+          },
+          {
+            "text": "d. Nu este utilizată",
+            "isCorrect": false
+          },
+          {
+            "text": "e. Este utilizată în general în manieră nedeterministă",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "În cadrul unui algoritm genetic care maximizează o funcție (fitness): 1. Selecția generației următoare este obligatoriu bazată pe vîrstă ; 2. Sînt rezolvate doar probleme cu constrîngeri ; 3. Selecția părinților este efectuată iterativ; 4. Mutația este realizată cu probabilitate mică; 5. Nu este recomandată utilizarea selecției FPS; 6. Multisetul copiilor este fără duplicate; 7. Selecția supraviețuitorilor este determinată de calitate și/sau factorul vîrstă ; 8. Recombinarea este realizată rareori; 9. Este intenționată determinarea unui punct de maxim global; 10. Structura cromozomială diferă dacă funcția este translatată.",
+        "answers": [
+          {
+            "text": "1. Selecția generației următoare este obligatoriu bazată pe vîrstă",
+            "isCorrect": false
+          },
+          {
+            "text": "2. Sînt rezolvate doar probleme cu constrîngeri",
+            "isCorrect": false
+          },
+          {
+            "text": "3. Selecția părinților este efectuată iterativ",
+            "isCorrect": true
+          },
+          {
+            "text": "4. Mutația este realizată cu probabilitate mică",
+            "isCorrect": true
+          },
+          {
+            "text": "5. Nu este recomandată utilizarea selecției FPS",
+            "isCorrect": false
+          },
+          {
+            "text": "6. Multisetul copiilor este fără duplicate",
+            "isCorrect": true
+          },
+          {
+            "text": "7. Selecția supraviețuitorilor este determinată de calitate și/sau factorul vîrstă",
+            "isCorrect": true
+          },
+          {
+            "text": "8. Recombinarea este realizată rareori",
+            "isCorrect": true
+          },
+          {
+            "text": "9. Este intenționată determinarea unui punct de maxim global",
+            "isCorrect": true
+          },
+          {
+            "text": "10. Structura cromozomială diferă dacă funcția este translatată",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Algoritmul Hillclimbing :",
+        "answers": [
+          {
+            "text": "a. Este un algoritm auto-adaptiv",
+            "isCorrect": true
+          },
+          {
+            "text": "b. Este un algoritm determinist",
+            "isCorrect": false
+          },
+          {
+            "text": "c. Este un algoritm evolutiv",
+            "isCorrect": true
+          },
+          {
+            "text": "d. Este o etapă intermediară între algoritmii determiniști și cei evolutivi.",
+            "isCorrect": false
+          },
+          {
+            "text": "e. Nici una din celelalte variante",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]
