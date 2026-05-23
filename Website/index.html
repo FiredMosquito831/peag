@@ -85,7 +85,7 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useRef } = React;
-        const APP_DATA_VERSION = 'peag-uscatu-legit-repaired-2026-05-23';
+        const APP_DATA_VERSION = 'peag-render-validated-2026-05-24';
         const fetchJson = (path) => fetch(`${path}?v=${encodeURIComponent(APP_DATA_VERSION)}`, { cache: 'no-store' }).then(res => res.json());
         const LANGUAGE_OPTIONS = {
             ro: { label: 'Romana', short: 'RO', subtitle: 'Seturile romanesti curente' },
@@ -391,6 +391,32 @@
                     isMultiple: correctAnswers.length > 1
                 };
             }).filter(Boolean);
+        }
+
+        function isValidProcessedQuestion(question) {
+            if (!question || typeof question.text !== 'string' || !question.text.trim()) return false;
+            if (!Array.isArray(question.options) || question.options.length < 2) return false;
+            if (!Array.isArray(question.correctAnswers) || question.correctAnswers.length === 0) return false;
+
+            const optionIds = new Set();
+            return question.options.every(opt => {
+                if (!opt || typeof opt.id !== 'string' || optionIds.has(opt.id)) return false;
+                optionIds.add(opt.id);
+                if (typeof opt.text !== 'string') return false;
+                const text = opt.text.trim();
+                if (!text || /^[,.;:"'`]+$/.test(text)) return false;
+                return true;
+            }) && question.correctAnswers.every(id => optionIds.has(id));
+        }
+
+        function isValidSavedSession(sess) {
+            return (
+                sess &&
+                sess.dataVersion === APP_DATA_VERSION &&
+                Array.isArray(sess.activeQuestions) &&
+                sess.activeQuestions.length > 0 &&
+                sess.activeQuestions.every(isValidProcessedQuestion)
+            );
         }
 
         // --- 3. UI COMPONENTS ---
@@ -1039,7 +1065,7 @@
                                 if (savedSession) {
                                     try {
                                         const sess = JSON.parse(savedSession);
-                                        if (sess.dataVersion === APP_DATA_VERSION && sess.activeQuestions && sess.activeQuestions.length > 0) {
+                                        if (isValidSavedSession(sess)) {
                                             setHasSavedSession(true);
                                             if (sess.currentSetId && configData.sets[sess.currentSetId]) initialSetId = sess.currentSetId;
                                             else if (sess.difficulty) {
@@ -1047,6 +1073,8 @@
                                                 else if (sess.difficulty === 'book' && configData.sets.book) initialSetId = 'book';
                                                 else initialSetId = configData.defaultSet;
                                             }
+                                        } else {
+                                            localStorage.removeItem('mgmt_session');
                                         }
                                     } catch (e) { console.error("Err loading session", e); }
                                 }
@@ -1156,7 +1184,7 @@
                 const savedSession = localStorage.getItem('mgmt_session');
                 if (savedSession) {
                     const sess = JSON.parse(savedSession);
-                    if (sess.dataVersion !== APP_DATA_VERSION) {
+                    if (!isValidSavedSession(sess)) {
                         localStorage.removeItem('mgmt_session');
                         setHasSavedSession(false);
                         return;
