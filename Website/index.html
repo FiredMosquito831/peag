@@ -85,7 +85,7 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useRef } = React;
-        const APP_DATA_VERSION = 'peag-uscatu-legit-2026-05-23';
+        const APP_DATA_VERSION = 'peag-uscatu-legit-repaired-2026-05-23';
         const fetchJson = (path) => fetch(`${path}?v=${encodeURIComponent(APP_DATA_VERSION)}`, { cache: 'no-store' }).then(res => res.json());
         const LANGUAGE_OPTIONS = {
             ro: { label: 'Romana', short: 'RO', subtitle: 'Seturile romanesti curente' },
@@ -367,13 +367,21 @@
                         isCorrect: Array.isArray(q.correct) && q.correct.includes(key)
                     }));
 
-                const options = rawAnswers.map((ans, index) => {
-                    const optId = String.fromCharCode(97 + index);
-                    const cleanText = String(ans.text || '').replace(/^[a-zA-Z]\)\s*/, '');
-                    return { id: optId, text: cleanText, isCorrect: Boolean(ans.isCorrect) };
-                });
+                const options = rawAnswers
+                    .map((ans) => {
+                        const cleanText = String(ans.text || '').replace(/^[a-zA-Z]\)\s*/, '').trim();
+                        return { text: cleanText, isCorrect: Boolean(ans.isCorrect) };
+                    })
+                    .filter(ans => ans.text && !/^[,.;:"'`]+$/.test(ans.text))
+                    .map((ans, index) => ({
+                        id: String.fromCharCode(97 + index),
+                        text: ans.text,
+                        isCorrect: ans.isCorrect
+                    }));
 
                 const correctAnswers = options.filter(o => o.isCorrect).map(o => o.id);
+
+                if (options.length < 2 || correctAnswers.length === 0) return null;
 
                 return {
                     id: q.id,
@@ -382,7 +390,7 @@
                     correctAnswers: correctAnswers,
                     isMultiple: correctAnswers.length > 1
                 };
-            });
+            }).filter(Boolean);
         }
 
         // --- 3. UI COMPONENTS ---

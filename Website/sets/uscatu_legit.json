@@ -216,20 +216,20 @@
         "isCorrect": false
       },
       {
-        "text": " frequency\", ",
+        "text": "can not be based on alleles' frequency",
         "isCorrect": false
       },
       {
-        "text": ", ",
+        "text": "has a biological support",
         "isCorrect": false
       },
       {
-        "text": ", ",
+        "text": "is a generalization of recombination operations for permutations",
         "isCorrect": false
       },
       {
-        "text": "",
-        "isCorrect": false
+        "text": "produces better results only in some particular cases",
+        "isCorrect": true
       }
     ]
   },
@@ -758,7 +758,23 @@
     "question": "Let X = [1 ,4 ,5 ,8 ,7 ,9 , 2, 3 ,6 ,10], Y=[9, 3, ,4 ,2 ,8 ,7 ,10, 5, 1, 6] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the PMX procedure, if the crossover positions are (5,6)?\nX = [1 ,4 ,5 ,8 ,7 ,9 ,   2, 3 ,6 ,10]\nY = [9, 3, 4 ,2 ,8 ,7 , 10, 5, 1,   6]",
     "answers": [
       {
-        "text": "C1= (8, 3, 4, 7, 9, 10, 5, 1, 6, 2",
+        "text": "C1= (8, 3, 4, 7, 9, 10, 5, 1, 6, 2], C2 = [1, 4, 5, 7 , 2, 3, 6, 10, 8, 9]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[3, 4, 9, 6, 5, 7, 1, 10, 8, 2], C2 =[10, 2, 6, 4, 1, 5, 8, 7, 3, 9]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[8, 3, 4, 2, 7, 9, 10, 5, 1, 6], C2= [1, 4, 5, 9, 8, 7, 2, 3, 6, 10]",
+        "isCorrect": true
+      },
+      {
+        "text": "C1=[1, 6, 8, 3, 4, 2, 7, 9, 10, 5], C2 = [9, 8, 1, 4, 5, 7, 2, 3, 6, 10]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[3, 8, 4, 2, 7, 9, 10, 5, 1, 6], C2=[10, 4, 5, ,9 ,8 ,7 ,2 ,3 ,6 ,1]",
         "isCorrect": false
       }
     ]
@@ -772,19 +788,19 @@
         "isCorrect": true
       },
       {
-        "text": " quality into account.\", ",
+        "text": "Does not take the chromosomes' quality into account.",
         "isCorrect": false
       },
       {
-        "text": ", ",
+        "text": "May partially replace the current generation",
         "isCorrect": false
       },
       {
-        "text": ", ",
+        "text": "May completely replace the current population",
         "isCorrect": false
       },
       {
-        "text": "",
+        "text": "May replace one chromosome from the current population",
         "isCorrect": false
       }
     ]
