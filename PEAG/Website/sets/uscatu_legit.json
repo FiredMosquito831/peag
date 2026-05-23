@@ -1,0 +1,1906 @@
+[
+  {
+    "id": 1,
+    "question": "A GA maximizes",
+    "answers": [
+      {
+        "text": "Linear functions only",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "Fitness functions",
+        "isCorrect": true
+      },
+      {
+        "text": "Quadratic functions only",
+        "isCorrect": false
+      },
+      {
+        "text": "Exponential functions only",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "In EAs, the main characteristics of populations is",
+    "answers": [
+      {
+        "text": "the size",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "the diversity",
+        "isCorrect": true
+      },
+      {
+        "text": "the chromosome structure",
+        "isCorrect": false
+      },
+      {
+        "text": "the chromosome representation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "We consider the following individual X=[ 6 1 8 10 5 7 1 2 4 3 9 3 4 2 ] (integer-valued vector representation). The result of applying the creep mutation operator with value 1 could be:\n1. Y=[ 1 6 1 8 10 5 7 1 2 4 3 9 3 4 2 ];\n2. Y=[ 6 1 8 10 5 7 1 2 4 3 9 4 3 2 ];\n3. Y=[ 6 1 8 10 1 5 7 1 2 4 3 9 3 4 2];\n4. Y=[ 7 1 8 10 5 7 1 2 4 3 9 3 4 2 ];\n5. Y=[ 6 1 8 10 5 7 1 2 4 3 9 3 4 3 ];\n6. Y=[ 1 6 8 10 5 7 1 2 4 2 9 3 4 2 ]",
+    "answers": [
+      {
+        "text": "none of the other answers",
+        "isCorrect": true
+      },
+      {
+        "text": "2, 4, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 4, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 3, 4, 5, 6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which one of the following operators is used by GAs in case of real valued vectors representation?\n1. Not operator;\n2. Fuzzy not operator;\n3. Pseudo-random resetting;\n4. Deterministic resetting;\n5. Uniform mutation;\n6. Non-uniform mutation with a given distribution probability;\n7. Local mutation;\n8. Scramble mutation;\n9. Insertion mutation;\n10. Quick mutation;\n11. Swap mutation;\n12. Global mutation;\n13. Inversion mutation;\n14. One-point crossover;\n15. N-points crossover;\n16. Uniform crossover;\n17. Root crossover;\n18. Simple arithmetic recombination;\n19. Single arithmetic recombination;\n20. Maximal crossover;\n21. Whole arithmetic recombination;\n22. Partially mapped crossover;\n23. Order crossover;\n24. Edge crossover;\n25. Cycle crossover.",
+    "answers": [
+      {
+        "text": "3, 4, 5, 6, 7,12, 18, 19, 20",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3, 4, 7, 10, 13, 16, 17, 20",
+        "isCorrect": false
+      },
+      {
+        "text": "All of the above mentioned operators",
+        "isCorrect": false
+      },
+      {
+        "text": "5, 6, 14, 15, 16, 18, 19, 21",
+        "isCorrect": true
+      },
+      {
+        "text": "2, 7, 10, 12,17",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In EAs, the genotypes are",
+    "answers": [
+      {
+        "text": "the phenotype representation in an evolutionary context",
+        "isCorrect": true
+      },
+      {
+        "text": "not used",
+        "isCorrect": false
+      },
+      {
+        "text": "the fittest individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "the most unfit individuals",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "The mating pool selection in GAs:\n1. Is used to solve only constrained problems\n2. Is applied once, after the initial population generation\n3. Is applied immediately an evaluated current population is available\n4. ls always based on a selection probability distribution\n5. Is applied on mutated offspring multiset\n6. Can be implemented based on a selection probability distribution\n7. Is an iterative process\n8. ls applied on current population\n9. Is applied once\n10. Generally uses the age factor to select individuals\n11. ls applied immediately before each mutation procedure\n12. Is applied on offspring multiset",
+    "answers": [
+      {
+        "text": "1, 2, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 5 , 8, 12",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 6, 7 ,8",
+        "isCorrect": true
+      },
+      {
+        "text": "4, 6 ,7 ,8",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 6, 8, 12",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "The following recombination operator is used to save the common relations from the parent chromosomes:",
+    "answers": [
+      {
+        "text": "PMX (Partially Mapped crossover)",
+        "isCorrect": false
+      },
+      {
+        "text": "ECX (Edge crossover)",
+        "isCorrect": true
+      },
+      {
+        "text": "there is no operator with this purpose",
+        "isCorrect": false
+      },
+      {
+        "text": "tournament recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "binary recombination",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which of the following statements is not correct, in the context of EA:",
+    "answers": [
+      {
+        "text": "the individual is a static entity, it does not evolve",
+        "isCorrect": false
+      },
+      {
+        "text": "the individual evolves to adapt to the environment",
+        "isCorrect": true
+      },
+      {
+        "text": "usually we work with fixed-size populations",
+        "isCorrect": false
+      },
+      {
+        "text": "the population evolves to adapt to the environment",
+        "isCorrect": false
+      },
+      {
+        "text": "selection operators are applied on populations",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "The multiple recombination:",
+    "answers": [
+      {
+        "text": "is the best choice for genetic algorithms",
+        "isCorrect": false
+      },
+      {
+        "text": " frequency\", ",
+        "isCorrect": false
+      },
+      {
+        "text": ", ",
+        "isCorrect": false
+      },
+      {
+        "text": ", ",
+        "isCorrect": false
+      },
+      {
+        "text": "",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "The purpose of evolution in evolutionary algorithms is:",
+    "answers": [
+      {
+        "text": "Reaching the state of genetic inactivity",
+        "isCorrect": false
+      },
+      {
+        "text": "Avoiding the climb towards higher areas on the evaluation function surface",
+        "isCorrect": false
+      },
+      {
+        "text": "Establishing the multimodal character of a problem",
+        "isCorrect": false
+      },
+      {
+        "text": "Concentration of population in local maximum points local",
+        "isCorrect": false
+      },
+      {
+        "text": "Obtaining better adapted individuals",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is the arity of the recombination operators used in genetic algorithms? (how many operands does it take)",
+    "answers": [
+      {
+        "text": "there are no recombination operators in genetic algorithms",
+        "isCorrect": false
+      },
+      {
+        "text": "ternary (three operands)",
+        "isCorrect": false
+      },
+      {
+        "text": "depends on the problem",
+        "isCorrect": false
+      },
+      {
+        "text": "unary (one operand)",
+        "isCorrect": false
+      },
+      {
+        "text": "binary (two operands)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "The scenario used by evolutionary algorithms to simulate evolutionary processes is:",
+    "answers": [
+      {
+        "text": "None of the three types of environments",
+        "isCorrect": false
+      },
+      {
+        "text": "Limited resources environment, resource levels is stable",
+        "isCorrect": true
+      },
+      {
+        "text": "Abundant resources evironment",
+        "isCorrect": false
+      },
+      {
+        "text": "All three types of environments",
+        "isCorrect": false
+      },
+      {
+        "text": "Decreaseing resources environment",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "The initial population of every EA:\n1. Is generated before the evolution process (consisting in selection, variation and evaluation)\n2. Is generated once\n3. Is generated at the beginning of each loop of the evolution process (consisting in selection, variation and evaluation)\n4. Is randomly generated\n5. Is generated using the normal probability distribution\n6. Is generated in a deterministic manner\n7. Is a finite set of candidate solutions",
+    "answers": [
+      {
+        "text": "2, 5, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 4, 7",
+        "isCorrect": true
+      },
+      {
+        "text": "5, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 4, 5, 6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Let v= [0,1,1,0,0,1,0] be a binary vector. Select the correct statement(s):\na. a mutation in a gene of v can produce a vector with all bits equal to 1;\nb. a mutation in a gene of v can produce a vector with all bits equal to 0;\nc. a mutation in a gene of v can produce a vector with 4 bits equal to 1;\nd. a mutation in a gene of v can produce a vector with 4 bits equal to 0;\ne. none of the other answers.",
+    "answers": [
+      {
+        "text": "a, b and d",
+        "isCorrect": false
+      },
+      {
+        "text": "e",
+        "isCorrect": false
+      },
+      {
+        "text": "b, c and d",
+        "isCorrect": false
+      },
+      {
+        "text": "a, d, c and d",
+        "isCorrect": false
+      },
+      {
+        "text": "c",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Let B(100) be the set of the binary vectors having 100 bits and f:B(100)->N a fitness function (to be maximized). A suitable method used to calculate a global maximum point of the function f involves:\na. the evaluation of each element in B(100) and the selection of the best one\nb. the use of an ES algorithm\nc. the use of the hill climbing method\nd. a standard GA\ne. any search method",
+    "answers": [
+      {
+        "text": "a",
+        "isCorrect": false
+      },
+      {
+        "text": "e",
+        "isCorrect": false
+      },
+      {
+        "text": "b and c",
+        "isCorrect": false
+      },
+      {
+        "text": "d",
+        "isCorrect": true
+      },
+      {
+        "text": "b and d",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "In case of integer array representation, arithmetic crossover:",
+    "answers": [
+      {
+        "text": "may be applied only if all allele pairs on the same position are both even or both odd",
+        "isCorrect": false
+      },
+      {
+        "text": "there is no such operator",
+        "isCorrect": false
+      },
+      {
+        "text": "is forbidden",
+        "isCorrect": false
+      },
+      {
+        "text": "may be used if results are rounded to integers",
+        "isCorrect": true
+      },
+      {
+        "text": "always produces aberrant results",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which of the following are not elements of an EA: 1) representation, 2) including libraries, 3) defining inputs, 4) evaluation function, 5) population, 6) implementation, 7) parents selection mechanism, 8) crossover operator, 9) sorting the population by fitness, 10) mutation operator, 11) next generation selection mechanism, 12) termination condition, 13) extraction of the best individual, 14) running the algorithm.",
+    "answers": [
+      {
+        "text": "4, 6, 7, 11, 12",
+        "isCorrect": false
+      },
+      {
+        "text": "6, 7, 9, 12",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4, 5, 7, 8, 10, 11, 12",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 9, 10, 13",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 6, 9, 13, 14",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Which of the following representation types is not used by genetic algorithms?",
+    "answers": [
+      {
+        "text": "permutation representation",
+        "isCorrect": false
+      },
+      {
+        "text": "representation as vectors of real numbers",
+        "isCorrect": false
+      },
+      {
+        "text": "binary representation",
+        "isCorrect": false
+      },
+      {
+        "text": "tree representation",
+        "isCorrect": true
+      },
+      {
+        "text": "representation as vectors of integers",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "A GA is over",
+    "answers": [
+      {
+        "text": "suddenly",
+        "isCorrect": false
+      },
+      {
+        "text": "successfully",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "without success",
+        "isCorrect": false
+      },
+      {
+        "text": "when a termination criterion is satisfied",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "For which of the operations below the following statement is NOT true: stochastic factors are always involved?",
+    "answers": [
+      {
+        "text": "Next generation selection",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "Selection of parents",
+        "isCorrect": false
+      },
+      {
+        "text": "Mutation",
+        "isCorrect": false
+      },
+      {
+        "text": "Generation of initial population",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Which of the following notion is not found in evolutionary algorithms?",
+    "answers": [
+      {
+        "text": "active population",
+        "isCorrect": false
+      },
+      {
+        "text": "all the other answers",
+        "isCorrect": true
+      },
+      {
+        "text": "occupied population",
+        "isCorrect": false
+      },
+      {
+        "text": "educated population",
+        "isCorrect": false
+      },
+      {
+        "text": "elderly population",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "The components of EAs are: 1. Representation; 2. The probability of mutation; 3. The fitness function; 4. The probability of crossover; 5. Population; 6. Mating pool selection; 7. Random number generation; 8. Permutation generation; 9. Graphical representation of quality evolution; 10. Variation operators; 11. The establishment of genetic diversity of the current population; 12. Survivor selection (replacement); 13. Hill-climbing; 14. Initialization; 15. Termination condition.",
+    "answers": [
+      {
+        "text": "2, 4, 6, 8, 11, 13",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3, 5, 6, 10, 13, 14, 15",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3, 5, 6, 10, 12, 14, 15",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 2, 5, 6, 7, 14, 15",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 5, 9, 15",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Let X=[9, 4, 2, 1, 7, 5, 3, 10, 8, 6] and Y=[4, 2, 5, 1, 7, 9, 3, 10, 8, 6] be a pair of parent permutations. How many cycles results from applying the CX procedure?\nX=[9, 4, 2, 1, 7, 5, 3, 10, 8, 6]\nY=[4, 2, 5, 1, 7, 9, 3, 10, 8, 6]",
+    "answers": [
+      {
+        "text": "7",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "In GAs, the termination condition\n1. Could miss\n2. Includes the control of the number of simulated generations\n3. Always uses random factors\n4. May include the population variability control\n5. Improves the average quality of the current population\n6. Guarantees a better population in case it uses age factor\n7. Does not depend on the chromosome encoding\n8. Depends on the chromosome representation",
+    "answers": [
+      {
+        "text": "2, 4, 7",
+        "isCorrect": true
+      },
+      {
+        "text": "2, 3, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4, 7, 8",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 5, 8",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "In hillclimbing, the evolution from a starting point:",
+    "answers": [
+      {
+        "text": "none of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "leads to a local minimum",
+        "isCorrect": false
+      },
+      {
+        "text": "leads to an extreme (maxim) that can be local or global in the search space",
+        "isCorrect": true
+      },
+      {
+        "text": "always leads to the global maximum",
+        "isCorrect": false
+      },
+      {
+        "text": "always leads to a local maximum, which is not the global maximum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Let X = [4, 5, 3, 8, 6, 10, 9, 7, 1, 2], Y = [8, 9, 7, 3, 1, 2, 6, 10, 5, 4] be a pair of parent permutations. The children resulted by applying the PMX procedure are C1 = [8, 9, 7, 3, 6, 10, 1, 2, 5, 4], C2 = [4, 5, 3, 8, 1, 2, 9, 7, 6, 10]. Which of the following pairs of positions produced C1 and C2?",
+    "answers": [
+      {
+        "text": "(5, 7)",
+        "isCorrect": false
+      },
+      {
+        "text": "(1, 4)",
+        "isCorrect": false
+      },
+      {
+        "text": "(4, 6)",
+        "isCorrect": false
+      },
+      {
+        "text": "(2, 6)",
+        "isCorrect": false
+      },
+      {
+        "text": "(5, 6)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is not a mutation operator for permutation representation?",
+    "answers": [
+      {
+        "text": "scramble",
+        "isCorrect": false
+      },
+      {
+        "text": "swap",
+        "isCorrect": false
+      },
+      {
+        "text": "inversion",
+        "isCorrect": false
+      },
+      {
+        "text": "insert",
+        "isCorrect": false
+      },
+      {
+        "text": "uniform mutation",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is not a standard element of evolutionary algorithms?",
+    "answers": [
+      {
+        "text": "Crossover (recombination)",
+        "isCorrect": false
+      },
+      {
+        "text": "Selection",
+        "isCorrect": false
+      },
+      {
+        "text": "Resuscitation",
+        "isCorrect": true
+      },
+      {
+        "text": "Evaluation function",
+        "isCorrect": false
+      },
+      {
+        "text": "Mutation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "The initial population in memetic algorithms",
+    "answers": [
+      {
+        "text": "is such that all the individuals are the same",
+        "isCorrect": false
+      },
+      {
+        "text": "only consists in real-valued vectors",
+        "isCorrect": false
+      },
+      {
+        "text": "only consists in permutations",
+        "isCorrect": false
+      },
+      {
+        "text": "can use already known good solutions",
+        "isCorrect": true
+      },
+      {
+        "text": "only consists in binary strings",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Let X = [1 ,4 ,5 ,8 ,7 ,9 , 2, 3 ,6 ,10], Y=[9, 3, ,4 ,2 ,8 ,7 ,10, 5, 1, 6] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the PMX procedure, if the crossover positions are (5,6)?\nX = [1 ,4 ,5 ,8 ,7 ,9 ,   2, 3 ,6 ,10]\nY = [9, 3, 4 ,2 ,8 ,7 , 10, 5, 1,   6]",
+    "answers": [
+      {
+        "text": "C1= (8, 3, 4, 7, 9, 10, 5, 1, 6, 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Which of the following statements are not true for the generational population model?",
+    "answers": [
+      {
+        "text": "Requires data about several consecutive generations",
+        "isCorrect": true
+      },
+      {
+        "text": " quality into account.\", ",
+        "isCorrect": false
+      },
+      {
+        "text": ", ",
+        "isCorrect": false
+      },
+      {
+        "text": ", ",
+        "isCorrect": false
+      },
+      {
+        "text": "",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "The following recombination operator is used in problems where the permutation representation indicates the order or event:",
+    "answers": [
+      {
+        "text": "OCX (Order crossover)",
+        "isCorrect": true
+      },
+      {
+        "text": "singular arithmetic recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "IPX",
+        "isCorrect": false
+      },
+      {
+        "text": "single-point recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "uniform recombination",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "In the classic problem solving model, the three elements are: inputs, transformation model, outputs. Which of the following is not a class of problems?",
+    "answers": [
+      {
+        "text": "Simulation problems: inputs and transformation model are known.",
+        "isCorrect": false
+      },
+      {
+        "text": "Balancing problems: only the transformation model is known.",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the other answers is correct.",
+        "isCorrect": false
+      },
+      {
+        "text": "Optimization problems: transformation model and desired outputs are known.",
+        "isCorrect": false
+      },
+      {
+        "text": "Modeling / identification problems: inputs and outputs are known.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "If the application of a recombination operator produces non-viable individuals, then:",
+    "answers": [
+      {
+        "text": "the results are unpredictable",
+        "isCorrect": false
+      },
+      {
+        "text": "a run-time error is raised",
+        "isCorrect": false
+      },
+      {
+        "text": "the parents are cloned as descendants",
+        "isCorrect": true
+      },
+      {
+        "text": "the problem can not be solved using a genetic algorithm",
+        "isCorrect": false
+      },
+      {
+        "text": "the algorithm is still able to produce correct results, due to self-regulation through selection",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is not a selection mechanism:",
+    "answers": [
+      {
+        "text": "complicated roulette",
+        "isCorrect": true
+      },
+      {
+        "text": "genitor",
+        "isCorrect": false
+      },
+      {
+        "text": "simple roulette",
+        "isCorrect": false
+      },
+      {
+        "text": "tournament",
+        "isCorrect": false
+      },
+      {
+        "text": "multiple-arm roulette",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "The following recombination operator is used in problems with adjacency dependence:",
+    "answers": [
+      {
+        "text": "none of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "singular arithmetic recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "OCX (Order crossover)",
+        "isCorrect": false
+      },
+      {
+        "text": "PMX (Partially Mapped crossover)",
+        "isCorrect": false
+      },
+      {
+        "text": "ECX (Edge crossover)",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Let X=[ 6 1 8 10 5 7 9 3 4 2 ] be a permutation. If we apply the scramble mutation operator for (2,7), we can obtain Y:\n-->X=[ 6 1 8 10 5 7 9 3 4 2 ]\n1. Y=[ 2 6 7 8 10 5 1 9 3 4];\n2. Y=[ 6 7 8 10 5 1 9 3 4 2];\n3. Y=[ 7 6 8 10 5 1 9 3 4 2];\n4. Y=[ 6 7 10 8 5 9 1 3 4 2];\n5. Y=[ 6 9 7 5 10 8 1 3 4 2];\n6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
+    "answers": [
+      {
+        "text": "3, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 5",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 2, 3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Let X=[9, 3, 2, 5, 6, 8, 1, 7, 10, 4] and Y=[2, 8, 4, 5, 10, 3, 7, 6, 9, 1] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the OCX procedure, if the crossover points are (3,6) ?\nX=[9, 3, 2, 5,   6, 8, 1, 7, 10, 4]\nY=[2, 8, 4, 5, 10, 3, 7, 6,   9, 1]",
+    "answers": [
+      {
+        "text": "C1 = [ 2 6 7 8 10 5 1 9 3 4], C2 = [2 8 1 3 6 7 5 10 4 9]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [6 7 8 10 5 1 9 3 4 2], C2 = [9 8 1 3 6 7 5 10 4 2]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [8 7 10 5 1 9 3 4 2 6], C2 = [2 9 1 8 3 6 7 5 10 4]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [4 10 2 5 6 8 3 7 9 1], C2 = [2 6 4 5 10 3 8 1 7 9]",
+        "isCorrect": true
+      },
+      {
+        "text": "C1 = [4 10 2 5 6 8 3 1 9 7], C2 = [2 6 4 5 10 3 8 9 7 1]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "In genetic algorithms, the next generation is selected from:",
+    "answers": [
+      {
+        "text": "current generation individuals and descendants created after the mutation stage",
+        "isCorrect": true
+      },
+      {
+        "text": "descendants created during recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "current population individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "descendants of the current generation",
+        "isCorrect": false
+      },
+      {
+        "text": "selected parents",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "In hillclimbing, a neighbor point means:",
+    "answers": [
+      {
+        "text": "a point close to the current one, computed based on a preset distance or a point with a close representation, computed by applying the smallest possible change to the representation of the current point",
+        "isCorrect": true
+      },
+      {
+        "text": "the point with the highest fitness among the ones at a preset distance from the current point, regardless if the fitness is lower or higher than that of the current point (fitness = the result of applying the evaluation function on a point)",
+        "isCorrect": false
+      },
+      {
+        "text": "a point with a fitness close to the one of the current point (fitness = the result of applying the evaluation function on a point)",
+        "isCorrect": false
+      },
+      {
+        "text": "any point at a preset distance from the current point that does not have a lower fitness than the current point (fitness = the result of applying the evaluation function on a point)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "In every GA, the genotype representation:\n1. Can be any of the following: binary, integer, real valued vectors and permutation\n2. Is either integer representation or real valued vectors representation\n3. Is the real valued vectors representation\n4. Does not affect the recombination type\n5. Depends on the given problem\n6. Affects the recombination type\n7. Affects the mutation operator\n8. Affects the selections",
+    "answers": [
+      {
+        "text": "1, 5, 6, 7",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 5, 6 , 8",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5, 6, 7, 8",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5, 6, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3, 4, 6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Let X = [9, 6, 4, 5, 3, 1, 2, 7, 10, 8], Y = [10, 3, 7, 6, 9, 2, 5, 4, 1, 8] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the CX procedure?\nX = [9,   6, 4, 5, 3, 1, 2, 7, 10, 8]\nY = [10, 3, 7, 6, 9, 2, 5, 4,   1, 8]",
+    "answers": [
+      {
+        "text": "C1=X, C2=Y",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[9 6 7 5 3 1 2 4 10 8 ], C2 = [10 3 4 6 9 2 5 7 1 8]",
+        "isCorrect": true
+      },
+      {
+        "text": "C1=[8 7 10 5 1 9 3 4 2 6], C2=[ 2 9 1 8 3 6 7 5 10 4]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[6 8 7 10 5 1 9 3 4 2 ], C2=[9 1 8 3 6 7 5 10 4 2]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[ 6 7 8 10 5 1 9 3 4 2], C2=[ 9 8 1 3 6 7 5 10 4 2]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Binary representation for genetic algorithms:",
+    "answers": [
+      {
+        "text": "can not be used for problems that do not include boolean decision variables",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers is correct.",
+        "isCorrect": false
+      },
+      {
+        "text": "was added later to the field of genetic algorithms; initially it was not accepted.",
+        "isCorrect": false
+      },
+      {
+        "text": "is natural for problems where the solution consists of a string of boolean decisions.",
+        "isCorrect": true
+      },
+      {
+        "text": "cannot be used in problems defined on continuous intervals from the set of real numbers.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "A GA is a search method",
+    "answers": [
+      {
+        "text": "of backtracking type",
+        "isCorrect": false
+      },
+      {
+        "text": "that processes populations",
+        "isCorrect": true
+      },
+      {
+        "text": "of binary type",
+        "isCorrect": false
+      },
+      {
+        "text": "that is based on only one individual at each iteration",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "The Evolutionary Computing is",
+    "answers": [
+      {
+        "text": "similar to the direct search methods",
+        "isCorrect": false
+      },
+      {
+        "text": "a concept that confutes the natural evolution theory",
+        "isCorrect": false
+      },
+      {
+        "text": "similar to sorting algorithms",
+        "isCorrect": false
+      },
+      {
+        "text": "a concept that proves the theory of relativity",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "In hillclimbing, the method of choosing the neighboring points:",
+    "answers": [
+      {
+        "text": "does not influence the quality of the final result.",
+        "isCorrect": false
+      },
+      {
+        "text": "there are no variations, the neighbors are always chosen the same way.",
+        "isCorrect": false
+      },
+      {
+        "text": "influences the quality of the final result.",
+        "isCorrect": true
+      },
+      {
+        "text": "is dictated by the problem being solved.",
+        "isCorrect": false
+      },
+      {
+        "text": "is random, based on uniform distribution.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "In order to save as well as possible the information regarding the absolute positions of the alleles in parent chromosomes, the following operator is used:",
+    "answers": [
+      {
+        "text": "OCX (Order crossover)",
+        "isCorrect": false
+      },
+      {
+        "text": "ECX (Edge crossover)",
+        "isCorrect": false
+      },
+      {
+        "text": "multi-point discrete recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "CX (Cycle crossover)",
+        "isCorrect": true
+      },
+      {
+        "text": "PMX (Partially Mapped crossover)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "In evolutionary algorithms, the termination condition expresses:",
+    "answers": [
+      {
+        "text": "the condition to stop the process of searching for a solution",
+        "isCorrect": true
+      },
+      {
+        "text": "the condition to identify an approximate solution",
+        "isCorrect": false
+      },
+      {
+        "text": "there is no termination condition: the search never ends.",
+        "isCorrect": false
+      },
+      {
+        "text": "the condition to identify the optimal solution",
+        "isCorrect": false
+      },
+      {
+        "text": "identifies the situation when further computation is useless, because a solution ca not be found",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "The tournament selection mechanism:",
+    "answers": [
+      {
+        "text": "is always determinist",
+        "isCorrect": false
+      },
+      {
+        "text": "does not follow the selection probability distribution",
+        "isCorrect": true
+      },
+      {
+        "text": "is the most commonly used selection mechanism",
+        "isCorrect": false
+      },
+      {
+        "text": "There is no such mechanism. Tournament was a medieval competition.",
+        "isCorrect": false
+      },
+      {
+        "text": "gives a chance to the weakest individual",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is not a probability distribution model used for the selection stage:",
+    "answers": [
+      {
+        "text": "linear ranks",
+        "isCorrect": false
+      },
+      {
+        "text": "FPS with windows",
+        "isCorrect": false
+      },
+      {
+        "text": "FPS with sigma scaling",
+        "isCorrect": false
+      },
+      {
+        "text": "FPS with alpha scaling",
+        "isCorrect": true
+      },
+      {
+        "text": "FPS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "The relations between elements represented as integer numbers can be:",
+    "answers": [
+      {
+        "text": "ordinal or cardinal",
+        "isCorrect": true
+      },
+      {
+        "text": "ordinal or alliance",
+        "isCorrect": false
+      },
+      {
+        "text": "ordinary or personal",
+        "isCorrect": false
+      },
+      {
+        "text": "alliance or opposition",
+        "isCorrect": false
+      },
+      {
+        "text": "personal or cardinal",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "The general recombination scheme depends on:",
+    "answers": [
+      {
+        "text": "chromosome representation",
+        "isCorrect": false
+      },
+      {
+        "text": "number of individuals in the initial population",
+        "isCorrect": false
+      },
+      {
+        "text": "existence of constraints",
+        "isCorrect": true
+      },
+      {
+        "text": "recombination operator",
+        "isCorrect": false
+      },
+      {
+        "text": "s choice\"",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "In ESs, chromosomes representation:\n1. Can be any of the following: binary strings, integer strings, real-valued vectors, permutations\n2. Can be integer strings or real-valued vectors\n3. Uses only real-valued vectors\n4. Does not influences the recombination operator\n5. Is determined by the particular problem to be solved\n6. Influences the crossover operator\n7. Influences the survivors selection mechanism",
+    "answers": [
+      {
+        "text": "3, 4",
+        "isCorrect": true
+      },
+      {
+        "text": "2, 4, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Is it possible to represent a real number as an arithmetic binary string genotype?",
+    "answers": [
+      {
+        "text": "No, the binary representation of real numbers is an algebraic binary string.",
+        "isCorrect": false
+      },
+      {
+        "text": "no, real numbers cannot be represented as binary strings.",
+        "isCorrect": false
+      },
+      {
+        "text": "yes, but the representation depends on the problem to be solved (the solution space).",
+        "isCorrect": true
+      },
+      {
+        "text": "no, real number are binary represented as simple precision floating point.",
+        "isCorrect": false
+      },
+      {
+        "text": "no, real number are binary represented as double precision floating point.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Which of the following is not a specific element of the canonical genetic algorithm:",
+    "answers": [
+      {
+        "text": "using a low probability for crossover operation",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the elements named here is specific for the canonical genetic algorithm",
+        "isCorrect": true
+      },
+      {
+        "text": "representation with vectors of real numbers",
+        "isCorrect": false
+      },
+      {
+        "text": "selection of the best individuals to form the next generation",
+        "isCorrect": false
+      },
+      {
+        "text": "using a high probability for the mutation operator",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Canonical genetic algorithm:",
+    "answers": [
+      {
+        "text": "there is no such thing as \"canonical genetic algorithm\".",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "does not allow changing its elements to solve other classes of problems",
+        "isCorrect": false
+      },
+      {
+        "text": "is the genetic algorithm proposed by Holland",
+        "isCorrect": true
+      },
+      {
+        "text": "is the mandatory genetic algorithm for solving optimization problems",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "In EAs, the mutation operates",
+    "answers": [
+      {
+        "text": "only on the fittest individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "after the crossover procedure",
+        "isCorrect": true
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "after the search is over",
+        "isCorrect": false
+      },
+      {
+        "text": "only on the most unfit individuals",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Which of the following is a population model?",
+    "answers": [
+      {
+        "text": "steady-state model",
+        "isCorrect": true
+      },
+      {
+        "text": "fixed-size mode",
+        "isCorrect": false
+      },
+      {
+        "text": "Model with generations",
+        "isCorrect": false
+      },
+      {
+        "text": "Variable size model",
+        "isCorrect": false
+      },
+      {
+        "text": "unstable state model",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is a disadvantage of using standard FPS selection probability distribution?",
+    "answers": [
+      {
+        "text": "elimination of weak individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "selection of best individuals",
+        "isCorrect": false
+      },
+      {
+        "text": "asymptotic convergence",
+        "isCorrect": false
+      },
+      {
+        "text": "possible premature convergence",
+        "isCorrect": true
+      },
+      {
+        "text": "slow convergence",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Which selection mechanism produces results that are closer to the calculated selection probability distribution?",
+    "answers": [
+      {
+        "text": "simple roulette",
+        "isCorrect": false
+      },
+      {
+        "text": "SUS (Stochastic Universal Sampling)",
+        "isCorrect": true
+      },
+      {
+        "text": "tournament",
+        "isCorrect": false
+      },
+      {
+        "text": "they all produce equally close results",
+        "isCorrect": false
+      },
+      {
+        "text": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "The binary representation in GAs",
+    "answers": [
+      {
+        "text": "does not use chromosomes having more than two identical alleles",
+        "isCorrect": false
+      },
+      {
+        "text": "is not allowed",
+        "isCorrect": false
+      },
+      {
+        "text": "does not involve recombination",
+        "isCorrect": false
+      },
+      {
+        "text": "does not involve mutation",
+        "isCorrect": false
+      },
+      {
+        "text": "uses specific variation operators",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Deciding on a representation to be used in solving a problem through a genetic algorithm:",
+    "answers": [
+      {
+        "text": "is a mandatory and very important step.",
+        "isCorrect": false
+      },
+      {
+        "text": "all other answers are correct",
+        "isCorrect": true
+      },
+      {
+        "text": "must take into account the constraints of the problem, if there are any.",
+        "isCorrect": false
+      },
+      {
+        "text": "is sometimes difficult.",
+        "isCorrect": false
+      },
+      {
+        "text": "depends on the problem to be solved, some representations being better suited than others.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "The one-point discrete recombination operator can be used with the following representation:",
+    "answers": [
+      {
+        "text": "integer arrays, binary arrays, real value arrays",
+        "isCorrect": true
+      },
+      {
+        "text": "real value arrays",
+        "isCorrect": false
+      },
+      {
+        "text": "permutations",
+        "isCorrect": false
+      },
+      {
+        "text": "integer arrays",
+        "isCorrect": false
+      },
+      {
+        "text": "binary arrays",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Let P be a dim-size population. The quality of P is given by:\na. the number of distinct individuals, regardless of the representation length;\nb. the number of distinct individuals, regardless of their qualities;\nc. the number of distinct fitness values in P;\nd. the parity of dim;\ne. the uniqueness of P.",
+    "answers": [
+      {
+        "text": "c and e",
+        "isCorrect": false
+      },
+      {
+        "text": "a and c",
+        "isCorrect": false
+      },
+      {
+        "text": "d and e",
+        "isCorrect": false
+      },
+      {
+        "text": "a and e",
+        "isCorrect": false
+      },
+      {
+        "text": "c",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Let f:D={-2,-1,0,1,2,3} -> [0,5] be a function to be maximized. The simplest (less complex) method to compute a global maximum point involves:",
+    "answers": [
+      {
+        "text": "the use of \"Divide et Impera\" method",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "the use of backtracking technique",
+        "isCorrect": false
+      },
+      {
+        "text": "the use of hill climbing technique",
+        "isCorrect": false
+      },
+      {
+        "text": "the evaluation of each element in D and the selection of the best one",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Let X=[ 6 1 8 10 5 7 9 3 4 2] and Y=[ 9 8 7 3 6 1 5 10 4 2 ] be a pair of parent permutations. Which one of the following couple of permutations results in case of applying the CX procedure?\nX=[  6  1  8 10 5  7  9    3  4  2 ]\nY=[  9  8  7   3  6  1  5 10  4  2 ]",
+    "answers": [
+      {
+        "text": "C1=[8 7 10 5 1 9 3 4 2 6], C2=[2 9 1 8 3 6 7 5 10 4]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[6 8 7 10 5 1 9 3 4 2 ], C2=[9 1 8 3 6 7 5 10 4 2 ]",
+        "isCorrect": true
+      },
+      {
+        "text": "C1=[6 7 8 10 5 1 9 3 4 2], C2=[ 9 8 1 3 6 7 5 10 4 2]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=Y, C2=X",
+        "isCorrect": false
+      },
+      {
+        "text": "C1=[2 6 7 8 10 5 1 9 3 4], C2=[2 8 1 3 6 7 5 10 4 9]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Let f:[0,1]-> R, f(x)=1.000.000+x*x be a fitness function (to be maximized).A suitable method used to calculate a global maximum point of the function f:\na. never uses parent selection mechanisms;\nb. can use the tournament selection or FPS;\nc. can use the tournament selection or sigma-scaling FPS;\nd. is always deterministic;\ne. is always stochastic.",
+    "answers": [
+      {
+        "text": "c, d",
+        "isCorrect": false
+      },
+      {
+        "text": "a",
+        "isCorrect": false
+      },
+      {
+        "text": "c",
+        "isCorrect": true
+      },
+      {
+        "text": "c, e",
+        "isCorrect": false
+      },
+      {
+        "text": "b, c",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "In GAs, the initial population is",
+    "answers": [
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "an output data",
+        "isCorrect": false
+      },
+      {
+        "text": "an input parameter",
+        "isCorrect": false
+      },
+      {
+        "text": "randomly generated at the beginning of the search",
+        "isCorrect": true
+      },
+      {
+        "text": "computer at each iteration",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Which of the following steps of evolutionary algorithms can be determinist?",
+    "answers": [
+      {
+        "text": "Parents selection",
+        "isCorrect": false
+      },
+      {
+        "text": "Initial population selection",
+        "isCorrect": false
+      },
+      {
+        "text": "Selection of parents from the parents pool",
+        "isCorrect": false
+      },
+      {
+        "text": "Application of the mutation operator",
+        "isCorrect": false
+      },
+      {
+        "text": "Next generation selection",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "In EAs, the selection benefits",
+    "answers": [
+      {
+        "text": "each individual",
+        "isCorrect": false
+      },
+      {
+        "text": "the end of the search process",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers",
+        "isCorrect": false
+      },
+      {
+        "text": "the fittest individuals",
+        "isCorrect": true
+      },
+      {
+        "text": "the most unfit individual",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "How many times do we have to spin the roulette arm to execute the entire selection process, for a population with tz chromosomes?",
+    "answers": [
+      {
+        "text": "tz/2 times",
+        "isCorrect": false
+      },
+      {
+        "text": "10 times",
+        "isCorrect": false
+      },
+      {
+        "text": "2*tz times",
+        "isCorrect": false
+      },
+      {
+        "text": "once",
+        "isCorrect": false
+      },
+      {
+        "text": "tz times",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "How many times do we have to spin the multi-arm roulette to execute the entire selection process for a population with k individuals?",
+    "answers": [
+      {
+        "text": "2*k times",
+        "isCorrect": false
+      },
+      {
+        "text": "k times",
+        "isCorrect": false
+      },
+      {
+        "text": "once",
+        "isCorrect": true
+      },
+      {
+        "text": "k/2 times",
+        "isCorrect": false
+      },
+      {
+        "text": "there is no multi-arm roulette",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "In a chromosome, a \"gene\" denotes:",
+    "answers": [
+      {
+        "text": "the position of an element in a chromosome",
+        "isCorrect": true
+      },
+      {
+        "text": "a group of values in a chromosome with close meaning",
+        "isCorrect": false
+      },
+      {
+        "text": "a group of positions in a chromosome that store information with close meaning",
+        "isCorrect": false
+      },
+      {
+        "text": "the value of an element in a chromosome",
+        "isCorrect": false
+      },
+      {
+        "text": "\"gene\" is synonym with \"chromosome\"",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "In hillclimbing algorithm, in order to guarantee finding an optimal solution:",
+    "answers": [
+      {
+        "text": "multiple start points are used",
+        "isCorrect": false
+      },
+      {
+        "text": "start points must be conveniently chosen",
+        "isCorrect": false
+      },
+      {
+        "text": "the neighboring point with the highest fitness is chosen",
+        "isCorrect": false
+      },
+      {
+        "text": "hilclimbing always finds the optimal solution",
+        "isCorrect": false
+      },
+      {
+        "text": "an optimal solution cannot be guaranteed",
+        "isCorrect": true
+      }
+    ]
+  }
+]

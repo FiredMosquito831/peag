@@ -85,7 +85,7 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useRef } = React;
-        const APP_DATA_VERSION = 'peag-bilingual-2026-05-19';
+        const APP_DATA_VERSION = 'peag-uscatu-legit-2026-05-23';
         const fetchJson = (path) => fetch(`${path}?v=${encodeURIComponent(APP_DATA_VERSION)}`, { cache: 'no-store' }).then(res => res.json());
         const LANGUAGE_OPTIONS = {
             ro: { label: 'Romana', short: 'RO', subtitle: 'Seturile romanesti curente' },
@@ -972,7 +972,7 @@
             const [gameMode, setGameMode] = useState('exam');
             // currentSetId: Which question set is active (e.g., 'previous', 'generated', 'book')
             // Will be set from config after loading
-            const [currentSetId, setCurrentSetId] = useState('uscatu');
+            const [currentSetId, setCurrentSetId] = useState('uscatu_legit');
             // Track which part/chapter is selected for history tracking
             const [selectedPart, setSelectedPart] = useState('all');
             const [questionsPool, setQuestionsPool] = useState([]);
@@ -1161,7 +1161,7 @@
                         // Map old values to new set IDs
                         if (sess.difficulty === 'hard' && config?.sets?.generated) setCurrentSetId('generated');
                         else if (sess.difficulty === 'book' && config?.sets?.book) setCurrentSetId('book');
-                        else setCurrentSetId(config?.defaultSet || 'uscatu');
+                        else setCurrentSetId(config?.defaultSet || 'uscatu_legit');
                     }
 
                     if (sess.selectedPart) setSelectedPart(sess.selectedPart);

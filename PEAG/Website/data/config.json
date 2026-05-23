@@ -1,5 +1,6 @@
 {
   "displayOrder": [
+    "uscatu_legit",
     "uscatu",
     "profa_ocr",
     "peag_grile",
@@ -10,8 +11,24 @@
     "exemple",
     "peag_exam"
   ],
-  "defaultSet": "uscatu",
+  "defaultSet": "uscatu_legit",
   "sets": {
+    "uscatu_legit": {
+      "id": "uscatu_legit",
+      "displayName": "USCATU LEGIT",
+      "shortName": "USCATU",
+      "icon": "ph-seal-check",
+      "colorClass": "blue",
+      "dataFile": "sets/uscatu_legit.json",
+      "englishDataFile": "sets_en/uscatu_legit.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
+        "all"
+      ],
+      "defaultCount": 20
+    },
     "uscatu": {
       "id": "uscatu",
       "displayName": "GRILE PEAG USCATU",
