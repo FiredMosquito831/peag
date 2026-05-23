@@ -417,7 +417,7 @@
   },
   {
     "id": 17,
-    "question": "Which of the following are not elements of an EA: 1) representation, 2) including libraries, 3) defining inputs, 4) evaluation function, 5) population, 6) implementation, 7) parents selection mechanism, 8) crossover operator, 9) sorting the population by fitness, 10) mutation operator, 11) next generation selection mechanism, 12) termination condition, 13) extraction of the best individual, 14) running the algorithm.",
+    "question": "Which of the following are not elements of an EA: 1) representation, 2) including libraries, 3) defining inputs, 4) evaluation function, 5) population, 6) implementation, 7) parents selection mechanism, 8) crossover operator, 9) sorting the population by fitness, 10) mutation operator, 11) next generation selection mechanism, 12) termination condition, 13) extraction of the best individual, 14) running the algorithm.  ",
     "answers": [
       {
         "text": "4, 6, 7, 11, 12",
@@ -547,7 +547,7 @@
   },
   {
     "id": 22,
-    "question": "The components of EAs are: 1. Representation; 2. The probability of mutation; 3. The fitness function; 4. The probability of crossover; 5. Population; 6. Mating pool selection; 7. Random number generation; 8. Permutation generation; 9. Graphical representation of quality evolution; 10. Variation operators; 11. The establishment of genetic diversity of the current population; 12. Survivor selection (replacement); 13. Hill-climbing; 14. Initialization; 15. Termination condition.",
+    "question": "The components of EAs are: 1. Representation; 2. The probability of mutation; 3. The fitness function; 4. The probability of crossover; 5. Population; 6. Mating pool selection; 7. Random number generation; 8. Permutation generation; 9. Graphical representation of quality evolution; 10. Variation operators; 11. The establishment of genetic diversity of the current population; 12. Survivor selection (replacement); 13. Hill-climbing; 14. Initialization; 15. Termination condition.   ",
     "answers": [
       {
         "text": "2, 4, 6, 8, 11, 13",
@@ -677,7 +677,7 @@
   },
   {
     "id": 27,
-    "question": "Which of the following is not a mutation operator for permutation representation?",
+    "question": " Which of the following is not a mutation operator for permutation representation? ",
     "answers": [
       {
         "text": "scramble",
@@ -1342,7 +1342,7 @@
         "isCorrect": false
       },
       {
-        "text": "s choice\"",
+        "text": "user's choice",
         "isCorrect": false
       }
     ]
@@ -1427,7 +1427,7 @@
   },
   {
     "id": 56,
-    "question": "Canonical genetic algorithm:",
+    "question": " Canonical genetic algorithm:",
     "answers": [
       {
         "text": "there is no such thing as \"canonical genetic algorithm\".",
@@ -1609,7 +1609,7 @@
   },
   {
     "id": 63,
-    "question": "The one-point discrete recombination operator can be used with the following representation:",
+    "question": "The one-point discrete recombination operator can be used with the following representation: ",
     "answers": [
       {
         "text": "integer arrays, binary arrays, real value arrays",
