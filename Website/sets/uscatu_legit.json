@@ -1327,7 +1327,7 @@
     "answers": [
       {
         "text": "chromosome representation",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "number of individuals in the initial population",
@@ -1335,7 +1335,7 @@
       },
       {
         "text": "existence of constraints",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "recombination operator",
@@ -1409,11 +1409,11 @@
       },
       {
         "text": "none of the elements named here is specific for the canonical genetic algorithm",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "representation with vectors of real numbers",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "selection of the best individuals to form the next generation",
