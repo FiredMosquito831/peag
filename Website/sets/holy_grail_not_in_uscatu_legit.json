@@ -911,7 +911,7 @@
     "answers": [
       {
         "text": "d",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "d, e",
@@ -927,7 +927,7 @@
       },
       {
         "text": "a, d",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
