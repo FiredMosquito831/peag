@@ -85,7 +85,7 @@
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, useRef } = React;
-        const APP_DATA_VERSION = 'peag-uscatu-split-sets-2026-05-24';
+        const APP_DATA_VERSION = 'peag-uscatu-legit-answer-shuffle-2026-05-24';
         const fetchJson = (path) => fetch(`${path}?v=${encodeURIComponent(APP_DATA_VERSION)}`, { cache: 'no-store' }).then(res => res.json());
         const LANGUAGE_OPTIONS = {
             ro: { label: 'Romana', short: 'RO', subtitle: 'Seturile romanesti curente' },
@@ -367,12 +367,14 @@
                         isCorrect: Array.isArray(q.correct) && q.correct.includes(key)
                     }));
 
-                const options = rawAnswers
+                const normalizedAnswers = rawAnswers
                     .map((ans) => {
                         const cleanText = String(ans.text || '').replace(/^[a-zA-Z]\)\s*/, '').trim();
                         return { text: cleanText, isCorrect: Boolean(ans.isCorrect) };
                     })
-                    .filter(ans => ans.text && !/^[,.;:"'`]+$/.test(ans.text))
+                    .filter(ans => ans.text && !/^[,.;:"'`]+$/.test(ans.text));
+
+                const options = shuffleArray(normalizedAnswers)
                     .map((ans, index) => ({
                         id: String.fromCharCode(97 + index),
                         text: ans.text,
