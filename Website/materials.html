@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEAG Study Materials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b1220;
+            --panel: rgba(21, 32, 50, 0.88);
+            --panel-strong: rgba(29, 44, 67, 0.94);
+            --line: rgba(148, 163, 184, 0.22);
+            --text: #eef4ff;
+            --muted: #9fb0c8;
+            --blue: #4f8cff;
+            --amber: #f7b955;
+            --green: #35d38b;
+            --pink: #fb7185;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background:
+                radial-gradient(circle at 15% 10%, rgba(79, 140, 255, 0.28), transparent 34rem),
+                radial-gradient(circle at 80% 20%, rgba(247, 185, 85, 0.18), transparent 30rem),
+                linear-gradient(135deg, #08101f 0%, #111827 55%, #0b1220 100%);
+            color: var(--text);
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        .page {
+            width: min(1120px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 42px 0 56px;
+        }
+
+        .back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .hero {
+            border: 1px solid var(--line);
+            border-radius: 28px;
+            padding: clamp(28px, 5vw, 54px);
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.92), rgba(15, 23, 42, 0.78));
+            box-shadow: 0 24px 90px rgba(0, 0, 0, 0.34);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            right: -80px;
+            top: -80px;
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            border: 42px solid rgba(79, 140, 255, 0.14);
+        }
+
+        h1 {
+            margin: 0;
+            font-family: "Source Serif 4", serif;
+            font-size: clamp(42px, 8vw, 82px);
+            line-height: 0.92;
+            letter-spacing: -0.055em;
+            max-width: 850px;
+        }
+
+        .lead {
+            margin: 22px 0 0;
+            max-width: 720px;
+            color: var(--muted);
+            font-size: 18px;
+            line-height: 1.65;
+        }
+
+        .priority {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+            margin: 28px 0 22px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+            margin-top: 18px;
+        }
+
+        .card {
+            min-height: 235px;
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 22px;
+            background: var(--panel);
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+        }
+
+        .card.primary {
+            background: linear-gradient(145deg, rgba(79, 140, 255, 0.26), rgba(21, 32, 50, 0.94));
+            border-color: rgba(79, 140, 255, 0.38);
+        }
+
+        .tag {
+            width: fit-content;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: rgba(148, 163, 184, 0.12);
+            color: #c7d2fe;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .tag.important { color: #ffe8b0; background: rgba(247, 185, 85, 0.16); }
+        .tag.questions { color: #bcf7d6; background: rgba(53, 211, 139, 0.14); }
+
+        h2 {
+            margin: 0;
+            font-size: 22px;
+            line-height: 1.1;
+            letter-spacing: -0.025em;
+        }
+
+        p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.55;
+            font-size: 14px;
+        }
+
+        .actions {
+            margin-top: auto;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 42px;
+            padding: 10px 14px;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--text);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 700;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .btn.download {
+            background: linear-gradient(135deg, var(--blue), #6554f5);
+            border-color: transparent;
+        }
+
+        .size {
+            color: #cbd5e1;
+            font-size: 12px;
+        }
+
+        .section-title {
+            margin-top: 34px;
+            color: #dbeafe;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 860px) {
+            .priority,
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                min-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <a class="back" href="./index.html">← Back to quiz</a>
+
+        <section class="hero">
+            <h1>PEAG Study Materials</h1>
+            <p class="lead">Download the core theory, optional practice workbook, course decks, recap notes, and MCQ source files. Start with the theory manual, then use the practice workbook and question sets for exam drilling.</p>
+        </section>
+
+        <div class="section-title">Start Here</div>
+        <section class="priority">
+            <article class="card primary">
+                <span class="tag important">Most important</span>
+                <h2>1. Theory Manual</h2>
+                <p>The full EA/GA synthesis meant to be read end-to-end in about two hours. This is the main theory source before doing quizzes.</p>
+                <span class="size">PDF · 0.9 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/theory-ea-ga-supreme-exam-manual-v3.pdf" download>Download</a>
+                    <a class="btn" href="materials/theory-ea-ga-supreme-exam-manual-v3.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+
+            <article class="card primary">
+                <span class="tag important">Practice optional</span>
+                <h2>2. GA/ES Operation Workbook</h2>
+                <p>Manual operation practice for GA and ES procedures. Use this after theory when you want hands-on algorithm drills.</p>
+                <span class="size">PDF · 1.2 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/practice-ga-es-manual-operation-mastery-workbook-full.pdf" download>Download</a>
+                    <a class="btn" href="materials/practice-ga-es-manual-operation-mastery-workbook-full.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="section-title">Courses And Recap</div>
+        <section class="grid">
+            <article class="card">
+                <span class="tag">Course pack</span>
+                <h2>Courses 1-10</h2>
+                <p>Full course PDF bundle covering weeks 1 through 10.</p>
+                <span class="size">PDF · 8.0 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/courses-1-10.pdf" download>Download</a>
+                    <a class="btn" href="materials/courses-1-10.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="tag">Slides</span>
+                <h2>Presentation Week 1-10</h2>
+                <p>Presentation deck for the full week 1-10 material. Best for fast visual review.</p>
+                <span class="size">PDF · 12.0 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/presentation-week-1-10.pdf" download>Download</a>
+                    <a class="btn" href="materials/presentation-week-1-10.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="tag">Recap</span>
+                <h2>PEAG Recapitulare</h2>
+                <p>Recap PDF for quick review before testing yourself.</p>
+                <span class="size">PDF · 2.5 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/peag-recapitulare.pdf" download>Download</a>
+                    <a class="btn" href="materials/peag-recapitulare.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="section-title">MCQ Sources</div>
+        <section class="grid">
+            <article class="card">
+                <span class="tag questions">Best MCQ set</span>
+                <h2>Holy Grail Questions</h2>
+                <p>The best curated MCQ question source. Matches the Holy Grail set added to the quiz website.</p>
+                <span class="size">PDF · 0.5 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/grile-peag-holy-grail.pdf" download>Download</a>
+                    <a class="btn" href="materials/grile-peag-holy-grail.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="tag questions">Answer key</span>
+                <h2>Holy Grail Answers</h2>
+                <p>Correct-answer table for the Holy Grail questions.</p>
+                <span class="size">PDF · 45 KB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/grile-peag-raspunsuri.pdf" download>Download</a>
+                    <a class="btn" href="materials/grile-peag-raspunsuri.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <span class="tag questions">Large collection</span>
+                <h2>All-in-One MCQ Collection</h2>
+                <p>Large collection of MCQs from multiple sources, including Uscatu and other professors.</p>
+                <span class="size">PDF · 2.4 MB</span>
+                <div class="actions">
+                    <a class="btn download" href="materials/grile-peag-all-in-one-toti-profii-inclusive-uscatu.pdf" download>Download</a>
+                    <a class="btn" href="materials/grile-peag-all-in-one-toti-profii-inclusive-uscatu.pdf" target="_blank" rel="noopener noreferrer">Open</a>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

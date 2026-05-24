@@ -665,10 +665,16 @@
                         )}
 
                         {websiteConfig?.links?.youtube && (
-                            <a href={websiteConfig.links.youtube} target="_blank" rel="noopener noreferrer" className="w-full mb-6 py-2.5 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 hover:border-red-200 dark:hover:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/10 text-gray-700 dark:text-gray-200 hover:text-red-700 dark:hover:text-red-400 text-xs font-bold rounded-xl shadow-sm transition-all flex items-center justify-center gap-2 group">
-                                <i className="ph-bold ph-youtube-logo text-red-500 text-lg group-hover:scale-110 transition-transform"></i>
-                                <span>View Theory (YouTube)</span>
-                            </a>
+                            <div className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                <a href={websiteConfig.links.youtube} target="_blank" rel="noopener noreferrer" className="w-full py-2.5 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 hover:border-red-200 dark:hover:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/10 text-gray-700 dark:text-gray-200 hover:text-red-700 dark:hover:text-red-400 text-xs font-bold rounded-xl shadow-sm transition-all flex items-center justify-center gap-2 group">
+                                    <i className="ph-bold ph-youtube-logo text-red-500 text-lg group-hover:scale-110 transition-transform"></i>
+                                    <span>View Theory (YouTube)</span>
+                                </a>
+                                <a href="materials.html" className="w-full py-2.5 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700/50 hover:bg-amber-100 dark:hover:bg-amber-900/30 text-amber-800 dark:text-amber-200 text-xs font-bold rounded-xl shadow-sm transition-all flex items-center justify-center gap-2 group">
+                                    <i className="ph-bold ph-download-simple text-amber-500 text-lg group-hover:scale-110 transition-transform"></i>
+                                    <span>Study Materials</span>
+                                </a>
+                            </div>
                         )}
 
                         <div className="space-y-4">
