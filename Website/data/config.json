@@ -2,6 +2,8 @@
   "displayOrder": [
     "uscatu_legit",
     "uscatu",
+    "uscatu_si_altii_good_single_choice",
+    "uscatu_si_altii_good_multiple_choice",
     "profa_ocr",
     "peag_grile",
     "raspunsuri",
@@ -42,6 +44,39 @@
         20,
         50,
         100,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "uscatu_si_altii_good_single_choice": {
+      "id": "uscatu_si_altii_good_single_choice",
+      "displayName": "USCATU si altii GOOD single_choice",
+      "shortName": "USCATU 1",
+      "icon": "ph-check-square",
+      "colorClass": "blue",
+      "dataFile": "sets/uscatu_si_altii_good_single_choice.json",
+      "englishDataFile": "sets_en/uscatu_si_altii_good_single_choice.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
+        100,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "uscatu_si_altii_good_multiple_choice": {
+      "id": "uscatu_si_altii_good_multiple_choice",
+      "displayName": "USCATU si altii GOOD multiple_choice",
+      "shortName": "USCATU M",
+      "icon": "ph-checks",
+      "colorClass": "indigo",
+      "dataFile": "sets/uscatu_si_altii_good_multiple_choice.json",
+      "englishDataFile": "sets_en/uscatu_si_altii_good_multiple_choice.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
         "all"
       ],
       "defaultCount": 20
