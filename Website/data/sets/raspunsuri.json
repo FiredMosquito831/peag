@@ -1,788 +1,794 @@
-[
-  {
-    "id": "raspunsuri_peag",
-    "name": "Raspunsuri PEAG MCQs",
-    "questions": [
-      {
-        "id": 1,
-        "question": "Algoritmii genetici",
-        "answers": [
-          {
-            "text": "a. Sînt metode deterministe de căutare în spațiul soluțiilor",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Rezolvă exclusiv probleme definite pe spații continue",
-            "isCorrect": false
-          },
-          {
-            "text": "c. Sînt tehnici de căutare stochastică bazate pe populații",
-            "isCorrect": true
-          },
-          {
-            "text": "d. Folosesc exclusiv selecții deterministe",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Utilizează la fiecare moment de timp o variantă de soluție modificată prin perturbare normală",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "question": "În cadrul unui algoritm genetic operația de recombinare: 1. Este efectuată o singură dată pe parcursul unui algoritm genetic; 2. Este efectuată imediat după fiecare etapă de selecție a părinților; 3. În general probabilitatea de recombinare nu contează în rezolvarea problemelor prin algoritmi genetici; 4. Este efectuată imediat înaintea fiecărei proceduri de mutație; 5. Este efectuată imediat înaintea fiecărei etape de selecție a părinților; 6. Utilizează populația de părinți; 7. Este utilizată doar în probleme fără constrîngeri; 8. Este utilizată cu probabilitate mare; 9. Este utilizată cu probabilitate mică; 10. Este efectuată o singură dată, după prima etapă de selecție a părinților.",
-        "answers": [
-          {
-            "text": "a. 4, 8, 9, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 2, 4, 6, 8",
-            "isCorrect": true
-          },
-          {
-            "text": "c. 2, 3, 4, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 2, 5, 7, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 1, 2, 7, 8",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "În cadrul unui algoritm evolutiv condiția de terminare: 1. Este obligatorie; 2. Nu este indicată; 3. Include obligatoriu, direct sau indirect, controlul numărului de iterații (numărul populațiilor generate); 4. Nu poate fi implementată; 5. Este utilizată doar în cadrul GA, nu și în cadrul ES.",
-        "answers": [
-          {
-            "text": "a. 1, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 5",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 2, 3, 4",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 3",
-            "isCorrect": true
-          },
-          {
-            "text": "e. 2, 4",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "question": "Într-un algoritm genetic, populația inițială: 1. Este generată pînă cînd este atins un optim local; 2. Este construită o singură dată ; 3. Suferă mutație cu o probabilitate relativ mică; 4. Trebuie modificată la fiecare iterație; 5. Conține exclusiv indivizi fezabili; 6. Este formată din indivizii care trec în generația următoare; 7. Este generată utilizînd distribuția de probabilitate uniformă.",
-        "answers": [
-          {
-            "text": "a. 2, 3, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 2, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 3",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 2, 5, 7",
-            "isCorrect": true
-          },
-          {
-            "text": "e. 4, 5, 7",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Care din următoarele metode pot fi folosite în cadrul algoritmilor memetici pentru a îmbunătăți informația în interiorul unei populații: 1. recursivitate; 2. hillclimbing; 3. divide et impera; 4. strategie evolutivă cu doi membri; 5. backtracking; 6. metode exacte; 7. metode euristice; 8. validarea datelor; 9. metoda gradientului; 10. ECX.",
-        "answers": [
-          {
-            "text": "a. 2, 3, 5, 6, 9",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 2, 4, 6, 8, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 3, 6, 7, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 3, 5, 7, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 6, 7, 9",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "În cadrul unui algoritm genetic care maximizează o funcție (fitness): 1. Selecția generației următoare este obligatoriu bazată pe vîrstă; 2. Sînt rezolvate doar probleme cu constrîngeri; 3. Mutația este realizată cu probabilitate mică; 4. Nu este recomandată utilizarea selecției FPS; 5. Multisetul copiilor este fără duplicate; 6. Selecția supraviețuitorilor este determinată de calitate și/sau factorul vîrstă; 7. Recombinarea este realizată rareori; 8. Se urmărește determinarea unui punct de maxim global; 9. Structura cromozomială diferă dacă funcția este translatată.",
-        "answers": [
-          {
-            "text": "a. 1, 3, 5, 9",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 3, 6, 8",
-            "isCorrect": true
-          },
-          {
-            "text": "c. 4, 6, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 3, 4, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 5, 6, 7",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "În cadrul strategiei evolutive cu 2 membri (ES-2M): 1. Este generată o populație inițială aleator, din distribuția normală; 2. La fiecare moment al evoluției algoritmului este menținut un singur candidat la soluție; 3. Populațiile sînt de dimensiuni mari; 4. Calculul unui termen nou este realizat prin mutație gaussiană pentru fiecare componentă a vectorului curent; 5. Sînt rezolvate probleme pe spații continue; 6. Fiecare termen este calculat în manieră stochastică; 7. Calculul unui termen nou este realizat prin mutație gaussiană pentru o componentă selectată aleator din vectorul curent; 8. Este intenționată creșterea calității medii a populației curente; 9. Este garantată obținerea unui optim global; 10. La începutul fiecărei iterații este testată dimensiunea populației curente; 11. Sînt creați descendenți obținuți din populația curentă prin recombinare locală.",
-        "answers": [
-          {
-            "text": "a. 6, 8, 11",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 2, 4, 5, 6",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 4, 8, 11",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 6, 9",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "question": "În algoritmii genetici, reprezentarea prin șiruri de numere întregi",
-        "answers": [
-          {
-            "text": "a. Nu poate fi utilizată în cazul atributelor ordinale",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Este preferabilă pentru problemele de optimizare",
-            "isCorrect": false
-          },
-          {
-            "text": "c. Nu este utilizată în algoritmi genetici",
-            "isCorrect": false
-          },
-          {
-            "text": "d. Este doar un exercițiu de implementare, nefiind necesară",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Este preferabilă atunci cînd pentru fiecare genă sînt posibile mai mult de două valori distincte",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Într-un algoritm evolutiv, funcția de evaluare:",
-        "answers": [
-          {
-            "text": "a. este o funcție asimptotică",
-            "isCorrect": false
-          },
-          {
-            "text": "b. estimează nivelul de adaptare a individului",
-            "isCorrect": true
-          },
-          {
-            "text": "c. este stabilită de Holland",
-            "isCorrect": false
-          },
-          {
-            "text": "d. este definită pe spațiul unidimensional",
-            "isCorrect": false
-          },
-          {
-            "text": "e. se alege în funcție de dimensiunea populației",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "question": "Algoritmul ES2M:",
-        "answers": [
-          {
-            "text": "a. Nici una din celelalte variante",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Nu este un algoritm auto-adaptiv",
-            "isCorrect": false
-          },
-          {
-            "text": "c. Este algoritmul auto-adaptiv primar",
-            "isCorrect": true
-          },
-          {
-            "text": "d. Este un algoritm determinist",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Nu este un algoritm evolutiv",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "question": "Algoritmul Hillclimbing: 1. Se aplică asupra unui singur punct din spațiul de căutare; 2. Aplicarea se poate repeta pentru mai multe puncte pentru a crește performanțele; 3. Este inspirat din tehnicile de alpinism; 4. Găsește întotdeauna soluția optimă; 5. Găsește uneori soluția optimă; 6. Calculele se încheie atunci cînd temperatura sistemului devine zero; 7. De obicei găsește un punct de optim local; 8. Se utilizează numai pentru reprezentarea cu șiruri de numere reale.",
-        "answers": [
-          {
-            "text": "a. 1, 2, 4, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 4, 6, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 5, 7, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 3, 4, 6, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 1, 2, 5, 7",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "question": "În algoritmii genetici, operația de selecție a părinților",
-        "answers": [
-          {
-            "text": "a. Este utilizată în funcție de reprezentarea cromozomială",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Este utilizată în general în manieră nedeterministă",
-            "isCorrect": true
-          },
-          {
-            "text": "c. Este utilizată determinist",
-            "isCorrect": false
-          },
-          {
-            "text": "d. Este doar un exercițiu de implementare, nefiind necesară",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Nu este utilizată",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "question": "Tipurile de probleme care pot fi rezolvate pe baza calculului evolutiv sînt: 1. Probleme de optimizare; 2. Probleme de geometrie; 3. Prelucrarea datelor de dimensiune mare (big-data); 4. Probleme de modelare; 5. Probleme de validare a datelor; 6. Probleme de simulare; 7. Alocarea dinamică a datelor în memoria calculatorului; 8. Deplasarea autonomă a vehiculelor.",
-        "answers": [
-          {
-            "text": "a. 1, 3, 5, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 2, 4, 6, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 4, 6",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 2, 3, 4",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 6",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] o permutare. În urma aplicării mutației prin inversiune pentru pozițiile (2,7) poate fi obținută următoarea variantă mutată Y: 1. Y=[ 2 6 7 8 10 5 1 9 3 4] ; 2. Y=[ 6 9 7 5 10 8 1 3 4 2 ] ; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ] ; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ] ;5. Y=[ 6 8 7 5 10 1 9 3 4 2 ] ; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
-        "answers": [
-          {
-            "text": "a. 2, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 5",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "question": "Fie următorul cromozom de tip permutare: {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9}. În urma aplicării operatorului de mutație prin amestec s-a obținut cromozomul: {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9 }. Cele două poziții utilizate pentru amestec sînt: 1. 1 și 14; 2. 4 și 15; 3. 3 și 15; 4. 4 și 8; 5. 2 și 15; 6. 1 și 12; 7. 2 și 14; 8. 2 și 13; 9. 1 și 15; 10. 1 și 13; 11. 3 și 13.",
-        "answers": [
-          {
-            "text": "a. 1, 5, 7, 9",
-            "isCorrect": true
-          },
-          {
-            "text": "b. 2",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 6",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 5, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 6, 7, 9",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "question": "Componentele algoritmilor evolutivi sînt: 1. Reprezentarea; 2. Probabilitatea de mutație; 3. Funcția de evaluare; 4. Probabilitatea de recombinare; 5. Populația; 6. Generarea de numere aleatoare; 7. Mecanismul de selecție a părinților; 8. Generarea de permutări; 9. Reprezentarea grafică a evoluției calității; 10. Operatorii de variație; 11. Stabilirea diversității genetice a populației; 12. Mecanismul de înlocuire a populației curente; 13. Hillclimbing; 14. Inițializarea populației; 15. Condiția de terminare.",
-        "answers": [
-          {
-            "text": "a. 2, 4, 6, 8, 11, 13",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 3, 5, 6, 10, 13, 14, 15",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 3, 5, 7, 10, 12, 14, 15",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 1, 2, 5, 6, 7, 14, 15",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 5, 9, 15",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "question": "În cadrul unui algoritm din clasa strategiilor evolutive, operația de mutație: 1. Este utilizată doar în probleme cu constrîngeri; 2. Este efectuată imediat ce este disponibilă o populație de copii; 3. Alege pentru mutație în medie jumătate de indivizi; 4. Utilizează două multiseturi distincte de copii; 5. Este de tip neuniform (fluaj); 6. Este efectuată o singură dată, după prima etapă de generare a unei populații; 7. Este realizată cu probabilitate mică; 8. Este efectuată o singură dată pe parcursul unui algoritm; 9. Determină structura cromozomială; 10. Utilizează populația curentă; 11. Este efectuată iterativ.",
-        "answers": [
-          {
-            "text": "a. 1, 5, 6, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 4, 5, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 2, 5, 9, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 5, 9, 10",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 5, 9, 11",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "question": "În algoritmii genetici, alegerea unei anumite reprezentări 1. Este independentă de problema de rezolvat; 2. Depinde de problema de rezolvat; 3. Poate fi făcută aleator; 4. Este imposibilă, fiind folosită doar reprezentarea prin numere reale; 5. Influențează calitatea soluției furnizate.",
-        "answers": [
-          {
-            "text": "a. 3, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 4",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 2, 5",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 1, 3",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 3",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "question": "În cadrul unui algoritm evolutiv populația inițială: 1. Este generată înaintea începerii evoluției propriu-zise; 2. Este generată după fiecare ciclu evolutiv (care presupune efectuarea operațiilor de selecție, recombinare, mutație, evaluare); 3. Este generată la începutul fiecărui ciclu evolutiv; 4. Este generată aleator; 5. Este generată utilizînd distribuția de probabilitate uniformă; 6. Este generată utilizînd distribuția de probabilitate normală; 7. Este setată pe mulțimea vidă.",
-        "answers": [
-          {
-            "text": "a. 1, 2, 4, 5, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 5, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 2, 4, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 4, 5",
-            "isCorrect": true
-          },
-          {
-            "text": "e. 2, 5, 7",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "question": "Care din următorii operatori pot fi utilizați într-un algoritm genetic care folosește reprezentarea prin șiruri de numere reale? 1. Negarea; 2. Negarea fuzzy; 3. Resetarea pseudo-aleatoare; 4. Resetare deterministă; 5. Mutația uniformă; 6. Mutația neuniformă cu distribuție fixată; 7. Mutația locală; 8. Interschimbarea; 9. Inserarea; 10. Mutația rapidă; 11. Amestecul; 12. Mutația globală; 13. Inversiunea; 14. Recombinare unipunct; 15. Recombinare multipunct; 16. Recombinare uniformă; 17. Recombinarea rădăcinilor; 18. Recombinare aritmetică simplă; 19. Recombinare aritmetică singulară; 20. Recombinare aritmetică totală; 21. Recombinarea șirurilor maxime; 22. Partially mapped crossover; 23. Recombinare de ordine; 24. Recombinarea muchiilor; 25. Recombinarea ciclică",
-        "answers": [
-          {
-            "text": "a. 3, 4, 5, 6, 7,12, 18, 19, 21",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 3, 4, 7, 10, 13, 16, 17, 20",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 5, 6, 14, 15, 16, 18, 19, 20",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 2, 7, 10, 12,17,21",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Toți operatorii de mai sus",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] o permutare. În urma aplicării mutației prin amestec pentru pozițiile (2,7) poate fi obținută următoarea variantă mutată Y: 1. Y=[ 2 6 7 8 10 5 1 9 3 4] ; 2. Y=[ 6 7 8 10 5 1 9 3 4 2 ] ; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ] ; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ] ;5. Y=[ 6 9 7 5 10 8 1 3 4 2 ] ; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
-        "answers": [
-          {
-            "text": "a. 3, 4, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 2, 3",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 2, 5, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 1, 2, 5",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 5",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor: 1. Se aplică asupra populației curente; 2. În unele variante necesită calcularea unei distribuții de probabilitate de selecție; 3. Utilizează întotdeauna factori aleatori; 4. Alege generația următoare dintre indivizii disponibili după operația de mutație; 5. Indivizii aleși sînt întotdeauna fezabili; 6. Uneori utilizează factori aleatori; 7. Asigură perpetuarea individului cu calitate maximă din populația curentă; 8. Duce la creșterea calității medii a populației curente; 9. Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vîrstă; 10. Se aplică la începutul fiecărei iterații; 11. Se aplică asupra descendenților obținuți din populația curentă; 12. Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
-        "answers": [
-          {
-            "text": "a. 2, 3, 4, 5, 6, 11",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 4, 8, 11",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 1, 7",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 6, 8, 11",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 4, 5, 6, 12",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 23,
-        "question": "Fie X=[ 6 1 8 10 5 7 12 43 9 3 4 2 ] o secvență de numere întregi. În urma aplicării mutației fluaj poate fi obținută următoarea variantă mutată: 1. Y=[ 16 1 8 10 5 7 12 43 9 3 4 2 ]; 2. Y=[ 6 1 8 10 5 7 12 43 9 4 3 2 ]; 3. Y=[ 6 1 8 10 15 7 12 43 9 3 4 2 ]; 4. Y=[ 7 1 8 10 5 7 12 43 9 3 4 2 ]; 5. Y=[ 6 1 8 10 5 7 12 43 9 3 4 2 ]; 6. Y=[ 6 1 8 10 5 7 12 42 9 3 4 2 ]",
-        "answers": [
-          {
-            "text": "a. 2, 4, 5, 6",
-            "isCorrect": true
-          },
-          {
-            "text": "b. 1, 2, 3, 4, 5, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 4, 5, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "d. 2, 4, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 2, 3, 4, 5, 6",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 24,
-        "question": "Fie permutările x=[10  2  3  9  1  7  6  4  8  5] și y=[5  4  7  2  1  9  3  6  8  10], un cromozom copil rezultat prin PMX este c=[ 5   2   3   9   1   4  7   6  8  10].  Atunci ordinea considerării părinților și respectiv punctele de încrucișare sînt:",
-        "answers": [
-          {
-            "text": "a. (y,x) și (2,5)",
-            "isCorrect": false
-          },
-          {
-            "text": "b. (x,y) și (2,5)",
-            "isCorrect": true
-          },
-          {
-            "text": "c. (y,x) și (1,5)",
-            "isCorrect": false
-          },
-          {
-            "text": "d. (y,x) și (1,4)",
-            "isCorrect": false
-          },
-          {
-            "text": "e. (x,y) și (1,4)",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "question": "În algoritmii genetici, reprezentarea prin permutări",
-        "answers": [
-          {
-            "text": "a. Nu permite utilizarea de operatori de mutație",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Nu este utilizată",
-            "isCorrect": false
-          },
-          {
-            "text": "c. Nu permite utilizarea de operatori de recombinare",
-            "isCorrect": false
-          },
-          {
-            "text": "d. Necesită operatori de variație special definiți",
-            "isCorrect": true
-          },
-          {
-            "text": "e. Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "question": "Decodificarea trebuie realizată:",
-        "answers": [
-          {
-            "text": "a. Niciuna din celelalte variante",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Garantează obținerea de rezultate optime",
-            "isCorrect": false
-          },
-          {
-            "text": "c. Obligatoriu după extragerea celui mai bun individ din populația finală",
-            "isCorrect": true
-          },
-          {
-            "text": "d. Nu depinde de reprezentarea aleasă",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Nu e necesară în algoritmii genetici",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "question": "Fie următorii doi cromozomi de tip permutare: { 6, 3, 7, 8, 5, 1, 2, 4, 9 } și { 7, 2, 8, 5, 6, 9, 4, 1, 3}. Aplicînd operatorul de recombinare PMX, cu pozițiile 3 și 6 se obțin descendenții: a. 6, 3, 7, 8, 5, 9, 4, 1, 2; b. 7, 4, 6, 8, 5, 1, 2, 9, 3; c. 8, 3, 7, 5, 6, 9, 4, 2, 1; d. 6, 2, 7, 8, 5, 1, 4, 9, 3; e. 7, 2, 8, 5, 6, 1, 3, 4, 9; f. 6, 2, 7, 8, 5, 9, 4, 1, 3; g. 7, 9, 8, 6, 5, 1, 2, 4, 3; h. 7, 3, 8, 5, 6, 9, 2, 4, 1; i. 7, 3, 8, 5, 6, 1, 2, 4, 9; j. 5, 3, 7, 8, 6, 9, 4, 1, 2.",
-        "answers": [
-          {
-            "text": "a. d, h",
-            "isCorrect": true
-          },
-          {
-            "text": "b. a, e",
-            "isCorrect": false
-          },
-          {
-            "text": "c. f, i",
-            "isCorrect": false
-          },
-          {
-            "text": "d. g, j",
-            "isCorrect": false
-          },
-          {
-            "text": "e. b, c",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "question": "În cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozomilor: 1. Poate fi oricare dintre: șiruri binare, șiruri de numere întregi, șiruri de numere reale, permutări; 2. Poate fi numai de tip șiruri de numere întregi sau reale; 3. Poate fi numai de tip șiruri de numere reale; 4. Nu influențează tipul de recombinare folosit (discretă / intermediară); 5. Se alege în funcție de problema care se rezolvă; 6. Influențează tipul de recombinare folosit; 7. Are influență asupra mecanismului de selecție a generației următoare; 8. Conține atît descrierea individului candidat cît și parametrii care controlează evoluția sa.",
-        "answers": [
-          {
-            "text": "a. 2, 4, 5, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "b. 1, 7, 8",
-            "isCorrect": false
-          },
-          {
-            "text": "c. 3, 4, 8",
-            "isCorrect": true
-          },
-          {
-            "text": "d. 2, 4, 5, 6",
-            "isCorrect": false
-          },
-          {
-            "text": "e. 1, 3, 4, 8",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "question": "Calculul evolutiv este inspirat din:",
-        "answers": [
-          {
-            "text": "a. Revoluția industrială",
-            "isCorrect": false
-          },
-          {
-            "text": "b. Evoluția naturală biologică",
-            "isCorrect": true
-          },
-          {
-            "text": "c. Societatea informațională",
-            "isCorrect": false
-          },
-          {
-            "text": "d. Noua revoluție agrară",
-            "isCorrect": false
-          },
-          {
-            "text": "e. Societatea cunoașterii",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sînt generați prin utilizarea operatorului CX?",
-        "answers": [
-          {
-            "text": "a. C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
-            "isCorrect": false
-          },
-          {
-            "text": "b. C1=Y, C2=X",
-            "isCorrect": false
-          },
-          {
-            "text": "c. C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
-            "isCorrect": true
-          },
-          {
-            "text": "d. C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
-            "isCorrect": false
-          },
-          {
-            "text": "e. C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
-            "isCorrect": false
-          }
-        ]
-      }
-    ]
+{
+  "id": "raspunsuri_peag_docx",
+  "name": "raspunsuri_peag",
+  "source": "raspunsuri_peag.docx",
+  "strategy": "moodle_feedback_strict",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Algoritmii genetici",
+      "answers": [
+        {
+          "text": "Sînt metode deterministe de căutare în spațiul soluțiilor",
+          "isCorrect": false
+        },
+        {
+          "text": "Rezolvă exclusiv probleme definite pe spații continue",
+          "isCorrect": false
+        },
+        {
+          "text": "Sînt tehnici de căutare stochastică bazate pe populații",
+          "isCorrect": true
+        },
+        {
+          "text": "Folosesc exclusiv selecții deterministe",
+          "isCorrect": false
+        },
+        {
+          "text": "Utilizează la fiecare moment de timp o variantă de soluție modificată prin perturbare normală",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "În cadrul unui algoritm genetic operația de recombinare: 1. Este efectuată o singură dată pe parcursul unui algoritm genetic; 2. Este efectuată imediat după fiecare etapă de selecție a părinților; 3. În general probabilitatea de recombinare nu contează în rezolvarea problemelor prin algoritmi genetici; 4. Este efectuată imediat înaintea fiecărei proceduri de mutație; 5. Este efectuată imediat înaintea fiecărei etape de selecție a părinților; 6. Utilizează populația de părinți; 7. Este utilizată doar în probleme fără constrîngeri; 8. Este utilizată cu probabilitate mare; 9. Este utilizată cu probabilitate mică; 10. Este efectuată o singură dată, după prima etapă de selecție a părinților.",
+      "answers": [
+        {
+          "text": "4, 8, 9, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 3, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 7, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "În cadrul unui algoritm evolutiv condiția de terminare: 1. Este obligatorie; 2. Nu este indicată; 3. Include obligatoriu, direct sau indirect, controlul numărului de iterații (numărul populațiilor generate); 4. Nu poate fi implementată; 5. Este utilizată doar în cadrul GA, nu și în cadrul ES.",
+      "answers": [
+        {
+          "text": "1, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "5",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 3, 4",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Într-un algoritm genetic, populația inițială: 1. Este generată pînă cînd este atins un optim local; 2. Este construită o singură dată ; 3. Suferă mutație cu o probabilitate relativ mică; 4. Trebuie modificată la fiecare iterație; 5. Conține exclusiv indivizi fezabili; 6. Este formată din indivizii care trec în generația următoare; 7. Este generată utilizînd distribuția de probabilitate uniformă.",
+      "answers": [
+        {
+          "text": "2, 3, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5, 7",
+          "isCorrect": true
+        },
+        {
+          "text": "4, 5, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Care din următoarele metode pot fi folosite în cadrul algoritmilor memetici pentru a îmbunătăți informația în interiorul unei populații: 1. recursivitate; 2. hillclimbing; 3. divide et impera; 4. strategie evolutivă cu doi membri; 5. backtracking; 6. metode exacte; 7. metode euristice; 8. validarea datelor; 9. metoda gradientului; 10. ECX.",
+      "answers": [
+        {
+          "text": "2, 3, 5, 6, 9",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6, 8, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 6, 7, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6, 7, 9",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "În cadrul unui algoritm genetic care maximizează o funcție (fitness): 1. Selecția generației următoare este obligatoriu bazată pe vîrstă; 2. Sînt rezolvate doar probleme cu constrîngeri; 3. Mutația este realizată cu probabilitate mică; 4. Nu este recomandată utilizarea selecției FPS; 5. Multisetul copiilor este fără duplicate; 6. Selecția supraviețuitorilor este determinată de calitate și/sau factorul vîrstă; 7. Recombinarea este realizată rareori; 8. Se urmărește determinarea unui punct de maxim global; 9. Structura cromozomială diferă dacă funcția este translatată.",
+      "answers": [
+        {
+          "text": "1, 3, 5, 9",
+          "isCorrect": false
+        },
+        {
+          "text": "3, 6, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "5, 6, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "În cadrul strategiei evolutive cu 2 membri (ES-2M): 1. Este generată o populație inițială aleator, din distribuția normală; 2. La fiecare moment al evoluției algoritmului este menținut un singur candidat la soluție; 3. Populațiile sînt de dimensiuni mari; 4. Calculul unui termen nou este realizat prin mutație gaussiană pentru fiecare componentă a vectorului curent; 5. Sînt rezolvate probleme pe spații continue; 6. Fiecare termen este calculat în manieră stochastică; 7. Calculul unui termen nou este realizat prin mutație gaussiană pentru o componentă selectată aleator din vectorul curent; 8. Este intenționată creșterea calității medii a populației curente; 9. Este garantată obținerea unui optim global; 10.La începutul fiecărei iterații este testată dimensiunea populației curente; 11. Sînt creați descendenți obținuți din populația curentă prin recombinare locală.",
+      "answers": [
+        {
+          "text": "6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 5, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6, 9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "În algoritmii genetici, reprezentarea prin șiruri de numere întregi",
+      "answers": [
+        {
+          "text": "Nu poate fi utilizată în cazul atributelor ordinale",
+          "isCorrect": false
+        },
+        {
+          "text": "Este preferabilă pentru problemele de optimizare",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu este utilizată în algoritmi genetici",
+          "isCorrect": false
+        },
+        {
+          "text": "Este doar un exercițiu de implementare, nefiind necesară",
+          "isCorrect": false
+        },
+        {
+          "text": "Este preferabilă atunci cînd pentru fiecare genă sînt posibile mai mult de două valori distincte",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Într-un algoritm evolutiv, funcția de evaluare:",
+      "answers": [
+        {
+          "text": "este o funcție asimptotică",
+          "isCorrect": false
+        },
+        {
+          "text": "estimează nivelul de adaptare a individului",
+          "isCorrect": true
+        },
+        {
+          "text": "este stabilită de Holland",
+          "isCorrect": false
+        },
+        {
+          "text": "este definită pe spațiul unidimensional",
+          "isCorrect": false
+        },
+        {
+          "text": "se alege în funcție de dimensiunea populației",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Algoritmul ES2M:",
+      "answers": [
+        {
+          "text": "Nici una din celelalte variante",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu este un algoritm auto-adaptiv",
+          "isCorrect": false
+        },
+        {
+          "text": "Este algoritmul auto-adaptiv primar",
+          "isCorrect": true
+        },
+        {
+          "text": "Este un algoritm determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu este un algoritm evolutiv",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Algoritmul Hillclimbing: 1. Se aplică asupra unui singur punct din spațiul de căutare; 2. Aplicarea se poate repeta pentru mai multe puncte pentru a crește performanțele; 3. Este inspirat din tehnicile de alpinism; 4. Găsește întotdeauna soluția optimă; 5. Găsește uneori soluția optimă; 6. Calculele se încheie atunci cînd temperatura sistemului devine zero; 7. De obicei găsește un punct de optim local; 8. Se utilizează numai pentru reprezentarea cu șiruri de numere reale.",
+      "answers": [
+        {
+          "text": "1, 2, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 4, 6, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 5, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "3, 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 5, 7",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "În algoritmii genetici, operația de selecție a părinților",
+      "answers": [
+        {
+          "text": "Este utilizată în funcție de reprezentarea cromozomială",
+          "isCorrect": false
+        },
+        {
+          "text": "Este utilizată în general în manieră nedeterministă",
+          "isCorrect": true
+        },
+        {
+          "text": "Este utilizată determinist",
+          "isCorrect": false
+        },
+        {
+          "text": "Este doar un exercițiu de implementare, nefiind necesară",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu este utilizată",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Tipurile de probleme care pot fi rezolvate pe baza calculului evolutiv sînt: 1. Probleme de optimizare; 2. Probleme de geometrie; 3. Prelucrarea datelor de dimensiune mare (big-data); 4. Probleme de modelare; 5. Probleme de validare a datelor; 6. Probleme de simulare; 7. Alocarea dinamică a datelor în memoria calculatorului; 8. Deplasarea autonomă a vehiculelor.",
+      "answers": [
+        {
+          "text": "1, 3, 5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 4, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 3, 4",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] o permutare. În urma aplicării mutației prin inversiune pentru pozițiile (2,7) poate fi obținută următoarea variantă mutată Y: 1. Y=[ 2 6 7 8 10 5 1 9 3 4] ; 2. Y=[ 6 9 7 5 10 8 1 3 4 2 ] ; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ] ; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ] ;5. Y=[ 6 8 7 5 10 1 9 3 4 2 ] ; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
+      "answers": [
+        {
+          "text": "2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "5",
+          "isCorrect": false
+        },
+        {
+          "text": "1",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "2",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Fie următorul cromozom de tip permutare: {7, 6, 12, 14, 3, 10, 8, 15, 11, 5, 4, 1, 13, 2, 9}. În urma aplicării operatorului de mutație prin amestec s-a obținut cromozomul: {7, 14, 13, 12, 1, 15, 2, 8, 6, 3, 11, 5, 10, 4, 9 }. Cele două poziții utilizate pentru amestec sînt: 1. 1 și 14; 2. 4 și 15; 3. 3 și 15; 4. 4 și 8; 5. 2 și 15; 6. 1 și 12; 7. 2 și 14; 8. 2 și 13; 9. 1 și 15; 10. 1 și 13; 11. 3 și 13.",
+      "answers": [
+        {
+          "text": "1, 5, 7, 9",
+          "isCorrect": true
+        },
+        {
+          "text": "2",
+          "isCorrect": false
+        },
+        {
+          "text": "6",
+          "isCorrect": false
+        },
+        {
+          "text": "5, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "6, 7, 9",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Componentele algoritmilor evolutivi sînt: 1. Reprezentarea; 2. Probabilitatea de mutație; 3. Funcția de evaluare; 4. Probabilitatea de recombinare; 5. Populația; 6. Generarea de numere aleatoare; 7. Mecanismul de selecție a părinților; 8. Generarea de permutări; 9. Reprezentarea grafică a evoluției calității; 10. Operatorii de variație; 11. Stabilirea diversității genetice a populației; 12. Mecanismul de înlocuire a populației curente; 13. Hillclimbing; 14. Inițializarea populației; 15. Condiția de terminare.",
+      "answers": [
+        {
+          "text": "2, 4, 6, 8, 11, 13",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 5, 6, 10, 13, 14, 15",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 5, 7, 10, 12, 14, 15",
+          "isCorrect": true
+        },
+        {
+          "text": "1, 2, 5, 6, 7, 14, 15",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 5, 9, 15",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "În cadrul unui algoritm din clasa strategiilor evolutive, operația de mutație: 1. Este utilizată doar în probleme cu constrîngeri; 2. Este efectuată imediat ce este disponibilă o populație de copii; 3. Alege pentru mutație în medie jumătate de indivizi; 4. Utilizează două multiseturi distincte de copii; 5. Este de tip neuniform (fluaj); 6. Este efectuată o singură dată, după prima etapă de generare a unei populații; 7. Este realizată cu probabilitate mică; 8. Este efectuată o singură dată pe parcursul unui algoritm; 9. Determină structura cromozomială; 10. Utilizează populația curentă; 11. Este efectuată iterativ.",
+      "answers": [
+        {
+          "text": "1, 5, 6, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 4, 5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5, 9, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 5, 9, 10",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5, 9, 11",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "În algoritmii genetici, alegerea unei anumite reprezentări 1. Este independentă de problema de rezolvat; 2. Depinde de problema de rezolvat; 3. Poate fi făcută aleator; 4. Este imposibilă, fiind folosită doar reprezentarea prin numere reale; 5. Influențează calitatea soluției furnizate.",
+      "answers": [
+        {
+          "text": "3, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "4",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "1, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "În cadrul unui algoritm evolutiv populația inițială: 1. Este generată înaintea începerii evoluției propriu-zise; 2. Este generată după fiecare ciclu evolutiv (care presupune efectuarea operațiilor de selecție, recombinare, mutație, evaluare); 3. Este generată la începutul fiecărui ciclu evolutiv; 4. Este generată aleator; 5. Este generată utilizînd distribuția de probabilitate uniformă; 6. Este generată utilizînd distribuția de probabilitate normală; 7. Este setată pe mulțimea vidă.",
+      "answers": [
+        {
+          "text": "1, 2, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "5, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 4, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 4, 5",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 5, 7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Care din următorii operatori pot fi utilizați într-un algoritm genetic care folosește reprezentarea prin șiruri de numere reale? 1. Negarea; 2. Negarea fuzzy; 3. Resetarea pseudo-aleatoare; 4. Resetare deterministă; 5. Mutația uniformă; 6. Mutația neuniformă cu distribuție fixată; 7. Mutația locală; 8. Interschimbarea; 9. Inserarea; 10. Mutația rapidă; 11. Amestecul; 12. Mutația globală; 13. Inversiunea; 14. Recombinare unipunct; 15. Recombinare multipunct; 16. Recombinare uniformă; 17. Recombinarea rădăcinilor; 18. Recombinare aritmetică simplă; 19. Recombinare aritmetică singulară; 20. Recombinare aritmetică totală; 21. Recombinarea șirurilor maxime; 22. Partially mapped crossover; 23. Recombinare de ordine; 24. Recombinarea muchiilor; 25. Recombinarea ciclică",
+      "answers": [
+        {
+          "text": "3, 4, 5, 6, 7,12, 18, 19, 21",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 4, 7, 10, 13, 16, 17, 20",
+          "isCorrect": false
+        },
+        {
+          "text": "5, 6, 14, 15, 16, 18, 19, 20",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 7, 10, 12,17,21",
+          "isCorrect": false
+        },
+        {
+          "text": "Toți operatorii de mai sus",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] o permutare. În urma aplicării mutației prin amestec pentru pozițiile (2,7) poate fi obținută următoarea variantă mutată Y: 1. Y=[ 2 6 7 8 10 5 1 9 3 4] ; 2. Y=[ 6 7 8 10 5 1 9 3 4 2 ] ; 3. Y=[ 7 6 8 10 5 1 9 3 4 2 ] ; 4. Y=[ 6 7 10 8 5 9 1 3 4 2 ] ;5. Y=[ 6 9 7 5 10 8 1 3 4 2 ] ; 6. Y=[ 6 2 8 10 5 1 9 3 4 7]",
+      "answers": [
+        {
+          "text": "3, 4, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 3",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 2, 5",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 5",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor: 1. Se aplică asupra populației curente; 2. În unele variante necesită calcularea unei distribuții de probabilitate de selecție; 3. Utilizează întotdeauna factori aleatori; 4. Alege generația următoare dintre indivizii disponibili după operația de mutație; 5. Indivizii aleși sînt întotdeauna fezabili; 6. Uneori utilizează factori aleatori; 7. Asigură perpetuarea individului cu calitate maximă din populația curentă; 8. Duce la creșterea calității medii a populației curente; 9. Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vîrstă; 10.Se aplică la începutul fiecărei iterații; 11. Se aplică asupra descendenților obținuți din populația curentă; 12. Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
+      "answers": [
+        {
+          "text": "2, 3, 4, 5, 6, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "4, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 7",
+          "isCorrect": false
+        },
+        {
+          "text": "6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 5, 6, 12",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Fie X=[ 6 1 8 10 5 7 12 43 9 3 4 2 ] o secvență de numere întregi. În urma aplicării mutației fluaj poate fi obținută următoarea variantă mutată: 1. Y=[ 16 1 8 10 5 7 12 43 9 3 4 2 ]; 2. Y=[ 6 1 8 10 5 7 12 43 9 4 3 2 ]; 3. Y=[ 6 1 8 10 15 7 12 43 9 3 4 2 ]; 4. Y=[ 7 1 8 10 5 7 12 43 9 3 4 2 ]; 5. Y=[ 6 1 8 10 5 7 12 43 9 3 4 2 ]; 6. Y=[ 6 1 8 10 5 7 12 42 9 3 4 2 ]",
+      "answers": [
+        {
+          "text": "2, 4, 5, 6",
+          "isCorrect": true
+        },
+        {
+          "text": "1, 2, 3, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 4, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "2, 3, 4, 5, 6",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Fie permutările x=[10 2 3 9 1 7 6 4 8 5] și y=[5 4 7 2 1 9 3 6 8 10], un cromozom copil rezultat prin PMX este c=[ 5 2 3 9 1 4 7 6 8 10]. Atunci ordinea considerării părinților și respectiv punctele de încrucișare sînt:",
+      "answers": [
+        {
+          "text": "(y,x) și (2,5)",
+          "isCorrect": false
+        },
+        {
+          "text": "(x,y) și (2,5)",
+          "isCorrect": true
+        },
+        {
+          "text": "(y,x) și (1,5)",
+          "isCorrect": false
+        },
+        {
+          "text": "(y,x) și (1,4)",
+          "isCorrect": false
+        },
+        {
+          "text": "(x,y) și (1,4)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "În algoritmii genetici, reprezentarea prin permutări",
+      "answers": [
+        {
+          "text": "Nu permite utilizarea de operatori de mutație",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu este utilizată",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu permite utilizarea de operatori de recombinare",
+          "isCorrect": false
+        },
+        {
+          "text": "Necesită operatori de variație special definiți",
+          "isCorrect": true
+        },
+        {
+          "text": "Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Decodificarea trebuie realizată:",
+      "answers": [
+        {
+          "text": "Niciuna din celelalte variante",
+          "isCorrect": false
+        },
+        {
+          "text": "Garantează obținerea de rezultate optime",
+          "isCorrect": false
+        },
+        {
+          "text": "Obligatoriu după extragerea celui mai bun individ din populația finală",
+          "isCorrect": true
+        },
+        {
+          "text": "Nu depinde de reprezentarea aleasă",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu e necesară în algoritmii genetici",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Fie următorii doi cromozomi de tip permutare: { 6, 3, 7, 8, 5, 1, 2, 4, 9 } și { 7, 2, 8, 5, 6, 9, 4, 1, 3}. Aplicînd operatorul de recombinare PMX, cu pozițiile 3 și 6 se obțin descendenții: a. 6, 3, 7, 8, 5, 9, 4, 1, 2; b. 7, 4, 6, 8, 5, 1, 2, 9, 3; c. 8, 3, 7, 5, 6, 9, 4, 2, 1; d. 6, 2, 7, 8, 5, 1, 4, 9, 3; e. 7, 2, 8, 5, 6, 1, 3, 4, 9; f. 6, 2, 7, 8, 5, 9, 4, 1, 3; g. 7, 9, 8, 6, 5, 1, 2, 4, 3; h. 7, 3, 8, 5, 6, 9, 2, 4, 1;i. 7, 3, 8, 5, 6, 1, 2, 4, 9; j. 5, 3, 7, 8, 6, 9, 4, 1, 2.",
+      "answers": [
+        {
+          "text": "d, h",
+          "isCorrect": true
+        },
+        {
+          "text": "a, e",
+          "isCorrect": false
+        },
+        {
+          "text": "f, i",
+          "isCorrect": false
+        },
+        {
+          "text": "g, j",
+          "isCorrect": false
+        },
+        {
+          "text": "b, c",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "În cadrul unui algoritm din clasa strategiilor evolutive, reprezentarea cromozomilor: 1. Poate fi oricare dintre: șiruri binare, șiruri de numere întregi, șiruri de numere reale, permutări; 2. Poate fi numai de tip șiruri de numere întregi sau reale; 3. Poate fi numai de tip șiruri de numere reale; 4. Nu influențează tipul de recombinare folosit (discretă / intermediară); 5. Se alege în funcție de problema care se rezolvă; 6. Influențează tipul de recombinare folosit; 7. Are influență asupra mecanismului de selecție a generației următoare; 8. Conține atît descrierea individului candidat cît și parametrii care controlează evoluția sa.",
+      "answers": [
+        {
+          "text": "2, 4, 5, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 7, 8",
+          "isCorrect": false
+        },
+        {
+          "text": "3, 4, 8",
+          "isCorrect": true
+        },
+        {
+          "text": "2, 4, 5, 6",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 3, 4, 8",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Calculul evolutiv este inspirat din:",
+      "answers": [
+        {
+          "text": "Revoluția industrială",
+          "isCorrect": false
+        },
+        {
+          "text": "Evoluția naturală biologică",
+          "isCorrect": true
+        },
+        {
+          "text": "Societatea informațională",
+          "isCorrect": false
+        },
+        {
+          "text": "Noua revoluție agrară",
+          "isCorrect": false
+        },
+        {
+          "text": "Societatea cunoașterii",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sînt generați prin utilizarea operatorului CX?",
+      "answers": [
+        {
+          "text": "C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "C1=Y, C2=X",
+          "isCorrect": false
+        },
+        {
+          "text": "C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
+          "isCorrect": true
+        },
+        {
+          "text": "C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "_validation": {
+    "questionCount": 30,
+    "withoutCorrect": 0,
+    "singleAnswer": 0,
+    "warnings": []
   }
-]
+}

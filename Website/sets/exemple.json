@@ -1,136 +1,144 @@
 {
-  "id": "exemple_subiecte_afisate_mai_2021_1",
-  "name": "Exemple subiecte afisate - mai 2021 (1)",
+  "id": "exemple_subiecte_afisate_mai_2021_docx",
+  "name": "Exemple subiecte afisate - mai 2021",
+  "source": "Exemple subiecte afisate - mai 2021 (1).docx",
+  "strategy": "marked_option_blocks",
   "questions": [
     {
       "id": 1,
       "question": "În algoritmii genetici, reprezentarea prin permutări",
       "answers": [
         {
-          "text": "1.  Nu permite utilizarea de operatori de recombinare",
+          "text": "Nu permite utilizarea de operatori de recombinare",
           "isCorrect": false
         },
         {
-          "text": "2.  Nu permite utilizarea de operatori de mutație",
+          "text": "Nu permite utilizarea de operatori de mutație",
           "isCorrect": false
         },
         {
-          "text": "3.  Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
+          "text": "Nu permite mai mult de două gene cu aceeași valoare într-un cromozom",
           "isCorrect": false
         },
         {
-          "text": "4.  Necesită operatori de variație special definiți",
+          "text": "Necesită operatori de variație special definiți",
           "isCorrect": true
         },
         {
-          "text": "5.  Nu este utilizată",
+          "text": "Nu este utilizată",
           "isCorrect": false
         }
       ]
     },
     {
       "id": 2,
-      "question": "Într-un algoritm evolutiv, funcția fitness: 1. Evaluează calitatea algoritmului; 2.  Trebuie selectată aleator; 3. Evaluează viteza de găsire a soluției față de consumul de resurse; 4. Trebuie modificată la fiecare iterație; 5. Selectează indivizii care se vor reproduce; 6. Selectează indivizii care trec în generația următoare; 7. Evaluează calitatea populației curente față de cea a populației inițiale; 8. Evaluează calitatea populației curente față de cea din generația anterioară;  9. Evaluează calitatea fiecărui candidat .",
+      "question": "Într-un algoritm evolutiv, funcția fitness: 1. Evaluează calitatea algoritmului; 2. Trebuie selectată aleator; 3. Evaluează viteza de găsire a soluției față de consumul de resurse; 4. Trebuie modificată la fiecare iterație; 5. Selectează indivizii care se vor reproduce; 6. Selectează indivizii care trec în generația următoare; 7. Evaluează calitatea populației curente față de cea a populației inițiale; 8. Evaluează calitatea populației curente față de cea din generația anterioară; 9. Evaluează calitatea fiecărui candidat.",
       "answers": [
         {
-          "text": "1.  1, 3",
+          "text": "1, 3",
           "isCorrect": false
         },
         {
-          "text": "2.  2,3",
+          "text": "2,3",
           "isCorrect": false
         },
         {
-          "text": "3.  9",
+          "text": "9",
           "isCorrect": true
         },
         {
-          "text": "4.  4,5",
+          "text": "4,5",
           "isCorrect": false
         },
         {
-          "text": "5.  6, 7, 8",
+          "text": "6, 7, 8",
           "isCorrect": false
         }
       ]
     },
     {
       "id": 3,
-      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10  4 2 ] permutări. Care urmași sunt generați prin utilizarea operatorului CX?",
+      "question": "Fie X=[ 6 1 8 10 5 7 9 3 4 2 ] și Y=[ 9 8 7 3 6 1 5 10 4 2 ] permutări. Care urmași sunt generați prin utilizarea operatorului CX?",
       "answers": [
         {
-          "text": "1.  C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
+          "text": "C1=[ 2 6 7 8 10 5 1 9 3 4 ], C2=[ 2 8 1 3 6 7 5 10 4 9 ]",
           "isCorrect": false
         },
         {
-          "text": "2.  C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
-          "isCorrect": false
-        },
-        {
-          "text": "3.  C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
+          "text": "C1=[ 6 8 7 10 5 1 9 3 4 2 ], C2=[ 9 1 8 3 6 7 5 10 4 2 ]",
           "isCorrect": true
         },
         {
-          "text": "4.  C1=[ 8 7 10 5 1 9 3 4 2  6  ], C2=[  2  9 1 8 3 6 7 5 10 4 ]",
+          "text": "C1=[ 6 7 8 10 5 1 9 3 4 2 ], C2=[ 9 8 1 3 6 7 5 10 4 2 ]",
           "isCorrect": false
         },
         {
-          "text": "5.  C1=Y, C2=X",
+          "text": "C1=[ 8 7 10 5 1 9 3 4 2 6 ], C2=[ 2 9 1 8 3 6 7 5 10 4 ]",
+          "isCorrect": false
+        },
+        {
+          "text": "C1=Y, C2=X",
+          "isCorrect": false
+        },
+        {
+          "text": "În cadrul strategiilor evolutive",
+          "isCorrect": false
+        },
+        {
+          "text": "Sunt utilizați operatori de recombinare OCX",
+          "isCorrect": false
+        },
+        {
+          "text": "Nu se permite utilizarea de operatori de mutație",
           "isCorrect": false
         }
       ]
     },
     {
       "id": 4,
-      "question": "În  cadrul strategiilor evolutive",
+      "question": "Operatorul de mutație cel mai utilizat este mutația prin interschimbare",
       "answers": [
         {
-          "text": "1.  Sunt utilizați operatori  de recombinare  OCX",
-          "isCorrect": false
-        },
-        {
-          "text": "2.  Nu  se  permite utilizarea de operatori de mutație",
-          "isCorrect": false
-        },
-        {
-          "text": "3.  Operatorul de mutație cel mai utilizat este mutația prin interschimbare",
-          "isCorrect": false
-        },
-        {
-          "text": "4.  Mutația este aplicată cu probabilitate 1",
+          "text": "Mutația este aplicată cu probabilitate 1",
           "isCorrect": true
         },
         {
-          "text": "5.   Reprezentarea este prin vectori binari",
+          "text": "Reprezentarea este prin vectori binari",
           "isCorrect": false
         }
       ]
     },
     {
       "id": 5,
-      "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor : 1.  Se aplică  asupra populației curente ;  2.  În unele variante necesită calcularea unei distribuții de probabilitate de selecție ;  3.  Utilizează întotdeauna factori aleatori ;  4.  Alege generația următoare dintre indivizii disponibili după operația de mutație ;  5.  Indivizii aleși sînt întotdeauna fezabili ;  6.  Uneori utilizează factori aleatori ;  7.  Asigură perpetuarea individului cu calitate maximă din populația curentă ;  8.  Duce la creșterea calității medii a populației curente ;  9.  Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vîrstă ;  10. Se aplică la începutul fiecărei iterații ;  11.  Se aplică asupra descendenților obținuți din populația curentă ;  12.  Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă .",
+      "question": "În cadrul unui algoritm genetic operația de selecție a supraviețuitorilor: 1. Se aplică asupra populației curente; 2. În unele variante necesită calcularea unei distribuții de probabilitate de selecție; 3. Utilizează întotdeauna factori aleatori; 4. Alege generația următoare dintre indivizii disponibili după operația de mutație; 5. Indivizii aleși sînt întotdeauna fezabili; 6. Uneori utilizează factori aleatori; 7. Asigură perpetuarea individului cu calitate maximă din populația curentă; 8. Duce la creșterea calității medii a populației curente; 9. Garantează obținerea unei generații cu calitate medie superioară, dacă folosește selecția bazată pe vîrstă; 10.Se aplică la începutul fiecărei iterații; 11. Se aplică asupra descendenților obținuți din populația curentă; 12. Se aplică asupra populației curente și asupra descendenților obținuți din populația curentă.",
       "answers": [
         {
-          "text": "1.  2, 3, 4, 5, 6, 11",
+          "text": "2, 3, 4, 5, 6, 11",
           "isCorrect": false
         },
         {
-          "text": "2.  4, 8, 11",
+          "text": "4, 8, 11",
           "isCorrect": false
         },
         {
-          "text": "3.  2, 4, 5, 6, 12",
-          "isCorrect": false
-        },
-        {
-          "text": "4.  6, 8, 11",
-          "isCorrect": false
-        },
-        {
-          "text": "5.  1, 7",
+          "text": "2, 4, 5, 6, 12",
           "isCorrect": true
+        },
+        {
+          "text": "6, 8, 11",
+          "isCorrect": false
+        },
+        {
+          "text": "1, 7",
+          "isCorrect": false
         }
       ]
     }
-  ]
+  ],
+  "_validation": {
+    "questionCount": 5,
+    "withoutCorrect": 0,
+    "singleAnswer": 0,
+    "warnings": []
+  }
 }
