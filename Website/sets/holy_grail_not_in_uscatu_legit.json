@@ -741,11 +741,11 @@
       },
       {
         "text": "c",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "f",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "a, e",
