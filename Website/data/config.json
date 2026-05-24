@@ -1,10 +1,11 @@
 {
   "displayOrder": [
     "uscatu_legit",
+    "holy_grail_not_in_uscatu_legit",
     "holy_grail",
-    "uscatu",
     "uscatu_si_altii_good_single_choice",
     "uscatu_si_altii_good_multiple_choice",
+    "uscatu",
     "profa_ocr",
     "peag_grile",
     "raspunsuri",
@@ -28,6 +29,23 @@
       "presets": [
         20,
         50,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "holy_grail_not_in_uscatu_legit": {
+      "id": "holy_grail_not_in_uscatu_legit",
+      "displayName": "HOLY GRAIL not in USCATU LEGIT",
+      "shortName": "HG UNIQUE",
+      "icon": "ph-sparkle",
+      "colorClass": "amber",
+      "dataFile": "sets/holy_grail_not_in_uscatu_legit.json",
+      "englishDataFile": "sets_en/holy_grail_not_in_uscatu_legit.json",
+      "chapters": null,
+      "presets": [
+        20,
+        50,
+        100,
         "all"
       ],
       "defaultCount": 20
