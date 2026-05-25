@@ -5,3 +5,7 @@ my work mcq website (some questions exctracted with issues due to docx parsing):
 # Perfect 2-3 day prep for exam containing 2 main files (one theory and one applied theory). 
 ### Best quickest safest condensation of all theory and practical information for genetic alghoritms and evolutionary solutions condensed perfectly into a quick read
 https://github.com/FiredMosquito831/peag/tree/main/PEAK%200%20to%20hero%20fast%20perfect%20mahnum%20opus%20syntehses
+
+https://drive.google.com/file/d/1tLfMpQuLN9f697BR4QH7RIJ6WZqI4aul/view?usp=drive_link
+
+https://mega.nz/file/HvZW2TLK#5hlEv2O4_YRdnSWWXbZSNRMIeYHMehbVwbs9bSpQqI8
