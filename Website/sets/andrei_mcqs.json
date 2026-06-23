@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Consider v = [0,1,1,0,1,0], an individual from the binary vector space. The associated fitness function computes the sum of the bits in the vector. Select the correct statements: 1) v has 7 neighbors at Hamming distance 1; 2) there is at least one neighbor at Hamming distance 1 with a higher fitness than v; 3) there is at least one neighbor at Hamming distance 1 with a lower fitness than v; 4) there is no neighbor at Hamming distance 1 with the same fitness as v; 5) there is at least one neighbor at Hamming distance 1 with the same fitness as v.",
+    "answers": [
+      {
+        "text": "1, 2, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 4",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 2, 3",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 3, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 3, 5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Consider M, a genetic mutation operator defined for the permutation representation of size n. Select the correct statements: 1) M is a unary operator; 2) M always randomly selects 2 genes to apply the mutation; 3) the result of M may have a different size than n; 4) the result of M is a permutation.",
+    "answers": [
+      {
+        "text": "1, 2, 3",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Consider the problem minimize f over a genotype solution space where the variables are encoded as binary choices. The genotype solution space for this problem is:",
+    "answers": [
+      {
+        "text": "the set of permutations of size n",
+        "isCorrect": false
+      },
+      {
+        "text": "the set of binary vectors of size n",
+        "isCorrect": true
+      },
+      {
+        "text": "finite",
+        "isCorrect": false
+      },
+      {
+        "text": "continuous",
+        "isCorrect": false
+      },
+      {
+        "text": "infinite",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Consider the permutation chromosomes {6, 3, 11, 7, 14, 8, 5, 15, 1, 2, 4, 13, 9, 10, 12} and {7, 1, 15, 13, 2, 14, 6, 10, 12, 11, 4, 8, 3, 9, 5}. The descendants created by applying the PMX operator with positions 4 and 8 are:",
+    "answers": [
+      {
+        "text": "a, b",
+        "isCorrect": false
+      },
+      {
+        "text": "f, i",
+        "isCorrect": false
+      },
+      {
+        "text": "a, c",
+        "isCorrect": false
+      },
+      {
+        "text": "g, h",
+        "isCorrect": true
+      },
+      {
+        "text": "e, f",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In genetic algorithms, the encoding:",
+    "answers": [
+      {
+        "text": "guarantees obtaining the optimal result",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "must be established when the representation is chosen",
+        "isCorrect": true
+      },
+      {
+        "text": "is not necessary",
+        "isCorrect": false
+      },
+      {
+        "text": "does not depend on the chosen representation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "In a general evolutionary strategy based on populations:",
+    "answers": [
+      {
+        "text": "the mutation is random reset type",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "the mutation is bitflip type",
+        "isCorrect": false
+      },
+      {
+        "text": "the mutation is the main operator used to create descendants",
+        "isCorrect": true
+      },
+      {
+        "text": "the recombination is multiple point type",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "The main variation operator in a genetic algorithm is:",
+    "answers": [
+      {
+        "text": "evaluation",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "recombination",
+        "isCorrect": true
+      },
+      {
+        "text": "selection",
+        "isCorrect": false
+      },
+      {
+        "text": "mutation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "The types of problems that may be solved through evolutionary computation are: 1) optimization problems; 2) geometry problems; 3) big-data processing; 4) modeling problems; 5) data validation problems; 6) autonomous vehicle moving; 7) dynamic allocation of data in computer memory; 8) simulation problems.",
+    "answers": [
+      {
+        "text": "1, 3, 5, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 3, 4",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 6, 8",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 4, 8",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "In a memetic algorithm, the initial population: 1) is generally built in a deterministic manner; 2) generally consists of 2 individuals; 3) is generally built in a stochastic manner; 4) introduces the self-adaptation feature; 5) may include candidates already computed by other methods; 6) ensures the perpetuation of the maximum-quality individual from the current population; 7) may be a mix between randomly generated individuals and solutions computed by direct or local search methods; 8) is always predefined by the problem data.",
+    "answers": [
+      {
+        "text": "2, 4, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 5, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 5, 7",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "The hillclimbing algorithm:",
+    "answers": [
+      {
+        "text": "is a self-adaptive algorithm",
+        "isCorrect": false
+      },
+      {
+        "text": "is a gradient algorithm",
+        "isCorrect": false
+      },
+      {
+        "text": "is a deterministic algorithm",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "is an evolutionary algorithm",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What evolves in a genetic algorithm?",
+    "answers": [
+      {
+        "text": "the population",
+        "isCorrect": false
+      },
+      {
+        "text": "the operators",
+        "isCorrect": false
+      },
+      {
+        "text": "the descendants",
+        "isCorrect": false
+      },
+      {
+        "text": "the individuals",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "In evolutionary strategy algorithms, a chromosome includes:",
+    "answers": [
+      {
+        "text": "integer values",
+        "isCorrect": false
+      },
+      {
+        "text": "a solution part, a mutation step part and a mutation correlation part",
+        "isCorrect": true
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "ES algorithms do not use chromosomes",
+        "isCorrect": false
+      },
+      {
+        "text": "component parts vary between the chromosomes of the population, depending on the fitness",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "The arity of the mutation operator in a genetic algorithm is:",
+    "answers": [
+      {
+        "text": "higher than 9",
+        "isCorrect": false
+      },
+      {
+        "text": "binary",
+        "isCorrect": false
+      },
+      {
+        "text": "not fixed",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "unary",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Consider the permutation X = [6, 1, 8, 10, 5, 7, 9, 3, 4, 2]. The scramble mutation with positions (2, 7) may create the mutated version Y. Select the correct set of possible mutated versions.",
+    "answers": [
+      {
+        "text": "2, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 3",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 2, 5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Consider X = [9, 3, 2, 5, 6, 8, 1, 7, 10, 4] and Y = [2, 8, 4, 5, 10, 3, 7, 6, 9, 1] as parent permutations. Which pair of permutations are the descendants obtained by applying the OX operator using positions (3, 6)?",
+    "answers": [
+      {
+        "text": "C1 = [2, 6, 7, 8, 10, 5, 1, 9, 3, 4], C2 = [2, 8, 1, 3, 6, 7, 5, 10, 4, 9]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [8, 7, 10, 5, 1, 9, 3, 4, 2, 6], C2 = [2, 9, 1, 8, 3, 6, 7, 5, 10, 4]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [6, 7, 8, 10, 5, 1, 9, 3, 4, 2], C2 = [9, 8, 1, 3, 6, 7, 5, 10, 4, 2]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [4, 10, 2, 5, 6, 8, 3, 1, 9, 7], C2 = [2, 6, 4, 5, 10, 3, 8, 9, 7, 1]",
+        "isCorrect": false
+      },
+      {
+        "text": "C1 = [4, 10, 2, 5, 6, 8, 3, 7, 9, 1], C2 = [2, 6, 4, 5, 10, 3, 8, 1, 7, 9]",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "In an evolutionary strategy class algorithm, the recombination operation: 1) in average, selects half of the individuals for recombination; 2) is used only in problems with constraints; 3) uses the current population; 4) happens only once during the algorithm; 5) has a low probability; 6) creates a descendants multiset that is usually much larger than the current population; 7) happens only once, after the first population is generated; 8) is universal; 9) influences the chromosome structure.",
+    "answers": [
+      {
+        "text": "4, 6, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 6, 8",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 4, 5, 6",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 8, 9",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 6",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "The effect of size k tournament selection is: 1) selection of the best k individuals from the input multiset; 2) random selection of k individuals from the input multiset; 3) selection of the best individual from k randomly considered individuals from the input multiset; 4) selection of a random individual; 5) induces a selection pressure proportional to k.",
+    "answers": [
+      {
+        "text": "4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "3, 5",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "In an evolutionary algorithm, the fitness function: 1) evaluates the algorithm quality; 2) depends on the problem to be solved; 3) evaluates the speed of finding the solution versus resource consumption; 4) must be modified at each iteration; 5) selects the individuals that will reproduce; 6) selects the individuals that will pass into the next generation; 7) evaluates the quality of the current generation versus the initial generation; 8) evaluates the quality of the current generation versus the previous generation; 9) evaluates the quality of each candidate.",
+    "answers": [
+      {
+        "text": "6, 7, 8",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 9",
+        "isCorrect": true
+      },
+      {
+        "text": "2, 3",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Recombination in evolutionary strategies may be:",
+    "answers": [
+      {
+        "text": "global",
+        "isCorrect": false
+      },
+      {
+        "text": "intermediary",
+        "isCorrect": false
+      },
+      {
+        "text": "local",
+        "isCorrect": false
+      },
+      {
+        "text": "discrete",
+        "isCorrect": false
+      },
+      {
+        "text": "All the answers are correct",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In a genetic algorithm, the initial population: 1) is generated until a local optimum is reached; 2) is built only once; 3) mutates with a low probability; 4) must be changed at each iteration; 5) includes only viable individuals; 6) consists of adults that pass into the next generation; 7) is generated using the normal probability distribution.",
+    "answers": [
+      {
+        "text": "2, 5",
+        "isCorrect": true
+      },
+      {
+        "text": "1, 3",
+        "isCorrect": false
+      },
+      {
+        "text": "1, 2, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "2, 5, 7",
+        "isCorrect": false
+      },
+      {
+        "text": "4, 5, 7",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "In a genetic algorithm, the initial population is:",
+    "answers": [
+      {
+        "text": "computed in the evolution cycle, at each iteration",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "randomly generated at the beginning of the search process",
+        "isCorrect": true
+      },
+      {
+        "text": "an output",
+        "isCorrect": false
+      },
+      {
+        "text": "an input parameter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "A genetic algorithm that minimizes a function f:",
+    "answers": [
+      {
+        "text": "uses the first elements in the domain of f, in ascending order of their f values",
+        "isCorrect": false
+      },
+      {
+        "text": "uses the first elements in the domain of f, in descending order of their f values",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "always uses the permutation representation for the elements in the domain of f",
+        "isCorrect": false
+      },
+      {
+        "text": "usually transforms f to obtain a maximization problem",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Consider a fitness function with positive values, defined on the size n permutation space. In a genetic algorithm that maximizes f:",
+    "answers": [
+      {
+        "text": "a mutation operation on a candidate always produces a weaker candidate",
+        "isCorrect": false
+      },
+      {
+        "text": "None of the other answers is correct",
+        "isCorrect": false
+      },
+      {
+        "text": "a mutation operation on a candidate always produces a better candidate",
+        "isCorrect": false
+      },
+      {
+        "text": "the selection of next generation is always elitist",
+        "isCorrect": false
+      },
+      {
+        "text": "the parent selection may be implemented using the FPS probability distribution",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Consider the problem: minimize f: [a1, b1] x [a2, b2] x ... x [an, bn] -> R, f(x1, x2, ..., xn) = min(x1, x2, ..., xn). The solution of the problem is:",
+    "answers": [
+      {
+        "text": "known and equal to min(a1, a2, ..., an)",
+        "isCorrect": true
+      },
+      {
+        "text": "found exclusively using the backtracking method",
+        "isCorrect": false
+      },
+      {
+        "text": "found exclusively using the greedy method",
+        "isCorrect": false
+      },
+      {
+        "text": "found exclusively using an evolutionary strategy",
+        "isCorrect": false
+      },
+      {
+        "text": "found exclusively using a genetic algorithm",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "A genetic algorithm defined on a continuous space is:",
+    "answers": [
+      {
+        "text": "equivalent to a greedy search",
+        "isCorrect": false
+      },
+      {
+        "text": "equivalent to a backtracking search",
+        "isCorrect": false
+      },
+      {
+        "text": "similar to a sorting algorithm",
+        "isCorrect": false
+      },
+      {
+        "text": "a global search algorithm",
+        "isCorrect": true
+      },
+      {
+        "text": "a local search algorithm",
+        "isCorrect": false
+      }
+    ]
+  }
+]

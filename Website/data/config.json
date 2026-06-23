@@ -3,6 +3,7 @@
     "uscatu_legit",
     "holy_grail_not_in_uscatu_legit",
     "holy_grail",
+    "andrei_mcqs",
     "uscatu_si_altii_good_single_choice",
     "uscatu_si_altii_good_multiple_choice",
     "uscatu",
@@ -63,6 +64,22 @@
         20,
         50,
         100,
+        "all"
+      ],
+      "defaultCount": 20
+    },
+    "andrei_mcqs": {
+      "id": "andrei_mcqs",
+      "displayName": "Andrei MCQs",
+      "shortName": "Andrei",
+      "icon": "ph-user-list",
+      "colorClass": "cyan",
+      "dataFile": "sets/andrei_mcqs.json",
+      "englishDataFile": "sets_en/andrei_mcqs.json",
+      "chapters": null,
+      "presets": [
+        10,
+        20,
         "all"
       ],
       "defaultCount": 20
